@@ -1,0 +1,1916 @@
+CBSA Title	County/County Equivalent	State Name
+Aberdeen, SD	Brown County	South Dakota
+Aberdeen, SD	Edmunds County	South Dakota
+Aberdeen, WA	Grays Harbor County	Washington
+Abilene, TX	Callahan County	Texas
+Abilene, TX	Jones County	Texas
+Abilene, TX	Taylor County	Texas
+Ada, OK	Pontotoc County	Oklahoma
+Adrian, MI	Lenawee County	Michigan
+Aguadilla-Isabela, PR	Aguada County	Puerto Rico
+Aguadilla-Isabela, PR	Aguadilla County	Puerto Rico
+Aguadilla-Isabela, PR	Añasco County	Puerto Rico
+Aguadilla-Isabela, PR	Isabela County	Puerto Rico
+Aguadilla-Isabela, PR	Lares County	Puerto Rico
+Aguadilla-Isabela, PR	Moca County	Puerto Rico
+Aguadilla-Isabela, PR	Rincón County	Puerto Rico
+Aguadilla-Isabela, PR	San Sebastián County	Puerto Rico
+Aguadilla-Isabela, PR	Utuado County	Puerto Rico
+Akron, OH	Portage County	Ohio
+Akron, OH	Summit County	Ohio
+Alamogordo, NM	Otero County	New Mexico
+Albany, GA	Dougherty County	Georgia
+Albany, GA	Lee County	Georgia
+Albany, GA	Terrell County	Georgia
+Albany, GA	Worth County	Georgia
+Albany-Lebanon, OR	Linn County	Oregon
+Albany-Schenectady-Troy, NY	Albany County	New York
+Albany-Schenectady-Troy, NY	Rensselaer County	New York
+Albany-Schenectady-Troy, NY	Saratoga County	New York
+Albany-Schenectady-Troy, NY	Schenectady County	New York
+Albany-Schenectady-Troy, NY	Schoharie County	New York
+Albemarle, NC	Stanly County	North Carolina
+Albert Lea, MN	Freeborn County	Minnesota
+Albertville, AL	Marshall County	Alabama
+Albuquerque, NM	Bernalillo County	New Mexico
+Albuquerque, NM	Sandoval County	New Mexico
+Albuquerque, NM	Torrance County	New Mexico
+Albuquerque, NM	Valencia County	New Mexico
+Alexander City, AL	Coosa County	Alabama
+Alexander City, AL	Tallapoosa County	Alabama
+Alexandria, LA	Grant Parish	Louisiana
+Alexandria, LA	Rapides Parish	Louisiana
+Alexandria, MN	Douglas County	Minnesota
+Alice, TX	Duval County	Texas
+Alice, TX	Jim Wells County	Texas
+Allentown-Bethlehem-Easton, PA-NJ	Warren County	New Jersey
+Allentown-Bethlehem-Easton, PA-NJ	Carbon County	Pennsylvania
+Allentown-Bethlehem-Easton, PA-NJ	Lehigh County	Pennsylvania
+Allentown-Bethlehem-Easton, PA-NJ	Northampton County	Pennsylvania
+Alma, MI	Gratiot County	Michigan
+Alpena, MI	Alpena County	Michigan
+Altoona, PA	Blair County	Pennsylvania
+Altus, OK	Jackson County	Oklahoma
+Amarillo, TX	Armstrong County	Texas
+Amarillo, TX	Carson County	Texas
+Amarillo, TX	Oldham County	Texas
+Amarillo, TX	Potter County	Texas
+Amarillo, TX	Randall County	Texas
+Americus, GA	Schley County	Georgia
+Americus, GA	Sumter County	Georgia
+Ames, IA	Boone County	Iowa
+Ames, IA	Story County	Iowa
+Amsterdam, NY	Montgomery County	New York
+Anchorage, AK	Anchorage County	Alaska
+Anchorage, AK	Matanuska-Susitna County	Alaska
+Andrews, TX	Andrews County	Texas
+Angola, IN	Steuben County	Indiana
+Ann Arbor, MI	Washtenaw County	Michigan
+Anniston-Oxford, AL	Calhoun County	Alabama
+Appleton, WI	Calumet County	Wisconsin
+Appleton, WI	Outagamie County	Wisconsin
+Arcadia, FL	DeSoto County	Florida
+Ardmore, OK	Carter County	Oklahoma
+Ardmore, OK	Love County	Oklahoma
+Arecibo, PR	Arecibo County	Puerto Rico
+Arecibo, PR	Camuy County	Puerto Rico
+Arecibo, PR	Hatillo County	Puerto Rico
+Arecibo, PR	Quebradillas County	Puerto Rico
+Arkadelphia, AR	Clark County	Arkansas
+Asheville, NC	Buncombe County	North Carolina
+Asheville, NC	Haywood County	North Carolina
+Asheville, NC	Henderson County	North Carolina
+Asheville, NC	Madison County	North Carolina
+Ashland, OH	Ashland County	Ohio
+Ashtabula, OH	Ashtabula County	Ohio
+Astoria, OR	Clatsop County	Oregon
+Atchison, KS	Atchison County	Kansas
+Athens, OH	Athens County	Ohio
+Athens, TN	McMinn County	Tennessee
+Athens, TX	Henderson County	Texas
+Athens-Clarke County, GA	Clarke County	Georgia
+Athens-Clarke County, GA	Madison County	Georgia
+Athens-Clarke County, GA	Oconee County	Georgia
+Athens-Clarke County, GA	Oglethorpe County	Georgia
+Atlanta-Sandy Springs-Alpharetta, GA	Barrow County	Georgia
+Atlanta-Sandy Springs-Alpharetta, GA	Bartow County	Georgia
+Atlanta-Sandy Springs-Alpharetta, GA	Butts County	Georgia
+Atlanta-Sandy Springs-Alpharetta, GA	Carroll County	Georgia
+Atlanta-Sandy Springs-Alpharetta, GA	Cherokee County	Georgia
+Atlanta-Sandy Springs-Alpharetta, GA	Clayton County	Georgia
+Atlanta-Sandy Springs-Alpharetta, GA	Cobb County	Georgia
+Atlanta-Sandy Springs-Alpharetta, GA	Coweta County	Georgia
+Atlanta-Sandy Springs-Alpharetta, GA	Dawson County	Georgia
+Atlanta-Sandy Springs-Alpharetta, GA	DeKalb County	Georgia
+Atlanta-Sandy Springs-Alpharetta, GA	Douglas County	Georgia
+Atlanta-Sandy Springs-Alpharetta, GA	Fayette County	Georgia
+Atlanta-Sandy Springs-Alpharetta, GA	Forsyth County	Georgia
+Atlanta-Sandy Springs-Alpharetta, GA	Fulton County	Georgia
+Atlanta-Sandy Springs-Alpharetta, GA	Gwinnett County	Georgia
+Atlanta-Sandy Springs-Alpharetta, GA	Haralson County	Georgia
+Atlanta-Sandy Springs-Alpharetta, GA	Heard County	Georgia
+Atlanta-Sandy Springs-Alpharetta, GA	Henry County	Georgia
+Atlanta-Sandy Springs-Alpharetta, GA	Jasper County	Georgia
+Atlanta-Sandy Springs-Alpharetta, GA	Lamar County	Georgia
+Atlanta-Sandy Springs-Alpharetta, GA	Meriwether County	Georgia
+Atlanta-Sandy Springs-Alpharetta, GA	Morgan County	Georgia
+Atlanta-Sandy Springs-Alpharetta, GA	Newton County	Georgia
+Atlanta-Sandy Springs-Alpharetta, GA	Paulding County	Georgia
+Atlanta-Sandy Springs-Alpharetta, GA	Pickens County	Georgia
+Atlanta-Sandy Springs-Alpharetta, GA	Pike County	Georgia
+Atlanta-Sandy Springs-Alpharetta, GA	Rockdale County	Georgia
+Atlanta-Sandy Springs-Alpharetta, GA	Spalding County	Georgia
+Atlanta-Sandy Springs-Alpharetta, GA	Walton County	Georgia
+Atlantic City-Hammonton, NJ	Atlantic County	New Jersey
+Atmore, AL	Escambia County	Alabama
+Auburn, IN	DeKalb County	Indiana
+Auburn, NY	Cayuga County	New York
+Auburn-Opelika, AL	Lee County	Alabama
+Augusta-Richmond County, GA-SC	Burke County	Georgia
+Augusta-Richmond County, GA-SC	Columbia County	Georgia
+Augusta-Richmond County, GA-SC	Lincoln County	Georgia
+Augusta-Richmond County, GA-SC	McDuffie County	Georgia
+Augusta-Richmond County, GA-SC	Richmond County	Georgia
+Augusta-Richmond County, GA-SC	Aiken County	South Carolina
+Augusta-Richmond County, GA-SC	Edgefield County	South Carolina
+Augusta-Waterville, ME	Kennebec County	Maine
+Austin, MN	Mower County	Minnesota
+Austin-Round Rock-Georgetown, TX	Bastrop County	Texas
+Austin-Round Rock-Georgetown, TX	Caldwell County	Texas
+Austin-Round Rock-Georgetown, TX	Hays County	Texas
+Austin-Round Rock-Georgetown, TX	Travis County	Texas
+Austin-Round Rock-Georgetown, TX	Williamson County	Texas
+Bainbridge, GA	Decatur County	Georgia
+Bakersfield, CA	Kern County	California
+Baltimore-Columbia-Towson, MD	Anne Arundel County	Maryland
+Baltimore-Columbia-Towson, MD	Baltimore County	Maryland
+Baltimore-Columbia-Towson, MD	Carroll County	Maryland
+Baltimore-Columbia-Towson, MD	Harford County	Maryland
+Baltimore-Columbia-Towson, MD	Howard County	Maryland
+Baltimore-Columbia-Towson, MD	Queen Anne's County	Maryland
+Baltimore-Columbia-Towson, MD	Baltimore city	Maryland
+Bangor, ME	Penobscot County	Maine
+Baraboo, WI	Sauk County	Wisconsin
+Bardstown, KY	Nelson County	Kentucky
+Barnstable Town, MA	Barnstable County	Massachusetts
+Barre, VT	Washington County	Vermont
+Bartlesville, OK	Washington County	Oklahoma
+Batavia, NY	Genesee County	New York
+Batesville, AR	Independence County	Arkansas
+Batesville, AR	Sharp County	Arkansas
+Baton Rouge, LA	Ascension Parish	Louisiana
+Baton Rouge, LA	Assumption Parish	Louisiana
+Baton Rouge, LA	East Baton Rouge Parish	Louisiana
+Baton Rouge, LA	East Feliciana Parish	Louisiana
+Baton Rouge, LA	Iberville Parish	Louisiana
+Baton Rouge, LA	Livingston Parish	Louisiana
+Baton Rouge, LA	Pointe Coupee Parish	Louisiana
+Baton Rouge, LA	St. Helena Parish	Louisiana
+Baton Rouge, LA	West Baton Rouge Parish	Louisiana
+Baton Rouge, LA	West Feliciana Parish	Louisiana
+Battle Creek, MI	Calhoun County	Michigan
+Bay City, MI	Bay County	Michigan
+Bay City, TX	Matagorda County	Texas
+Beatrice, NE	Gage County	Nebraska
+Beaumont-Port Arthur, TX	Hardin County	Texas
+Beaumont-Port Arthur, TX	Jefferson County	Texas
+Beaumont-Port Arthur, TX	Orange County	Texas
+Beaver Dam, WI	Dodge County	Wisconsin
+Beckley, WV	Fayette County	West Virginia
+Beckley, WV	Raleigh County	West Virginia
+Bedford, IN	Lawrence County	Indiana
+Beeville, TX	Bee County	Texas
+Bellefontaine, OH	Logan County	Ohio
+Bellingham, WA	Whatcom County	Washington
+Bemidji, MN	Beltrami County	Minnesota
+Bend, OR	Deschutes County	Oregon
+Bennettsville, SC	Marlboro County	South Carolina
+Bennington, VT	Bennington County	Vermont
+Berlin, NH	Coos County	New Hampshire
+Big Rapids, MI	Mecosta County	Michigan
+Big Spring, TX	Howard County	Texas
+Big Stone Gap, VA	Wise County	Virginia
+Big Stone Gap, VA	Norton city	Virginia
+Billings, MT	Carbon County	Montana
+Billings, MT	Stillwater County	Montana
+Billings, MT	Yellowstone County	Montana
+Binghamton, NY	Broome County	New York
+Binghamton, NY	Tioga County	New York
+Birmingham-Hoover, AL	Bibb County	Alabama
+Birmingham-Hoover, AL	Blount County	Alabama
+Birmingham-Hoover, AL	Chilton County	Alabama
+Birmingham-Hoover, AL	Jefferson County	Alabama
+Birmingham-Hoover, AL	St. Clair County	Alabama
+Birmingham-Hoover, AL	Shelby County	Alabama
+Bismarck, ND	Burleigh County	North Dakota
+Bismarck, ND	Morton County	North Dakota
+Bismarck, ND	Oliver County	North Dakota
+Blackfoot, ID	Bingham County	Idaho
+Blacksburg-Christiansburg, VA	Giles County	Virginia
+Blacksburg-Christiansburg, VA	Montgomery County	Virginia
+Blacksburg-Christiansburg, VA	Pulaski County	Virginia
+Blacksburg-Christiansburg, VA	Radford city	Virginia
+Bloomington, IL	McLean County	Illinois
+Bloomington, IN	Monroe County	Indiana
+Bloomington, IN	Owen County	Indiana
+Bloomsburg-Berwick, PA	Columbia County	Pennsylvania
+Bloomsburg-Berwick, PA	Montour County	Pennsylvania
+Bluefield, WV-VA	Bland County	Virginia
+Bluefield, WV-VA	Tazewell County	Virginia
+Bluefield, WV-VA	Mercer County	West Virginia
+Blytheville, AR	Mississippi County	Arkansas
+Bogalusa, LA	Washington Parish	Louisiana
+Boise City, ID	Ada County	Idaho
+Boise City, ID	Boise County	Idaho
+Boise City, ID	Canyon County	Idaho
+Boise City, ID	Gem County	Idaho
+Boise City, ID	Owyhee County	Idaho
+Bonham, TX	Fannin County	Texas
+Boone, NC	Watauga County	North Carolina
+Borger, TX	Hutchinson County	Texas
+Boston-Cambridge-Newton, MA-NH	Norfolk County	Massachusetts
+Boston-Cambridge-Newton, MA-NH	Plymouth County	Massachusetts
+Boston-Cambridge-Newton, MA-NH	Suffolk County	Massachusetts
+Boston-Cambridge-Newton, MA-NH	Essex County	Massachusetts
+Boston-Cambridge-Newton, MA-NH	Middlesex County	Massachusetts
+Boston-Cambridge-Newton, MA-NH	Rockingham County	New Hampshire
+Boston-Cambridge-Newton, MA-NH	Strafford County	New Hampshire
+Boulder, CO	Boulder County	Colorado
+Bowling Green, KY	Allen County	Kentucky
+Bowling Green, KY	Butler County	Kentucky
+Bowling Green, KY	Edmonson County	Kentucky
+Bowling Green, KY	Warren County	Kentucky
+Bozeman, MT	Gallatin County	Montana
+Bradford, PA	McKean County	Pennsylvania
+Brainerd, MN	Cass County	Minnesota
+Brainerd, MN	Crow Wing County	Minnesota
+Branson, MO	Taney County	Missouri
+Breckenridge, CO	Summit County	Colorado
+Bremerton-Silverdale-Port Orchard, WA	Kitsap County	Washington
+Brenham, TX	Washington County	Texas
+Brevard, NC	Transylvania County	North Carolina
+Bridgeport-Stamford-Norwalk, CT	Fairfield County	Connecticut
+Brookhaven, MS	Lincoln County	Mississippi
+Brookings, OR	Curry County	Oregon
+Brookings, SD	Brookings County	South Dakota
+Brownsville, TN	Haywood County	Tennessee
+Brownsville-Harlingen, TX	Cameron County	Texas
+Brownwood, TX	Brown County	Texas
+Brunswick, GA	Brantley County	Georgia
+Brunswick, GA	Glynn County	Georgia
+Brunswick, GA	McIntosh County	Georgia
+Bucyrus-Galion, OH	Crawford County	Ohio
+Buffalo-Cheektowaga, NY	Erie County	New York
+Buffalo-Cheektowaga, NY	Niagara County	New York
+Burley, ID	Cassia County	Idaho
+Burley, ID	Minidoka County	Idaho
+Burlington, IA-IL	Henderson County	Illinois
+Burlington, IA-IL	Des Moines County	Iowa
+Burlington, NC	Alamance County	North Carolina
+Burlington-South Burlington, VT	Chittenden County	Vermont
+Burlington-South Burlington, VT	Franklin County	Vermont
+Burlington-South Burlington, VT	Grand Isle County	Vermont
+Butte-Silver Bow, MT	Silver Bow County	Montana
+Cadillac, MI	Missaukee County	Michigan
+Cadillac, MI	Wexford County	Michigan
+Calhoun, GA	Gordon County	Georgia
+California-Lexington Park, MD	St. Mary's County	Maryland
+Cambridge, MD	Dorchester County	Maryland
+Cambridge, OH	Guernsey County	Ohio
+Camden, AR	Calhoun County	Arkansas
+Camden, AR	Ouachita County	Arkansas
+Campbellsville, KY	Green County	Kentucky
+Campbellsville, KY	Taylor County	Kentucky
+Cañon City, CO	Fremont County	Colorado
+Canton-Massillon, OH	Carroll County	Ohio
+Canton-Massillon, OH	Stark County	Ohio
+Cape Coral-Fort Myers, FL	Lee County	Florida
+Cape Girardeau, MO-IL	Alexander County	Illinois
+Cape Girardeau, MO-IL	Bollinger County	Missouri
+Cape Girardeau, MO-IL	Cape Girardeau County	Missouri
+Carbondale-Marion, IL	Jackson County	Illinois
+Carbondale-Marion, IL	Johnson County	Illinois
+Carbondale-Marion, IL	Williamson County	Illinois
+Carlsbad-Artesia, NM	Eddy County	New Mexico
+Carroll, IA	Carroll County	Iowa
+Carson City, NV	Carson City	Nevada
+Casper, WY	Natrona County	Wyoming
+Cedar City, UT	Iron County	Utah
+Cedar Rapids, IA	Benton County	Iowa
+Cedar Rapids, IA	Jones County	Iowa
+Cedar Rapids, IA	Linn County	Iowa
+Cedartown, GA	Polk County	Georgia
+Celina, OH	Mercer County	Ohio
+Central City, KY	Muhlenberg County	Kentucky
+Centralia, IL	Marion County	Illinois
+Centralia, WA	Lewis County	Washington
+Chambersburg-Waynesboro, PA	Franklin County	Pennsylvania
+Champaign-Urbana, IL	Champaign County	Illinois
+Champaign-Urbana, IL	Piatt County	Illinois
+Charleston, WV	Boone County	West Virginia
+Charleston, WV	Clay County	West Virginia
+Charleston, WV	Jackson County	West Virginia
+Charleston, WV	Kanawha County	West Virginia
+Charleston, WV	Lincoln County	West Virginia
+Charleston-Mattoon, IL	Coles County	Illinois
+Charleston-Mattoon, IL	Cumberland County	Illinois
+Charleston-North Charleston, SC	Berkeley County	South Carolina
+Charleston-North Charleston, SC	Charleston County	South Carolina
+Charleston-North Charleston, SC	Dorchester County	South Carolina
+Charlotte-Concord-Gastonia, NC-SC	Anson County	North Carolina
+Charlotte-Concord-Gastonia, NC-SC	Cabarrus County	North Carolina
+Charlotte-Concord-Gastonia, NC-SC	Gaston County	North Carolina
+Charlotte-Concord-Gastonia, NC-SC	Iredell County	North Carolina
+Charlotte-Concord-Gastonia, NC-SC	Lincoln County	North Carolina
+Charlotte-Concord-Gastonia, NC-SC	Mecklenburg County	North Carolina
+Charlotte-Concord-Gastonia, NC-SC	Rowan County	North Carolina
+Charlotte-Concord-Gastonia, NC-SC	Union County	North Carolina
+Charlotte-Concord-Gastonia, NC-SC	Chester County	South Carolina
+Charlotte-Concord-Gastonia, NC-SC	Lancaster County	South Carolina
+Charlotte-Concord-Gastonia, NC-SC	York County	South Carolina
+Charlottesville, VA	Albemarle County	Virginia
+Charlottesville, VA	Fluvanna County	Virginia
+Charlottesville, VA	Greene County	Virginia
+Charlottesville, VA	Nelson County	Virginia
+Charlottesville, VA	Charlottesville city	Virginia
+Chattanooga, TN-GA	Catoosa County	Georgia
+Chattanooga, TN-GA	Dade County	Georgia
+Chattanooga, TN-GA	Walker County	Georgia
+Chattanooga, TN-GA	Hamilton County	Tennessee
+Chattanooga, TN-GA	Marion County	Tennessee
+Chattanooga, TN-GA	Sequatchie County	Tennessee
+Cheyenne, WY	Laramie County	Wyoming
+Chicago-Naperville-Elgin, IL-IN-WI	Cook County	Illinois
+Chicago-Naperville-Elgin, IL-IN-WI	DuPage County	Illinois
+Chicago-Naperville-Elgin, IL-IN-WI	Grundy County	Illinois
+Chicago-Naperville-Elgin, IL-IN-WI	McHenry County	Illinois
+Chicago-Naperville-Elgin, IL-IN-WI	Will County	Illinois
+Chicago-Naperville-Elgin, IL-IN-WI	DeKalb County	Illinois
+Chicago-Naperville-Elgin, IL-IN-WI	Kane County	Illinois
+Chicago-Naperville-Elgin, IL-IN-WI	Kendall County	Illinois
+Chicago-Naperville-Elgin, IL-IN-WI	Jasper County	Indiana
+Chicago-Naperville-Elgin, IL-IN-WI	Lake County	Indiana
+Chicago-Naperville-Elgin, IL-IN-WI	Newton County	Indiana
+Chicago-Naperville-Elgin, IL-IN-WI	Porter County	Indiana
+Chicago-Naperville-Elgin, IL-IN-WI	Lake County	Illinois
+Chicago-Naperville-Elgin, IL-IN-WI	Kenosha County	Wisconsin
+Chico, CA	Butte County	California
+Chillicothe, OH	Ross County	Ohio
+Cincinnati, OH-KY-IN	Dearborn County	Indiana
+Cincinnati, OH-KY-IN	Franklin County	Indiana
+Cincinnati, OH-KY-IN	Ohio County	Indiana
+Cincinnati, OH-KY-IN	Union County	Indiana
+Cincinnati, OH-KY-IN	Boone County	Kentucky
+Cincinnati, OH-KY-IN	Bracken County	Kentucky
+Cincinnati, OH-KY-IN	Campbell County	Kentucky
+Cincinnati, OH-KY-IN	Gallatin County	Kentucky
+Cincinnati, OH-KY-IN	Grant County	Kentucky
+Cincinnati, OH-KY-IN	Kenton County	Kentucky
+Cincinnati, OH-KY-IN	Pendleton County	Kentucky
+Cincinnati, OH-KY-IN	Brown County	Ohio
+Cincinnati, OH-KY-IN	Butler County	Ohio
+Cincinnati, OH-KY-IN	Clermont County	Ohio
+Cincinnati, OH-KY-IN	Hamilton County	Ohio
+Cincinnati, OH-KY-IN	Warren County	Ohio
+Clarksburg, WV	Doddridge County	West Virginia
+Clarksburg, WV	Harrison County	West Virginia
+Clarksburg, WV	Taylor County	West Virginia
+Clarksdale, MS	Coahoma County	Mississippi
+Clarksville, TN-KY	Christian County	Kentucky
+Clarksville, TN-KY	Trigg County	Kentucky
+Clarksville, TN-KY	Montgomery County	Tennessee
+Clarksville, TN-KY	Stewart County	Tennessee
+Clearlake, CA	Lake County	California
+Cleveland, MS	Bolivar County	Mississippi
+Cleveland, TN	Bradley County	Tennessee
+Cleveland, TN	Polk County	Tennessee
+Cleveland-Elyria, OH	Cuyahoga County	Ohio
+Cleveland-Elyria, OH	Geauga County	Ohio
+Cleveland-Elyria, OH	Lake County	Ohio
+Cleveland-Elyria, OH	Lorain County	Ohio
+Cleveland-Elyria, OH	Medina County	Ohio
+Clewiston, FL	Hendry County	Florida
+Clinton, IA	Clinton County	Iowa
+Clovis, NM	Curry County	New Mexico
+Coamo, PR	Coamo County	Puerto Rico
+Coco, PR	Salinas County	Puerto Rico
+Coeur d'Alene, ID	Kootenai County	Idaho
+Coffeyville, KS	Montgomery County	Kansas
+Coldwater, MI	Branch County	Michigan
+College Station-Bryan, TX	Brazos County	Texas
+College Station-Bryan, TX	Burleson County	Texas
+College Station-Bryan, TX	Robertson County	Texas
+Colorado Springs, CO	El Paso County	Colorado
+Colorado Springs, CO	Teller County	Colorado
+Columbia, MO	Boone County	Missouri
+Columbia, MO	Cooper County	Missouri
+Columbia, MO	Howard County	Missouri
+Columbia, SC	Calhoun County	South Carolina
+Columbia, SC	Fairfield County	South Carolina
+Columbia, SC	Kershaw County	South Carolina
+Columbia, SC	Lexington County	South Carolina
+Columbia, SC	Richland County	South Carolina
+Columbia, SC	Saluda County	South Carolina
+Columbus, GA-AL	Russell County	Alabama
+Columbus, GA-AL	Chattahoochee County	Georgia
+Columbus, GA-AL	Harris County	Georgia
+Columbus, GA-AL	Marion County	Georgia
+Columbus, GA-AL	Muscogee County	Georgia
+Columbus, GA-AL	Stewart County	Georgia
+Columbus, GA-AL	Talbot County	Georgia
+Columbus, IN	Bartholomew County	Indiana
+Columbus, MS	Lowndes County	Mississippi
+Columbus, NE	Platte County	Nebraska
+Columbus, OH	Delaware County	Ohio
+Columbus, OH	Fairfield County	Ohio
+Columbus, OH	Franklin County	Ohio
+Columbus, OH	Hocking County	Ohio
+Columbus, OH	Licking County	Ohio
+Columbus, OH	Madison County	Ohio
+Columbus, OH	Morrow County	Ohio
+Columbus, OH	Perry County	Ohio
+Columbus, OH	Pickaway County	Ohio
+Columbus, OH	Union County	Ohio
+Concord, NH	Merrimack County	New Hampshire
+Connersville, IN	Fayette County	Indiana
+Cookeville, TN	Jackson County	Tennessee
+Cookeville, TN	Overton County	Tennessee
+Cookeville, TN	Putnam County	Tennessee
+Coos Bay, OR	Coos County	Oregon
+Cordele, GA	Crisp County	Georgia
+Corinth, MS	Alcorn County	Mississippi
+Cornelia, GA	Habersham County	Georgia
+Corning, NY	Steuben County	New York
+Corpus Christi, TX	Nueces County	Texas
+Corpus Christi, TX	San Patricio County	Texas
+Corsicana, TX	Navarro County	Texas
+Cortland, NY	Cortland County	New York
+Corvallis, OR	Benton County	Oregon
+Coshocton, OH	Coshocton County	Ohio
+Craig, CO	Moffat County	Colorado
+Crawfordsville, IN	Montgomery County	Indiana
+Crescent City, CA	Del Norte County	California
+Crestview-Fort Walton Beach-Destin, FL	Okaloosa County	Florida
+Crestview-Fort Walton Beach-Destin, FL	Walton County	Florida
+Crossville, TN	Cumberland County	Tennessee
+Cullman, AL	Cullman County	Alabama
+Cullowhee, NC	Jackson County	North Carolina
+Cullowhee, NC	Swain County	North Carolina
+Cumberland, MD-WV	Allegany County	Maryland
+Cumberland, MD-WV	Mineral County	West Virginia
+Dallas-Fort Worth-Arlington, TX	Collin County	Texas
+Dallas-Fort Worth-Arlington, TX	Dallas County	Texas
+Dallas-Fort Worth-Arlington, TX	Denton County	Texas
+Dallas-Fort Worth-Arlington, TX	Ellis County	Texas
+Dallas-Fort Worth-Arlington, TX	Hunt County	Texas
+Dallas-Fort Worth-Arlington, TX	Kaufman County	Texas
+Dallas-Fort Worth-Arlington, TX	Rockwall County	Texas
+Dallas-Fort Worth-Arlington, TX	Johnson County	Texas
+Dallas-Fort Worth-Arlington, TX	Parker County	Texas
+Dallas-Fort Worth-Arlington, TX	Tarrant County	Texas
+Dallas-Fort Worth-Arlington, TX	Wise County	Texas
+Dalton, GA	Murray County	Georgia
+Dalton, GA	Whitfield County	Georgia
+Danville, IL	Vermilion County	Illinois
+Danville, KY	Boyle County	Kentucky
+Danville, KY	Lincoln County	Kentucky
+Danville, VA	Pittsylvania County	Virginia
+Danville, VA	Danville city	Virginia
+Daphne-Fairhope-Foley, AL	Baldwin County	Alabama
+Davenport-Moline-Rock Island, IA-IL	Henry County	Illinois
+Davenport-Moline-Rock Island, IA-IL	Mercer County	Illinois
+Davenport-Moline-Rock Island, IA-IL	Rock Island County	Illinois
+Davenport-Moline-Rock Island, IA-IL	Scott County	Iowa
+Dayton, TN	Rhea County	Tennessee
+Dayton-Kettering, OH	Greene County	Ohio
+Dayton-Kettering, OH	Miami County	Ohio
+Dayton-Kettering, OH	Montgomery County	Ohio
+Decatur, AL	Lawrence County	Alabama
+Decatur, AL	Morgan County	Alabama
+Decatur, IL	Macon County	Illinois
+Decatur, IN	Adams County	Indiana
+Defiance, OH	Defiance County	Ohio
+Del Rio, TX	Val Verde County	Texas
+Deltona-Daytona Beach-Ormond Beach, FL	Flagler County	Florida
+Deltona-Daytona Beach-Ormond Beach, FL	Volusia County	Florida
+Deming, NM	Luna County	New Mexico
+Denver-Aurora-Lakewood, CO	Adams County	Colorado
+Denver-Aurora-Lakewood, CO	Arapahoe County	Colorado
+Denver-Aurora-Lakewood, CO	Broomfield County	Colorado
+Denver-Aurora-Lakewood, CO	Clear Creek County	Colorado
+Denver-Aurora-Lakewood, CO	Denver County	Colorado
+Denver-Aurora-Lakewood, CO	Douglas County	Colorado
+Denver-Aurora-Lakewood, CO	Elbert County	Colorado
+Denver-Aurora-Lakewood, CO	Gilpin County	Colorado
+Denver-Aurora-Lakewood, CO	Jefferson County	Colorado
+Denver-Aurora-Lakewood, CO	Park County	Colorado
+DeRidder, LA	Beauregard Parish	Louisiana
+Des Moines-West Des Moines, IA	Dallas County	Iowa
+Des Moines-West Des Moines, IA	Guthrie County	Iowa
+Des Moines-West Des Moines, IA	Jasper County	Iowa
+Des Moines-West Des Moines, IA	Madison County	Iowa
+Des Moines-West Des Moines, IA	Polk County	Iowa
+Des Moines-West Des Moines, IA	Warren County	Iowa
+Detroit-Warren-Dearborn, MI	Wayne County	Michigan
+Detroit-Warren-Dearborn, MI	Lapeer County	Michigan
+Detroit-Warren-Dearborn, MI	Livingston County	Michigan
+Detroit-Warren-Dearborn, MI	Macomb County	Michigan
+Detroit-Warren-Dearborn, MI	Oakland County	Michigan
+Detroit-Warren-Dearborn, MI	St. Clair County	Michigan
+Dickinson, ND	Billings County	North Dakota
+Dickinson, ND	Stark County	North Dakota
+Dixon, IL	Lee County	Illinois
+Dodge City, KS	Ford County	Kansas
+Dothan, AL	Geneva County	Alabama
+Dothan, AL	Henry County	Alabama
+Dothan, AL	Houston County	Alabama
+Douglas, GA	Atkinson County	Georgia
+Douglas, GA	Coffee County	Georgia
+Dover, DE	Kent County	Delaware
+Dublin, GA	Johnson County	Georgia
+Dublin, GA	Laurens County	Georgia
+Dublin, GA	Treutlen County	Georgia
+DuBois, PA	Clearfield County	Pennsylvania
+Dubuque, IA	Dubuque County	Iowa
+Duluth, MN-WI	Carlton County	Minnesota
+Duluth, MN-WI	Lake County	Minnesota
+Duluth, MN-WI	St. Louis County	Minnesota
+Duluth, MN-WI	Douglas County	Wisconsin
+Dumas, TX	Moore County	Texas
+Duncan, OK	Stephens County	Oklahoma
+Durango, CO	La Plata County	Colorado
+Durant, OK	Bryan County	Oklahoma
+Durham-Chapel Hill, NC	Chatham County	North Carolina
+Durham-Chapel Hill, NC	Durham County	North Carolina
+Durham-Chapel Hill, NC	Granville County	North Carolina
+Durham-Chapel Hill, NC	Orange County	North Carolina
+Durham-Chapel Hill, NC	Person County	North Carolina
+Dyersburg, TN	Dyer County	Tennessee
+Eagle Pass, TX	Maverick County	Texas
+Easton, MD	Talbot County	Maryland
+East Stroudsburg, PA	Monroe County	Pennsylvania
+Eau Claire, WI	Chippewa County	Wisconsin
+Eau Claire, WI	Eau Claire County	Wisconsin
+Edwards, CO	Eagle County	Colorado
+Effingham, IL	Effingham County	Illinois
+El Campo, TX	Wharton County	Texas
+El Centro, CA	Imperial County	California
+El Dorado, AR	Union County	Arkansas
+Elizabeth City, NC	Pasquotank County	North Carolina
+Elizabeth City, NC	Perquimans County	North Carolina
+Elizabethtown-Fort Knox, KY	Hardin County	Kentucky
+Elizabethtown-Fort Knox, KY	Larue County	Kentucky
+Elizabethtown-Fort Knox, KY	Meade County	Kentucky
+Elk City, OK	Beckham County	Oklahoma
+Elkhart-Goshen, IN	Elkhart County	Indiana
+Elkins, WV	Randolph County	West Virginia
+Elko, NV	Elko County	Nevada
+Elko, NV	Eureka County	Nevada
+Ellensburg, WA	Kittitas County	Washington
+Elmira, NY	Chemung County	New York
+El Paso, TX	El Paso County	Texas
+El Paso, TX	Hudspeth County	Texas
+Emporia, KS	Chase County	Kansas
+Emporia, KS	Lyon County	Kansas
+Enid, OK	Garfield County	Oklahoma
+Enterprise, AL	Coffee County	Alabama
+Erie, PA	Erie County	Pennsylvania
+Escanaba, MI	Delta County	Michigan
+Española, NM	Rio Arriba County	New Mexico
+Eufaula, AL-GA	Barbour County	Alabama
+Eufaula, AL-GA	Quitman County	Georgia
+Eugene-Springfield, OR	Lane County	Oregon
+Eureka-Arcata, CA	Humboldt County	California
+Evanston, WY	Uinta County	Wyoming
+Evansville, IN-KY	Posey County	Indiana
+Evansville, IN-KY	Vanderburgh County	Indiana
+Evansville, IN-KY	Warrick County	Indiana
+Evansville, IN-KY	Henderson County	Kentucky
+Fairbanks, AK	Fairbanks North Star County	Alaska
+Fairfield, IA	Jefferson County	Iowa
+Fairmont, MN	Martin County	Minnesota
+Fairmont, WV	Marion County	West Virginia
+Fallon, NV	Churchill County	Nevada
+Fargo, ND-MN	Clay County	Minnesota
+Fargo, ND-MN	Cass County	North Dakota
+Faribault-Northfield, MN	Rice County	Minnesota
+Farmington, MO	St. Francois County	Missouri
+Farmington, NM	San Juan County	New Mexico
+Fayetteville, NC	Cumberland County	North Carolina
+Fayetteville, NC	Harnett County	North Carolina
+Fayetteville, NC	Hoke County	North Carolina
+Fayetteville-Springdale-Rogers, AR	Benton County	Arkansas
+Fayetteville-Springdale-Rogers, AR	Madison County	Arkansas
+Fayetteville-Springdale-Rogers, AR	Washington County	Arkansas
+Fergus Falls, MN	Otter Tail County	Minnesota
+Fernley, NV	Lyon County	Nevada
+Findlay, OH	Hancock County	Ohio
+Fitzgerald, GA	Ben Hill County	Georgia
+Flagstaff, AZ	Coconino County	Arizona
+Flint, MI	Genesee County	Michigan
+Florence, SC	Darlington County	South Carolina
+Florence, SC	Florence County	South Carolina
+Florence-Muscle Shoals, AL	Colbert County	Alabama
+Florence-Muscle Shoals, AL	Lauderdale County	Alabama
+Fond du Lac, WI	Fond du Lac County	Wisconsin
+Forest City, NC	Rutherford County	North Carolina
+Forrest City, AR	St. Francis County	Arkansas
+Fort Collins, CO	Larimer County	Colorado
+Fort Dodge, IA	Webster County	Iowa
+Fort Leonard Wood, MO	Pulaski County	Missouri
+Fort Madison-Keokuk, IA-IL-MO	Hancock County	Illinois
+Fort Madison-Keokuk, IA-IL-MO	Lee County	Iowa
+Fort Madison-Keokuk, IA-IL-MO	Clark County	Missouri
+Fort Morgan, CO	Morgan County	Colorado
+Fort Payne, AL	DeKalb County	Alabama
+Fort Polk South, LA	Vernon Parish	Louisiana
+Fort Smith, AR-OK	Crawford County	Arkansas
+Fort Smith, AR-OK	Franklin County	Arkansas
+Fort Smith, AR-OK	Sebastian County	Arkansas
+Fort Smith, AR-OK	Sequoyah County	Oklahoma
+Fort Wayne, IN	Allen County	Indiana
+Fort Wayne, IN	Whitley County	Indiana
+Frankfort, IN	Clinton County	Indiana
+Frankfort, KY	Anderson County	Kentucky
+Frankfort, KY	Franklin County	Kentucky
+Fredericksburg, TX	Gillespie County	Texas
+Freeport, IL	Stephenson County	Illinois
+Fremont, NE	Dodge County	Nebraska
+Fremont, OH	Sandusky County	Ohio
+Fresno, CA	Fresno County	California
+Gadsden, AL	Etowah County	Alabama
+Gaffney, SC	Cherokee County	South Carolina
+Gainesville, FL	Alachua County	Florida
+Gainesville, FL	Gilchrist County	Florida
+Gainesville, FL	Levy County	Florida
+Gainesville, GA	Hall County	Georgia
+Gainesville, TX	Cooke County	Texas
+Galesburg, IL	Knox County	Illinois
+Gallup, NM	McKinley County	New Mexico
+Garden City, KS	Finney County	Kansas
+Garden City, KS	Kearny County	Kansas
+Gardnerville Ranchos, NV	Douglas County	Nevada
+Georgetown, SC	Georgetown County	South Carolina
+Gettysburg, PA	Adams County	Pennsylvania
+Gillette, WY	Campbell County	Wyoming
+Gillette, WY	Crook County	Wyoming
+Gillette, WY	Weston County	Wyoming
+Glasgow, KY	Barren County	Kentucky
+Glasgow, KY	Metcalfe County	Kentucky
+Glens Falls, NY	Warren County	New York
+Glens Falls, NY	Washington County	New York
+Glenwood Springs, CO	Garfield County	Colorado
+Glenwood Springs, CO	Pitkin County	Colorado
+Gloversville, NY	Fulton County	New York
+Goldsboro, NC	Wayne County	North Carolina
+Granbury, TX	Hood County	Texas
+Grand Forks, ND-MN	Polk County	Minnesota
+Grand Forks, ND-MN	Grand Forks County	North Dakota
+Grand Island, NE	Hall County	Nebraska
+Grand Island, NE	Howard County	Nebraska
+Grand Island, NE	Merrick County	Nebraska
+Grand Junction, CO	Mesa County	Colorado
+Grand Rapids, MN	Itasca County	Minnesota
+Grand Rapids-Kentwood, MI	Ionia County	Michigan
+Grand Rapids-Kentwood, MI	Kent County	Michigan
+Grand Rapids-Kentwood, MI	Montcalm County	Michigan
+Grand Rapids-Kentwood, MI	Ottawa County	Michigan
+Grants, NM	Cibola County	New Mexico
+Grants Pass, OR	Josephine County	Oregon
+Great Bend, KS	Barton County	Kansas
+Great Falls, MT	Cascade County	Montana
+Greeley, CO	Weld County	Colorado
+Green Bay, WI	Brown County	Wisconsin
+Green Bay, WI	Kewaunee County	Wisconsin
+Green Bay, WI	Oconto County	Wisconsin
+Greeneville, TN	Greene County	Tennessee
+Greensboro-High Point, NC	Guilford County	North Carolina
+Greensboro-High Point, NC	Randolph County	North Carolina
+Greensboro-High Point, NC	Rockingham County	North Carolina
+Greensburg, IN	Decatur County	Indiana
+Greenville, MS	Washington County	Mississippi
+Greenville, NC	Pitt County	North Carolina
+Greenville, OH	Darke County	Ohio
+Greenville-Anderson, SC	Anderson County	South Carolina
+Greenville-Anderson, SC	Greenville County	South Carolina
+Greenville-Anderson, SC	Laurens County	South Carolina
+Greenville-Anderson, SC	Pickens County	South Carolina
+Greenwood, MS	Carroll County	Mississippi
+Greenwood, MS	Leflore County	Mississippi
+Greenwood, SC	Greenwood County	South Carolina
+Grenada, MS	Grenada County	Mississippi
+Guayama, PR	Arroyo County	Puerto Rico
+Guayama, PR	Guayama County	Puerto Rico
+Guayama, PR	Patillas County	Puerto Rico
+Gulfport-Biloxi, MS	Hancock County	Mississippi
+Gulfport-Biloxi, MS	Harrison County	Mississippi
+Gulfport-Biloxi, MS	Jackson County	Mississippi
+Gulfport-Biloxi, MS	Stone County	Mississippi
+Guymon, OK	Texas County	Oklahoma
+Hagerstown-Martinsburg, MD-WV	Washington County	Maryland
+Hagerstown-Martinsburg, MD-WV	Berkeley County	West Virginia
+Hagerstown-Martinsburg, MD-WV	Morgan County	West Virginia
+Hailey, ID	Blaine County	Idaho
+Hailey, ID	Camas County	Idaho
+Hammond, LA	Tangipahoa Parish	Louisiana
+Hanford-Corcoran, CA	Kings County	California
+Hannibal, MO	Marion County	Missouri
+Hannibal, MO	Ralls County	Missouri
+Harrisburg-Carlisle, PA	Cumberland County	Pennsylvania
+Harrisburg-Carlisle, PA	Dauphin County	Pennsylvania
+Harrisburg-Carlisle, PA	Perry County	Pennsylvania
+Harrison, AR	Boone County	Arkansas
+Harrison, AR	Newton County	Arkansas
+Harrisonburg, VA	Rockingham County	Virginia
+Harrisonburg, VA	Harrisonburg city	Virginia
+Hartford-East Hartford-Middletown, CT	Hartford County	Connecticut
+Hartford-East Hartford-Middletown, CT	Middlesex County	Connecticut
+Hartford-East Hartford-Middletown, CT	Tolland County	Connecticut
+Hastings, NE	Adams County	Nebraska
+Hattiesburg, MS	Covington County	Mississippi
+Hattiesburg, MS	Forrest County	Mississippi
+Hattiesburg, MS	Lamar County	Mississippi
+Hattiesburg, MS	Perry County	Mississippi
+Hays, KS	Ellis County	Kansas
+Heber, UT	Summit County	Utah
+Heber, UT	Wasatch County	Utah
+Helena, MT	Jefferson County	Montana
+Helena, MT	Lewis and Clark County	Montana
+Helena-West Helena, AR	Phillips County	Arkansas
+Henderson, NC	Vance County	North Carolina
+Hereford, TX	Deaf Smith County	Texas
+Hermiston-Pendleton, OR	Morrow County	Oregon
+Hermiston-Pendleton, OR	Umatilla County	Oregon
+Hickory-Lenoir-Morganton, NC	Alexander County	North Carolina
+Hickory-Lenoir-Morganton, NC	Burke County	North Carolina
+Hickory-Lenoir-Morganton, NC	Caldwell County	North Carolina
+Hickory-Lenoir-Morganton, NC	Catawba County	North Carolina
+Hillsdale, MI	Hillsdale County	Michigan
+Hilo, HI	Hawaii County	Hawaii
+Hilton Head Island-Bluffton, SC	Beaufort County	South Carolina
+Hilton Head Island-Bluffton, SC	Jasper County	South Carolina
+Hinesville, GA	Liberty County	Georgia
+Hinesville, GA	Long County	Georgia
+Hobbs, NM	Lea County	New Mexico
+Holland, MI	Allegan County	Michigan
+Homosassa Springs, FL	Citrus County	Florida
+Hood River, OR	Hood River County	Oregon
+Hope, AR	Hempstead County	Arkansas
+Hope, AR	Nevada County	Arkansas
+Hot Springs, AR	Garland County	Arkansas
+Houghton, MI	Houghton County	Michigan
+Houghton, MI	Keweenaw County	Michigan
+Houma-Thibodaux, LA	Lafourche Parish	Louisiana
+Houma-Thibodaux, LA	Terrebonne Parish	Louisiana
+Houston-The Woodlands-Sugar Land, TX	Austin County	Texas
+Houston-The Woodlands-Sugar Land, TX	Brazoria County	Texas
+Houston-The Woodlands-Sugar Land, TX	Chambers County	Texas
+Houston-The Woodlands-Sugar Land, TX	Fort Bend County	Texas
+Houston-The Woodlands-Sugar Land, TX	Galveston County	Texas
+Houston-The Woodlands-Sugar Land, TX	Harris County	Texas
+Houston-The Woodlands-Sugar Land, TX	Liberty County	Texas
+Houston-The Woodlands-Sugar Land, TX	Montgomery County	Texas
+Houston-The Woodlands-Sugar Land, TX	Waller County	Texas
+Hudson, NY	Columbia County	New York
+Huntingdon, PA	Huntingdon County	Pennsylvania
+Huntington, IN	Huntington County	Indiana
+Huntington-Ashland, WV-KY-OH	Boyd County	Kentucky
+Huntington-Ashland, WV-KY-OH	Carter County	Kentucky
+Huntington-Ashland, WV-KY-OH	Greenup County	Kentucky
+Huntington-Ashland, WV-KY-OH	Lawrence County	Ohio
+Huntington-Ashland, WV-KY-OH	Cabell County	West Virginia
+Huntington-Ashland, WV-KY-OH	Putnam County	West Virginia
+Huntington-Ashland, WV-KY-OH	Wayne County	West Virginia
+Huntsville, AL	Limestone County	Alabama
+Huntsville, AL	Madison County	Alabama
+Huntsville, TX	Walker County	Texas
+Huron, SD	Beadle County	South Dakota
+Huron, SD	Jerauld County	South Dakota
+Hutchinson, KS	Reno County	Kansas
+Hutchinson, MN	McLeod County	Minnesota
+Idaho Falls, ID	Bonneville County	Idaho
+Idaho Falls, ID	Butte County	Idaho
+Idaho Falls, ID	Jefferson County	Idaho
+Indiana, PA	Indiana County	Pennsylvania
+Indianapolis-Carmel-Anderson, IN	Boone County	Indiana
+Indianapolis-Carmel-Anderson, IN	Brown County	Indiana
+Indianapolis-Carmel-Anderson, IN	Hamilton County	Indiana
+Indianapolis-Carmel-Anderson, IN	Hancock County	Indiana
+Indianapolis-Carmel-Anderson, IN	Hendricks County	Indiana
+Indianapolis-Carmel-Anderson, IN	Johnson County	Indiana
+Indianapolis-Carmel-Anderson, IN	Madison County	Indiana
+Indianapolis-Carmel-Anderson, IN	Marion County	Indiana
+Indianapolis-Carmel-Anderson, IN	Morgan County	Indiana
+Indianapolis-Carmel-Anderson, IN	Putnam County	Indiana
+Indianapolis-Carmel-Anderson, IN	Shelby County	Indiana
+Indianola, MS	Sunflower County	Mississippi
+Iowa City, IA	Johnson County	Iowa
+Iowa City, IA	Washington County	Iowa
+Iron Mountain, MI-WI	Dickinson County	Michigan
+Iron Mountain, MI-WI	Florence County	Wisconsin
+Ithaca, NY	Tompkins County	New York
+Jackson, MI	Jackson County	Michigan
+Jackson, MS	Copiah County	Mississippi
+Jackson, MS	Hinds County	Mississippi
+Jackson, MS	Holmes County	Mississippi
+Jackson, MS	Madison County	Mississippi
+Jackson, MS	Rankin County	Mississippi
+Jackson, MS	Simpson County	Mississippi
+Jackson, MS	Yazoo County	Mississippi
+Jackson, OH	Jackson County	Ohio
+Jackson, TN	Chester County	Tennessee
+Jackson, TN	Crockett County	Tennessee
+Jackson, TN	Gibson County	Tennessee
+Jackson, TN	Madison County	Tennessee
+Jackson, WY-ID	Teton County	Idaho
+Jackson, WY-ID	Teton County	Wyoming
+Jacksonville, FL	Baker County	Florida
+Jacksonville, FL	Clay County	Florida
+Jacksonville, FL	Duval County	Florida
+Jacksonville, FL	Nassau County	Florida
+Jacksonville, FL	St. Johns County	Florida
+Jacksonville, IL	Morgan County	Illinois
+Jacksonville, IL	Scott County	Illinois
+Jacksonville, NC	Onslow County	North Carolina
+Jacksonville, TX	Cherokee County	Texas
+Jamestown, ND	Stutsman County	North Dakota
+Jamestown-Dunkirk-Fredonia, NY	Chautauqua County	New York
+Janesville-Beloit, WI	Rock County	Wisconsin
+Jasper, AL	Walker County	Alabama
+Jasper, IN	Dubois County	Indiana
+Jasper, IN	Pike County	Indiana
+Jayuya, PR	Jayuya County	Puerto Rico
+Jefferson, GA	Jackson County	Georgia
+Jefferson City, MO	Callaway County	Missouri
+Jefferson City, MO	Cole County	Missouri
+Jefferson City, MO	Moniteau County	Missouri
+Jefferson City, MO	Osage County	Missouri
+Jennings, LA	Jefferson Davis Parish	Louisiana
+Jesup, GA	Wayne County	Georgia
+Johnson City, TN	Carter County	Tennessee
+Johnson City, TN	Unicoi County	Tennessee
+Johnson City, TN	Washington County	Tennessee
+Johnstown, PA	Cambria County	Pennsylvania
+Jonesboro, AR	Craighead County	Arkansas
+Jonesboro, AR	Poinsett County	Arkansas
+Joplin, MO	Jasper County	Missouri
+Joplin, MO	Newton County	Missouri
+Juneau, AK	Juneau County	Alaska
+Kahului-Wailuku-Lahaina, HI	Maui County	Hawaii
+Kalamazoo-Portage, MI	Kalamazoo County	Michigan
+Kalispell, MT	Flathead County	Montana
+Kankakee, IL	Kankakee County	Illinois
+Kansas City, MO-KS	Johnson County	Kansas
+Kansas City, MO-KS	Leavenworth County	Kansas
+Kansas City, MO-KS	Linn County	Kansas
+Kansas City, MO-KS	Miami County	Kansas
+Kansas City, MO-KS	Wyandotte County	Kansas
+Kansas City, MO-KS	Bates County	Missouri
+Kansas City, MO-KS	Caldwell County	Missouri
+Kansas City, MO-KS	Cass County	Missouri
+Kansas City, MO-KS	Clay County	Missouri
+Kansas City, MO-KS	Clinton County	Missouri
+Kansas City, MO-KS	Jackson County	Missouri
+Kansas City, MO-KS	Lafayette County	Missouri
+Kansas City, MO-KS	Platte County	Missouri
+Kansas City, MO-KS	Ray County	Missouri
+Kapaa, HI	Kauai County	Hawaii
+Kearney, NE	Buffalo County	Nebraska
+Kearney, NE	Kearney County	Nebraska
+Keene, NH	Cheshire County	New Hampshire
+Kendallville, IN	Noble County	Indiana
+Kennett, MO	Dunklin County	Missouri
+Kennewick-Richland, WA	Benton County	Washington
+Kennewick-Richland, WA	Franklin County	Washington
+Kerrville, TX	Kerr County	Texas
+Ketchikan, AK	Ketchikan Gateway County	Alaska
+Key West, FL	Monroe County	Florida
+Kill Devil Hills, NC	Dare County	North Carolina
+Killeen-Temple, TX	Bell County	Texas
+Killeen-Temple, TX	Coryell County	Texas
+Killeen-Temple, TX	Lampasas County	Texas
+Kingsport-Bristol, TN-VA	Hawkins County	Tennessee
+Kingsport-Bristol, TN-VA	Sullivan County	Tennessee
+Kingsport-Bristol, TN-VA	Scott County	Virginia
+Kingsport-Bristol, TN-VA	Washington County	Virginia
+Kingsport-Bristol, TN-VA	Bristol city	Virginia
+Kingston, NY	Ulster County	New York
+Kingsville, TX	Kenedy County	Texas
+Kingsville, TX	Kleberg County	Texas
+Kinston, NC	Lenoir County	North Carolina
+Kirksville, MO	Adair County	Missouri
+Kirksville, MO	Schuyler County	Missouri
+Klamath Falls, OR	Klamath County	Oregon
+Knoxville, TN	Anderson County	Tennessee
+Knoxville, TN	Blount County	Tennessee
+Knoxville, TN	Campbell County	Tennessee
+Knoxville, TN	Knox County	Tennessee
+Knoxville, TN	Loudon County	Tennessee
+Knoxville, TN	Morgan County	Tennessee
+Knoxville, TN	Roane County	Tennessee
+Knoxville, TN	Union County	Tennessee
+Kokomo, IN	Howard County	Indiana
+Laconia, NH	Belknap County	New Hampshire
+La Crosse-Onalaska, WI-MN	Houston County	Minnesota
+La Crosse-Onalaska, WI-MN	La Crosse County	Wisconsin
+Lafayette, LA	Acadia Parish	Louisiana
+Lafayette, LA	Iberia Parish	Louisiana
+Lafayette, LA	Lafayette Parish	Louisiana
+Lafayette, LA	St. Martin Parish	Louisiana
+Lafayette, LA	Vermilion Parish	Louisiana
+Lafayette-West Lafayette, IN	Benton County	Indiana
+Lafayette-West Lafayette, IN	Carroll County	Indiana
+Lafayette-West Lafayette, IN	Tippecanoe County	Indiana
+Lafayette-West Lafayette, IN	Warren County	Indiana
+La Grande, OR	Union County	Oregon
+LaGrange, GA-AL	Chambers County	Alabama
+LaGrange, GA-AL	Troup County	Georgia
+Lake Charles, LA	Calcasieu Parish	Louisiana
+Lake Charles, LA	Cameron Parish	Louisiana
+Lake City, FL	Columbia County	Florida
+Lake Havasu City-Kingman, AZ	Mohave County	Arizona
+Lakeland-Winter Haven, FL	Polk County	Florida
+Lamesa, TX	Dawson County	Texas
+Lancaster, PA	Lancaster County	Pennsylvania
+Lansing-East Lansing, MI	Clinton County	Michigan
+Lansing-East Lansing, MI	Eaton County	Michigan
+Lansing-East Lansing, MI	Ingham County	Michigan
+Lansing-East Lansing, MI	Shiawassee County	Michigan
+Laramie, WY	Albany County	Wyoming
+Laredo, TX	Webb County	Texas
+Las Cruces, NM	Doña Ana County	New Mexico
+Las Vegas, NM	Mora County	New Mexico
+Las Vegas, NM	San Miguel County	New Mexico
+Las Vegas-Henderson-Paradise, NV	Clark County	Nevada
+Laurel, MS	Jasper County	Mississippi
+Laurel, MS	Jones County	Mississippi
+Laurinburg, NC	Scotland County	North Carolina
+Lawrence, KS	Douglas County	Kansas
+Lawrenceburg, TN	Lawrence County	Tennessee
+Lawton, OK	Comanche County	Oklahoma
+Lawton, OK	Cotton County	Oklahoma
+Lebanon, MO	Laclede County	Missouri
+Lebanon, NH-VT	Grafton County	New Hampshire
+Lebanon, NH-VT	Sullivan County	New Hampshire
+Lebanon, NH-VT	Orange County	Vermont
+Lebanon, NH-VT	Windsor County	Vermont
+Lebanon, PA	Lebanon County	Pennsylvania
+Levelland, TX	Hockley County	Texas
+Lewisburg, PA	Union County	Pennsylvania
+Lewisburg, TN	Marshall County	Tennessee
+Lewiston, ID-WA	Nez Perce County	Idaho
+Lewiston, ID-WA	Asotin County	Washington
+Lewiston-Auburn, ME	Androscoggin County	Maine
+Lewistown, PA	Mifflin County	Pennsylvania
+Lexington, NE	Dawson County	Nebraska
+Lexington, NE	Gosper County	Nebraska
+Lexington-Fayette, KY	Bourbon County	Kentucky
+Lexington-Fayette, KY	Clark County	Kentucky
+Lexington-Fayette, KY	Fayette County	Kentucky
+Lexington-Fayette, KY	Jessamine County	Kentucky
+Lexington-Fayette, KY	Scott County	Kentucky
+Lexington-Fayette, KY	Woodford County	Kentucky
+Liberal, KS	Seward County	Kansas
+Lima, OH	Allen County	Ohio
+Lincoln, IL	Logan County	Illinois
+Lincoln, NE	Lancaster County	Nebraska
+Lincoln, NE	Seward County	Nebraska
+Little Rock-North Little Rock-Conway, AR	Faulkner County	Arkansas
+Little Rock-North Little Rock-Conway, AR	Grant County	Arkansas
+Little Rock-North Little Rock-Conway, AR	Lonoke County	Arkansas
+Little Rock-North Little Rock-Conway, AR	Perry County	Arkansas
+Little Rock-North Little Rock-Conway, AR	Pulaski County	Arkansas
+Little Rock-North Little Rock-Conway, AR	Saline County	Arkansas
+Lock Haven, PA	Clinton County	Pennsylvania
+Logan, UT-ID	Franklin County	Idaho
+Logan, UT-ID	Cache County	Utah
+Logansport, IN	Cass County	Indiana
+London, KY	Clay County	Kentucky
+London, KY	Knox County	Kentucky
+London, KY	Laurel County	Kentucky
+London, KY	Whitley County	Kentucky
+Longview, TX	Gregg County	Texas
+Longview, TX	Harrison County	Texas
+Longview, TX	Rusk County	Texas
+Longview, TX	Upshur County	Texas
+Longview, WA	Cowlitz County	Washington
+Los Alamos, NM	Los Alamos County	New Mexico
+Los Angeles-Long Beach-Anaheim, CA	Orange County	California
+Los Angeles-Long Beach-Anaheim, CA	Los Angeles County	California
+Louisville/Jefferson County, KY-IN	Clark County	Indiana
+Louisville/Jefferson County, KY-IN	Floyd County	Indiana
+Louisville/Jefferson County, KY-IN	Harrison County	Indiana
+Louisville/Jefferson County, KY-IN	Washington County	Indiana
+Louisville/Jefferson County, KY-IN	Bullitt County	Kentucky
+Louisville/Jefferson County, KY-IN	Henry County	Kentucky
+Louisville/Jefferson County, KY-IN	Jefferson County	Kentucky
+Louisville/Jefferson County, KY-IN	Oldham County	Kentucky
+Louisville/Jefferson County, KY-IN	Shelby County	Kentucky
+Louisville/Jefferson County, KY-IN	Spencer County	Kentucky
+Lubbock, TX	Crosby County	Texas
+Lubbock, TX	Lubbock County	Texas
+Lubbock, TX	Lynn County	Texas
+Ludington, MI	Mason County	Michigan
+Lufkin, TX	Angelina County	Texas
+Lumberton, NC	Robeson County	North Carolina
+Lynchburg, VA	Amherst County	Virginia
+Lynchburg, VA	Appomattox County	Virginia
+Lynchburg, VA	Bedford County	Virginia
+Lynchburg, VA	Campbell County	Virginia
+Lynchburg, VA	Lynchburg city	Virginia
+Macomb, IL	McDonough County	Illinois
+Macon-Bibb County, GA	Bibb County	Georgia
+Macon-Bibb County, GA	Crawford County	Georgia
+Macon-Bibb County, GA	Jones County	Georgia
+Macon-Bibb County, GA	Monroe County	Georgia
+Macon-Bibb County, GA	Twiggs County	Georgia
+Madera, CA	Madera County	California
+Madison, IN	Jefferson County	Indiana
+Madison, WI	Columbia County	Wisconsin
+Madison, WI	Dane County	Wisconsin
+Madison, WI	Green County	Wisconsin
+Madison, WI	Iowa County	Wisconsin
+Madisonville, KY	Hopkins County	Kentucky
+Magnolia, AR	Columbia County	Arkansas
+Malone, NY	Franklin County	New York
+Malvern, AR	Hot Spring County	Arkansas
+Manchester-Nashua, NH	Hillsborough County	New Hampshire
+Manhattan, KS	Geary County	Kansas
+Manhattan, KS	Pottawatomie County	Kansas
+Manhattan, KS	Riley County	Kansas
+Manitowoc, WI	Manitowoc County	Wisconsin
+Mankato, MN	Blue Earth County	Minnesota
+Mankato, MN	Nicollet County	Minnesota
+Mansfield, OH	Richland County	Ohio
+Marietta, OH	Washington County	Ohio
+Marinette, WI-MI	Menominee County	Michigan
+Marinette, WI-MI	Marinette County	Wisconsin
+Marion, IN	Grant County	Indiana
+Marion, NC	McDowell County	North Carolina
+Marion, OH	Marion County	Ohio
+Marquette, MI	Marquette County	Michigan
+Marshall, MN	Lyon County	Minnesota
+Marshall, MO	Saline County	Missouri
+Marshalltown, IA	Marshall County	Iowa
+Martin, TN	Weakley County	Tennessee
+Martinsville, VA	Henry County	Virginia
+Martinsville, VA	Martinsville city	Virginia
+Maryville, MO	Nodaway County	Missouri
+Mason City, IA	Cerro Gordo County	Iowa
+Mason City, IA	Worth County	Iowa
+Mayagüez, PR	Hormigueros County	Puerto Rico
+Mayagüez, PR	Las Marías County	Puerto Rico
+Mayagüez, PR	Mayagüez County	Puerto Rico
+Mayfield, KY	Graves County	Kentucky
+Maysville, KY	Mason County	Kentucky
+McAlester, OK	Pittsburg County	Oklahoma
+McAllen-Edinburg-Mission, TX	Hidalgo County	Texas
+McComb, MS	Pike County	Mississippi
+McMinnville, TN	Warren County	Tennessee
+McPherson, KS	McPherson County	Kansas
+Meadville, PA	Crawford County	Pennsylvania
+Medford, OR	Jackson County	Oregon
+Memphis, TN-MS-AR	Crittenden County	Arkansas
+Memphis, TN-MS-AR	DeSoto County	Mississippi
+Memphis, TN-MS-AR	Marshall County	Mississippi
+Memphis, TN-MS-AR	Tate County	Mississippi
+Memphis, TN-MS-AR	Tunica County	Mississippi
+Memphis, TN-MS-AR	Fayette County	Tennessee
+Memphis, TN-MS-AR	Shelby County	Tennessee
+Memphis, TN-MS-AR	Tipton County	Tennessee
+Menomonie, WI	Dunn County	Wisconsin
+Merced, CA	Merced County	California
+Meridian, MS	Clarke County	Mississippi
+Meridian, MS	Kemper County	Mississippi
+Meridian, MS	Lauderdale County	Mississippi
+Mexico, MO	Audrain County	Missouri
+Miami, OK	Ottawa County	Oklahoma
+Miami-Fort Lauderdale-Pompano Beach, FL	Broward County	Florida
+Miami-Fort Lauderdale-Pompano Beach, FL	Miami-Dade County	Florida
+Miami-Fort Lauderdale-Pompano Beach, FL	Palm Beach County	Florida
+Michigan City-La Porte, IN	LaPorte County	Indiana
+Middlesborough, KY	Bell County	Kentucky
+Midland, MI	Midland County	Michigan
+Midland, TX	Martin County	Texas
+Midland, TX	Midland County	Texas
+Milledgeville, GA	Baldwin County	Georgia
+Milledgeville, GA	Hancock County	Georgia
+Milwaukee-Waukesha, WI	Milwaukee County	Wisconsin
+Milwaukee-Waukesha, WI	Ozaukee County	Wisconsin
+Milwaukee-Waukesha, WI	Washington County	Wisconsin
+Milwaukee-Waukesha, WI	Waukesha County	Wisconsin
+Minden, LA	Webster Parish	Louisiana
+Mineral Wells, TX	Palo Pinto County	Texas
+Minneapolis-St. Paul-Bloomington, MN-WI	Anoka County	Minnesota
+Minneapolis-St. Paul-Bloomington, MN-WI	Carver County	Minnesota
+Minneapolis-St. Paul-Bloomington, MN-WI	Chisago County	Minnesota
+Minneapolis-St. Paul-Bloomington, MN-WI	Dakota County	Minnesota
+Minneapolis-St. Paul-Bloomington, MN-WI	Hennepin County	Minnesota
+Minneapolis-St. Paul-Bloomington, MN-WI	Isanti County	Minnesota
+Minneapolis-St. Paul-Bloomington, MN-WI	Le Sueur County	Minnesota
+Minneapolis-St. Paul-Bloomington, MN-WI	Mille Lacs County	Minnesota
+Minneapolis-St. Paul-Bloomington, MN-WI	Ramsey County	Minnesota
+Minneapolis-St. Paul-Bloomington, MN-WI	Scott County	Minnesota
+Minneapolis-St. Paul-Bloomington, MN-WI	Sherburne County	Minnesota
+Minneapolis-St. Paul-Bloomington, MN-WI	Washington County	Minnesota
+Minneapolis-St. Paul-Bloomington, MN-WI	Wright County	Minnesota
+Minneapolis-St. Paul-Bloomington, MN-WI	Pierce County	Wisconsin
+Minneapolis-St. Paul-Bloomington, MN-WI	St. Croix County	Wisconsin
+Minot, ND	McHenry County	North Dakota
+Minot, ND	Renville County	North Dakota
+Minot, ND	Ward County	North Dakota
+Missoula, MT	Missoula County	Montana
+Mitchell, SD	Davison County	South Dakota
+Mitchell, SD	Hanson County	South Dakota
+Moberly, MO	Randolph County	Missouri
+Mobile, AL	Mobile County	Alabama
+Mobile, AL	Washington County	Alabama
+Modesto, CA	Stanislaus County	California
+Monroe, LA	Morehouse Parish	Louisiana
+Monroe, LA	Ouachita Parish	Louisiana
+Monroe, LA	Union Parish	Louisiana
+Monroe, MI	Monroe County	Michigan
+Montgomery, AL	Autauga County	Alabama
+Montgomery, AL	Elmore County	Alabama
+Montgomery, AL	Lowndes County	Alabama
+Montgomery, AL	Montgomery County	Alabama
+Montrose, CO	Montrose County	Colorado
+Montrose, CO	Ouray County	Colorado
+Morehead City, NC	Carteret County	North Carolina
+Morgan City, LA	St. Mary Parish	Louisiana
+Morgantown, WV	Monongalia County	West Virginia
+Morgantown, WV	Preston County	West Virginia
+Morristown, TN	Grainger County	Tennessee
+Morristown, TN	Hamblen County	Tennessee
+Morristown, TN	Jefferson County	Tennessee
+Moscow, ID	Latah County	Idaho
+Moses Lake, WA	Grant County	Washington
+Moultrie, GA	Colquitt County	Georgia
+Mountain Home, AR	Baxter County	Arkansas
+Mountain Home, ID	Elmore County	Idaho
+Mount Airy, NC	Surry County	North Carolina
+Mount Gay-Shamrock, WV	Logan County	West Virginia
+Mount Pleasant, MI	Isabella County	Michigan
+Mount Pleasant, TX	Camp County	Texas
+Mount Pleasant, TX	Titus County	Texas
+Mount Sterling, KY	Bath County	Kentucky
+Mount Sterling, KY	Menifee County	Kentucky
+Mount Sterling, KY	Montgomery County	Kentucky
+Mount Vernon, IL	Jefferson County	Illinois
+Mount Vernon, OH	Knox County	Ohio
+Mount Vernon-Anacortes, WA	Skagit County	Washington
+Muncie, IN	Delaware County	Indiana
+Murray, KY	Calloway County	Kentucky
+Muscatine, IA	Muscatine County	Iowa
+Muskegon, MI	Muskegon County	Michigan
+Muskogee, OK	Muskogee County	Oklahoma
+Myrtle Beach-Conway-North Myrtle Beach, SC-NC	Brunswick County	North Carolina
+Myrtle Beach-Conway-North Myrtle Beach, SC-NC	Horry County	South Carolina
+Nacogdoches, TX	Nacogdoches County	Texas
+Napa, CA	Napa County	California
+Naples-Marco Island, FL	Collier County	Florida
+Nashville-Davidson--Murfreesboro--Franklin, TN	Cannon County	Tennessee
+Nashville-Davidson--Murfreesboro--Franklin, TN	Cheatham County	Tennessee
+Nashville-Davidson--Murfreesboro--Franklin, TN	Davidson County	Tennessee
+Nashville-Davidson--Murfreesboro--Franklin, TN	Dickson County	Tennessee
+Nashville-Davidson--Murfreesboro--Franklin, TN	Macon County	Tennessee
+Nashville-Davidson--Murfreesboro--Franklin, TN	Maury County	Tennessee
+Nashville-Davidson--Murfreesboro--Franklin, TN	Robertson County	Tennessee
+Nashville-Davidson--Murfreesboro--Franklin, TN	Rutherford County	Tennessee
+Nashville-Davidson--Murfreesboro--Franklin, TN	Smith County	Tennessee
+Nashville-Davidson--Murfreesboro--Franklin, TN	Sumner County	Tennessee
+Nashville-Davidson--Murfreesboro--Franklin, TN	Trousdale County	Tennessee
+Nashville-Davidson--Murfreesboro--Franklin, TN	Williamson County	Tennessee
+Nashville-Davidson--Murfreesboro--Franklin, TN	Wilson County	Tennessee
+Natchez, MS-LA	Concordia Parish	Louisiana
+Natchez, MS-LA	Adams County	Mississippi
+Natchitoches, LA	Natchitoches Parish	Louisiana
+New Bern, NC	Craven County	North Carolina
+New Bern, NC	Jones County	North Carolina
+New Bern, NC	Pamlico County	North Carolina
+Newberry, SC	Newberry County	South Carolina
+New Castle, IN	Henry County	Indiana
+New Castle, PA	Lawrence County	Pennsylvania
+New Haven-Milford, CT	New Haven County	Connecticut
+New Orleans-Metairie, LA	Jefferson Parish	Louisiana
+New Orleans-Metairie, LA	Orleans Parish	Louisiana
+New Orleans-Metairie, LA	Plaquemines Parish	Louisiana
+New Orleans-Metairie, LA	St. Bernard Parish	Louisiana
+New Orleans-Metairie, LA	St. Charles Parish	Louisiana
+New Orleans-Metairie, LA	St. James Parish	Louisiana
+New Orleans-Metairie, LA	St. John the Baptist Parish	Louisiana
+New Orleans-Metairie, LA	St. Tammany Parish	Louisiana
+New Philadelphia-Dover, OH	Tuscarawas County	Ohio
+Newport, OR	Lincoln County	Oregon
+Newport, TN	Cocke County	Tennessee
+New Ulm, MN	Brown County	Minnesota
+New York-Newark-Jersey City, NY-NJ-PA	Nassau County	New York
+New York-Newark-Jersey City, NY-NJ-PA	Suffolk County	New York
+New York-Newark-Jersey City, NY-NJ-PA	Essex County	New Jersey
+New York-Newark-Jersey City, NY-NJ-PA	Hunterdon County	New Jersey
+New York-Newark-Jersey City, NY-NJ-PA	Morris County	New Jersey
+New York-Newark-Jersey City, NY-NJ-PA	Sussex County	New Jersey
+New York-Newark-Jersey City, NY-NJ-PA	Union County	New Jersey
+New York-Newark-Jersey City, NY-NJ-PA	Pike County	Pennsylvania
+New York-Newark-Jersey City, NY-NJ-PA	Middlesex County	New Jersey
+New York-Newark-Jersey City, NY-NJ-PA	Monmouth County	New Jersey
+New York-Newark-Jersey City, NY-NJ-PA	Ocean County	New Jersey
+New York-Newark-Jersey City, NY-NJ-PA	Somerset County	New Jersey
+New York-Newark-Jersey City, NY-NJ-PA	Bergen County	New Jersey
+New York-Newark-Jersey City, NY-NJ-PA	Hudson County	New Jersey
+New York-Newark-Jersey City, NY-NJ-PA	Passaic County	New Jersey
+New York-Newark-Jersey City, NY-NJ-PA	Bronx County	New York
+New York-Newark-Jersey City, NY-NJ-PA	Kings County	New York
+New York-Newark-Jersey City, NY-NJ-PA	New York County	New York
+New York-Newark-Jersey City, NY-NJ-PA	Putnam County	New York
+New York-Newark-Jersey City, NY-NJ-PA	Queens County	New York
+New York-Newark-Jersey City, NY-NJ-PA	Richmond County	New York
+New York-Newark-Jersey City, NY-NJ-PA	Rockland County	New York
+New York-Newark-Jersey City, NY-NJ-PA	Westchester County	New York
+Niles, MI	Berrien County	Michigan
+Nogales, AZ	Santa Cruz County	Arizona
+Norfolk, NE	Madison County	Nebraska
+Norfolk, NE	Pierce County	Nebraska
+Norfolk, NE	Stanton County	Nebraska
+North Platte, NE	Lincoln County	Nebraska
+North Platte, NE	Logan County	Nebraska
+North Platte, NE	McPherson County	Nebraska
+North Port-Sarasota-Bradenton, FL	Manatee County	Florida
+North Port-Sarasota-Bradenton, FL	Sarasota County	Florida
+North Vernon, IN	Jennings County	Indiana
+North Wilkesboro, NC	Wilkes County	North Carolina
+Norwalk, OH	Huron County	Ohio
+Norwich-New London, CT	New London County	Connecticut
+Oak Harbor, WA	Island County	Washington
+Ocala, FL	Marion County	Florida
+Ocean City, NJ	Cape May County	New Jersey
+Odessa, TX	Ector County	Texas
+Ogden-Clearfield, UT	Box Elder County	Utah
+Ogden-Clearfield, UT	Davis County	Utah
+Ogden-Clearfield, UT	Morgan County	Utah
+Ogden-Clearfield, UT	Weber County	Utah
+Ogdensburg-Massena, NY	St. Lawrence County	New York
+Oil City, PA	Venango County	Pennsylvania
+Okeechobee, FL	Okeechobee County	Florida
+Oklahoma City, OK	Canadian County	Oklahoma
+Oklahoma City, OK	Cleveland County	Oklahoma
+Oklahoma City, OK	Grady County	Oklahoma
+Oklahoma City, OK	Lincoln County	Oklahoma
+Oklahoma City, OK	Logan County	Oklahoma
+Oklahoma City, OK	McClain County	Oklahoma
+Oklahoma City, OK	Oklahoma County	Oklahoma
+Olean, NY	Cattaraugus County	New York
+Olympia-Lacey-Tumwater, WA	Thurston County	Washington
+Omaha-Council Bluffs, NE-IA	Harrison County	Iowa
+Omaha-Council Bluffs, NE-IA	Mills County	Iowa
+Omaha-Council Bluffs, NE-IA	Pottawattamie County	Iowa
+Omaha-Council Bluffs, NE-IA	Cass County	Nebraska
+Omaha-Council Bluffs, NE-IA	Douglas County	Nebraska
+Omaha-Council Bluffs, NE-IA	Sarpy County	Nebraska
+Omaha-Council Bluffs, NE-IA	Saunders County	Nebraska
+Omaha-Council Bluffs, NE-IA	Washington County	Nebraska
+Oneonta, NY	Otsego County	New York
+Ontario, OR-ID	Payette County	Idaho
+Ontario, OR-ID	Malheur County	Oregon
+Opelousas, LA	St. Landry Parish	Louisiana
+Orangeburg, SC	Orangeburg County	South Carolina
+Orlando-Kissimmee-Sanford, FL	Lake County	Florida
+Orlando-Kissimmee-Sanford, FL	Orange County	Florida
+Orlando-Kissimmee-Sanford, FL	Osceola County	Florida
+Orlando-Kissimmee-Sanford, FL	Seminole County	Florida
+Oshkosh-Neenah, WI	Winnebago County	Wisconsin
+Oskaloosa, IA	Mahaska County	Iowa
+Othello, WA	Adams County	Washington
+Ottawa, IL	Bureau County	Illinois
+Ottawa, IL	LaSalle County	Illinois
+Ottawa, IL	Putnam County	Illinois
+Ottawa, KS	Franklin County	Kansas
+Ottumwa, IA	Wapello County	Iowa
+Owatonna, MN	Steele County	Minnesota
+Owensboro, KY	Daviess County	Kentucky
+Owensboro, KY	Hancock County	Kentucky
+Owensboro, KY	McLean County	Kentucky
+Oxford, MS	Lafayette County	Mississippi
+Oxnard-Thousand Oaks-Ventura, CA	Ventura County	California
+Ozark, AL	Dale County	Alabama
+Paducah, KY-IL	Massac County	Illinois
+Paducah, KY-IL	Ballard County	Kentucky
+Paducah, KY-IL	Livingston County	Kentucky
+Paducah, KY-IL	McCracken County	Kentucky
+Pahrump, NV	Nye County	Nevada
+Palatka, FL	Putnam County	Florida
+Palestine, TX	Anderson County	Texas
+Palm Bay-Melbourne-Titusville, FL	Brevard County	Florida
+Pampa, TX	Gray County	Texas
+Pampa, TX	Roberts County	Texas
+Panama City, FL	Bay County	Florida
+Paragould, AR	Greene County	Arkansas
+Paris, TN	Henry County	Tennessee
+Paris, TX	Lamar County	Texas
+Parkersburg-Vienna, WV	Wirt County	West Virginia
+Parkersburg-Vienna, WV	Wood County	West Virginia
+Parsons, KS	Labette County	Kansas
+Payson, AZ	Gila County	Arizona
+Pearsall, TX	Frio County	Texas
+Pecos, TX	Loving County	Texas
+Pecos, TX	Reeves County	Texas
+Pella, IA	Marion County	Iowa
+Pensacola-Ferry Pass-Brent, FL	Escambia County	Florida
+Pensacola-Ferry Pass-Brent, FL	Santa Rosa County	Florida
+Peoria, IL	Fulton County	Illinois
+Peoria, IL	Marshall County	Illinois
+Peoria, IL	Peoria County	Illinois
+Peoria, IL	Stark County	Illinois
+Peoria, IL	Tazewell County	Illinois
+Peoria, IL	Woodford County	Illinois
+Peru, IN	Miami County	Indiana
+Philadelphia-Camden-Wilmington, PA-NJ-DE-MD	Burlington County	New Jersey
+Philadelphia-Camden-Wilmington, PA-NJ-DE-MD	Camden County	New Jersey
+Philadelphia-Camden-Wilmington, PA-NJ-DE-MD	Gloucester County	New Jersey
+Philadelphia-Camden-Wilmington, PA-NJ-DE-MD	Bucks County	Pennsylvania
+Philadelphia-Camden-Wilmington, PA-NJ-DE-MD	Chester County	Pennsylvania
+Philadelphia-Camden-Wilmington, PA-NJ-DE-MD	Montgomery County	Pennsylvania
+Philadelphia-Camden-Wilmington, PA-NJ-DE-MD	Delaware County	Pennsylvania
+Philadelphia-Camden-Wilmington, PA-NJ-DE-MD	Philadelphia County	Pennsylvania
+Philadelphia-Camden-Wilmington, PA-NJ-DE-MD	New Castle County	Delaware
+Philadelphia-Camden-Wilmington, PA-NJ-DE-MD	Cecil County	Maryland
+Philadelphia-Camden-Wilmington, PA-NJ-DE-MD	Salem County	New Jersey
+Phoenix-Mesa-Chandler, AZ	Maricopa County	Arizona
+Phoenix-Mesa-Chandler, AZ	Pinal County	Arizona
+Picayune, MS	Pearl River County	Mississippi
+Pierre, SD	Hughes County	South Dakota
+Pierre, SD	Stanley County	South Dakota
+Pine Bluff, AR	Cleveland County	Arkansas
+Pine Bluff, AR	Jefferson County	Arkansas
+Pine Bluff, AR	Lincoln County	Arkansas
+Pinehurst-Southern Pines, NC	Moore County	North Carolina
+Pittsburg, KS	Crawford County	Kansas
+Pittsburgh, PA	Allegheny County	Pennsylvania
+Pittsburgh, PA	Armstrong County	Pennsylvania
+Pittsburgh, PA	Beaver County	Pennsylvania
+Pittsburgh, PA	Butler County	Pennsylvania
+Pittsburgh, PA	Fayette County	Pennsylvania
+Pittsburgh, PA	Washington County	Pennsylvania
+Pittsburgh, PA	Westmoreland County	Pennsylvania
+Pittsfield, MA	Berkshire County	Massachusetts
+Plainview, TX	Hale County	Texas
+Platteville, WI	Grant County	Wisconsin
+Plattsburgh, NY	Clinton County	New York
+Plymouth, IN	Marshall County	Indiana
+Pocatello, ID	Bannock County	Idaho
+Pocatello, ID	Power County	Idaho
+Point Pleasant, WV-OH	Gallia County	Ohio
+Point Pleasant, WV-OH	Mason County	West Virginia
+Ponca City, OK	Kay County	Oklahoma
+Ponce, PR	Adjuntas County	Puerto Rico
+Ponce, PR	Juana Díaz County	Puerto Rico
+Ponce, PR	Ponce County	Puerto Rico
+Ponce, PR	Villalba County	Puerto Rico
+Pontiac, IL	Livingston County	Illinois
+Poplar Bluff, MO	Butler County	Missouri
+Poplar Bluff, MO	Ripley County	Missouri
+Portales, NM	Roosevelt County	New Mexico
+Port Angeles, WA	Clallam County	Washington
+Portland-South Portland, ME	Cumberland County	Maine
+Portland-South Portland, ME	Sagadahoc County	Maine
+Portland-South Portland, ME	York County	Maine
+Portland-Vancouver-Hillsboro, OR-WA	Clackamas County	Oregon
+Portland-Vancouver-Hillsboro, OR-WA	Columbia County	Oregon
+Portland-Vancouver-Hillsboro, OR-WA	Multnomah County	Oregon
+Portland-Vancouver-Hillsboro, OR-WA	Washington County	Oregon
+Portland-Vancouver-Hillsboro, OR-WA	Yamhill County	Oregon
+Portland-Vancouver-Hillsboro, OR-WA	Clark County	Washington
+Portland-Vancouver-Hillsboro, OR-WA	Skamania County	Washington
+Port Lavaca, TX	Calhoun County	Texas
+Port St. Lucie, FL	Martin County	Florida
+Port St. Lucie, FL	St. Lucie County	Florida
+Portsmouth, OH	Scioto County	Ohio
+Pottsville, PA	Schuylkill County	Pennsylvania
+Poughkeepsie-Newburgh-Middletown, NY	Dutchess County	New York
+Poughkeepsie-Newburgh-Middletown, NY	Orange County	New York
+Prescott Valley-Prescott, AZ	Yavapai County	Arizona
+Price, UT	Carbon County	Utah
+Prineville, OR	Crook County	Oregon
+Providence-Warwick, RI-MA	Bristol County	Massachusetts
+Providence-Warwick, RI-MA	Bristol County	Rhode Island
+Providence-Warwick, RI-MA	Kent County	Rhode Island
+Providence-Warwick, RI-MA	Newport County	Rhode Island
+Providence-Warwick, RI-MA	Providence County	Rhode Island
+Providence-Warwick, RI-MA	Washington County	Rhode Island
+Provo-Orem, UT	Juab County	Utah
+Provo-Orem, UT	Utah County	Utah
+Pueblo, CO	Pueblo County	Colorado
+Pullman, WA	Whitman County	Washington
+Punta Gorda, FL	Charlotte County	Florida
+Quincy, IL-MO	Adams County	Illinois
+Quincy, IL-MO	Lewis County	Missouri
+Racine, WI	Racine County	Wisconsin
+Raleigh-Cary, NC	Franklin County	North Carolina
+Raleigh-Cary, NC	Johnston County	North Carolina
+Raleigh-Cary, NC	Wake County	North Carolina
+Rapid City, SD	Meade County	South Dakota
+Rapid City, SD	Pennington County	South Dakota
+Raymondville, TX	Willacy County	Texas
+Reading, PA	Berks County	Pennsylvania
+Red Bluff, CA	Tehama County	California
+Redding, CA	Shasta County	California
+Red Wing, MN	Goodhue County	Minnesota
+Reno, NV	Storey County	Nevada
+Reno, NV	Washoe County	Nevada
+Rexburg, ID	Fremont County	Idaho
+Rexburg, ID	Madison County	Idaho
+Richmond, IN	Wayne County	Indiana
+Richmond, VA	Amelia County	Virginia
+Richmond, VA	Charles City County	Virginia
+Richmond, VA	Chesterfield County	Virginia
+Richmond, VA	Dinwiddie County	Virginia
+Richmond, VA	Goochland County	Virginia
+Richmond, VA	Hanover County	Virginia
+Richmond, VA	Henrico County	Virginia
+Richmond, VA	King and Queen County	Virginia
+Richmond, VA	King William County	Virginia
+Richmond, VA	New Kent County	Virginia
+Richmond, VA	Powhatan County	Virginia
+Richmond, VA	Prince George County	Virginia
+Richmond, VA	Sussex County	Virginia
+Richmond, VA	Colonial Heights city	Virginia
+Richmond, VA	Hopewell city	Virginia
+Richmond, VA	Petersburg city	Virginia
+Richmond, VA	Richmond city	Virginia
+Richmond-Berea, KY	Estill County	Kentucky
+Richmond-Berea, KY	Madison County	Kentucky
+Rio Grande City-Roma, TX	Starr County	Texas
+Riverside-San Bernardino-Ontario, CA	Riverside County	California
+Riverside-San Bernardino-Ontario, CA	San Bernardino County	California
+Riverton, WY	Fremont County	Wyoming
+Roanoke, VA	Botetourt County	Virginia
+Roanoke, VA	Craig County	Virginia
+Roanoke, VA	Franklin County	Virginia
+Roanoke, VA	Roanoke County	Virginia
+Roanoke, VA	Roanoke city	Virginia
+Roanoke, VA	Salem city	Virginia
+Roanoke Rapids, NC	Halifax County	North Carolina
+Roanoke Rapids, NC	Northampton County	North Carolina
+Rochelle, IL	Ogle County	Illinois
+Rochester, MN	Dodge County	Minnesota
+Rochester, MN	Fillmore County	Minnesota
+Rochester, MN	Olmsted County	Minnesota
+Rochester, MN	Wabasha County	Minnesota
+Rochester, NY	Livingston County	New York
+Rochester, NY	Monroe County	New York
+Rochester, NY	Ontario County	New York
+Rochester, NY	Orleans County	New York
+Rochester, NY	Wayne County	New York
+Rochester, NY	Yates County	New York
+Rockford, IL	Boone County	Illinois
+Rockford, IL	Winnebago County	Illinois
+Rockingham, NC	Richmond County	North Carolina
+Rockport, TX	Aransas County	Texas
+Rock Springs, WY	Sweetwater County	Wyoming
+Rocky Mount, NC	Edgecombe County	North Carolina
+Rocky Mount, NC	Nash County	North Carolina
+Rolla, MO	Phelps County	Missouri
+Rome, GA	Floyd County	Georgia
+Roseburg, OR	Douglas County	Oregon
+Roswell, NM	Chaves County	New Mexico
+Ruidoso, NM	Lincoln County	New Mexico
+Russellville, AR	Pope County	Arkansas
+Russellville, AR	Yell County	Arkansas
+Ruston, LA	Lincoln Parish	Louisiana
+Rutland, VT	Rutland County	Vermont
+Sacramento-Roseville-Folsom, CA	El Dorado County	California
+Sacramento-Roseville-Folsom, CA	Placer County	California
+Sacramento-Roseville-Folsom, CA	Sacramento County	California
+Sacramento-Roseville-Folsom, CA	Yolo County	California
+Safford, AZ	Graham County	Arizona
+Saginaw, MI	Saginaw County	Michigan
+St. Cloud, MN	Benton County	Minnesota
+St. Cloud, MN	Stearns County	Minnesota
+St. George, UT	Washington County	Utah
+St. Joseph, MO-KS	Doniphan County	Kansas
+St. Joseph, MO-KS	Andrew County	Missouri
+St. Joseph, MO-KS	Buchanan County	Missouri
+St. Joseph, MO-KS	DeKalb County	Missouri
+St. Louis, MO-IL	Bond County	Illinois
+St. Louis, MO-IL	Calhoun County	Illinois
+St. Louis, MO-IL	Clinton County	Illinois
+St. Louis, MO-IL	Jersey County	Illinois
+St. Louis, MO-IL	Macoupin County	Illinois
+St. Louis, MO-IL	Madison County	Illinois
+St. Louis, MO-IL	Monroe County	Illinois
+St. Louis, MO-IL	St. Clair County	Illinois
+St. Louis, MO-IL	Franklin County	Missouri
+St. Louis, MO-IL	Jefferson County	Missouri
+St. Louis, MO-IL	Lincoln County	Missouri
+St. Louis, MO-IL	St. Charles County	Missouri
+St. Louis, MO-IL	St. Louis County	Missouri
+St. Louis, MO-IL	Warren County	Missouri
+St. Louis, MO-IL	St. Louis city	Missouri
+St. Marys, GA	Camden County	Georgia
+St. Marys, PA	Elk County	Pennsylvania
+Salem, OH	Columbiana County	Ohio
+Salem, OR	Marion County	Oregon
+Salem, OR	Polk County	Oregon
+Salina, KS	Ottawa County	Kansas
+Salina, KS	Saline County	Kansas
+Salinas, CA	Monterey County	California
+Salisbury, MD-DE	Sussex County	Delaware
+Salisbury, MD-DE	Somerset County	Maryland
+Salisbury, MD-DE	Wicomico County	Maryland
+Salisbury, MD-DE	Worcester County	Maryland
+Salt Lake City, UT	Salt Lake County	Utah
+Salt Lake City, UT	Tooele County	Utah
+San Angelo, TX	Irion County	Texas
+San Angelo, TX	Sterling County	Texas
+San Angelo, TX	Tom Green County	Texas
+San Antonio-New Braunfels, TX	Atascosa County	Texas
+San Antonio-New Braunfels, TX	Bandera County	Texas
+San Antonio-New Braunfels, TX	Bexar County	Texas
+San Antonio-New Braunfels, TX	Comal County	Texas
+San Antonio-New Braunfels, TX	Guadalupe County	Texas
+San Antonio-New Braunfels, TX	Kendall County	Texas
+San Antonio-New Braunfels, TX	Medina County	Texas
+San Antonio-New Braunfels, TX	Wilson County	Texas
+San Diego-Chula Vista-Carlsbad, CA	San Diego County	California
+Sandpoint, ID	Bonner County	Idaho
+Sandusky, OH	Erie County	Ohio
+Sanford, NC	Lee County	North Carolina
+San Francisco-Oakland-Berkeley, CA	Alameda County	California
+San Francisco-Oakland-Berkeley, CA	Contra Costa County	California
+San Francisco-Oakland-Berkeley, CA	San Francisco County	California
+San Francisco-Oakland-Berkeley, CA	San Mateo County	California
+San Francisco-Oakland-Berkeley, CA	Marin County	California
+San Germán, PR	Cabo Rojo Municipio	Puerto Rico
+San Germán, PR	Lajas Municipio	Puerto Rico
+San Germán, PR	Sabana Grande Municipio	Puerto Rico
+San Germán, PR	San Germán Municipio	Puerto Rico
+San Jose-Sunnyvale-Santa Clara, CA	San Benito County	California
+San Jose-Sunnyvale-Santa Clara, CA	Santa Clara County	California
+San Juan-Bayamón-Caguas, PR	Aguas Buenas Municipio	Puerto Rico
+San Juan-Bayamón-Caguas, PR	Aibonito Municipio	Puerto Rico
+San Juan-Bayamón-Caguas, PR	Barceloneta Municipio	Puerto Rico
+San Juan-Bayamón-Caguas, PR	Barranquitas Municipio	Puerto Rico
+San Juan-Bayamón-Caguas, PR	Bayamón Municipio	Puerto Rico
+San Juan-Bayamón-Caguas, PR	Caguas Municipio	Puerto Rico
+San Juan-Bayamón-Caguas, PR	Canóvanas Municipio	Puerto Rico
+San Juan-Bayamón-Caguas, PR	Carolina Municipio	Puerto Rico
+San Juan-Bayamón-Caguas, PR	Cataño Municipio	Puerto Rico
+San Juan-Bayamón-Caguas, PR	Cayey Municipio	Puerto Rico
+San Juan-Bayamón-Caguas, PR	Ceiba Municipio	Puerto Rico
+San Juan-Bayamón-Caguas, PR	Ciales Municipio	Puerto Rico
+San Juan-Bayamón-Caguas, PR	Cidra Municipio	Puerto Rico
+San Juan-Bayamón-Caguas, PR	Comerío Municipio	Puerto Rico
+San Juan-Bayamón-Caguas, PR	Corozal Municipio	Puerto Rico
+San Juan-Bayamón-Caguas, PR	Dorado Municipio	Puerto Rico
+San Juan-Bayamón-Caguas, PR	Fajardo Municipio	Puerto Rico
+San Juan-Bayamón-Caguas, PR	Florida Municipio	Puerto Rico
+San Juan-Bayamón-Caguas, PR	Guaynabo Municipio	Puerto Rico
+San Juan-Bayamón-Caguas, PR	Gurabo Municipio	Puerto Rico
+San Juan-Bayamón-Caguas, PR	Humacao Municipio	Puerto Rico
+San Juan-Bayamón-Caguas, PR	Juncos Municipio	Puerto Rico
+San Juan-Bayamón-Caguas, PR	Las Piedras Municipio	Puerto Rico
+San Juan-Bayamón-Caguas, PR	Loíza Municipio	Puerto Rico
+San Juan-Bayamón-Caguas, PR	Luquillo Municipio	Puerto Rico
+San Juan-Bayamón-Caguas, PR	Manatí Municipio	Puerto Rico
+San Juan-Bayamón-Caguas, PR	Maunabo Municipio	Puerto Rico
+San Juan-Bayamón-Caguas, PR	Morovis Municipio	Puerto Rico
+San Juan-Bayamón-Caguas, PR	Naguabo Municipio	Puerto Rico
+San Juan-Bayamón-Caguas, PR	Naranjito Municipio	Puerto Rico
+San Juan-Bayamón-Caguas, PR	Orocovis Municipio	Puerto Rico
+San Juan-Bayamón-Caguas, PR	Río Grande Municipio	Puerto Rico
+San Juan-Bayamón-Caguas, PR	San Juan Municipio	Puerto Rico
+San Juan-Bayamón-Caguas, PR	San Lorenzo Municipio	Puerto Rico
+San Juan-Bayamón-Caguas, PR	Toa Alta Municipio	Puerto Rico
+San Juan-Bayamón-Caguas, PR	Toa Baja Municipio	Puerto Rico
+San Juan-Bayamón-Caguas, PR	Trujillo Alto Municipio	Puerto Rico
+San Juan-Bayamón-Caguas, PR	Vega Alta Municipio	Puerto Rico
+San Juan-Bayamón-Caguas, PR	Vega Baja Municipio	Puerto Rico
+San Juan-Bayamón-Caguas, PR	Yabucoa Municipio	Puerto Rico
+San Luis Obispo-Paso Robles, CA	San Luis Obispo County	California
+Santa Cruz-Watsonville, CA	Santa Cruz County	California
+Santa Fe, NM	Santa Fe County	New Mexico
+Santa Isabel, PR	Santa Isabel Municipio	Puerto Rico
+Santa Maria-Santa Barbara, CA	Santa Barbara County	California
+Santa Rosa-Petaluma, CA	Sonoma County	California
+Sault Ste. Marie, MI	Chippewa County	Michigan
+Savannah, GA	Bryan County	Georgia
+Savannah, GA	Chatham County	Georgia
+Savannah, GA	Effingham County	Georgia
+Sayre, PA	Bradford County	Pennsylvania
+Scottsbluff, NE	Banner County	Nebraska
+Scottsbluff, NE	Scotts Bluff County	Nebraska
+Scottsbluff, NE	Sioux County	Nebraska
+Scottsboro, AL	Jackson County	Alabama
+Scottsburg, IN	Scott County	Indiana
+Scranton--Wilkes-Barre, PA	Lackawanna County	Pennsylvania
+Scranton--Wilkes-Barre, PA	Luzerne County	Pennsylvania
+Scranton--Wilkes-Barre, PA	Wyoming County	Pennsylvania
+Searcy, AR	White County	Arkansas
+Seattle-Tacoma-Bellevue, WA	King County	Washington
+Seattle-Tacoma-Bellevue, WA	Snohomish County	Washington
+Seattle-Tacoma-Bellevue, WA	Pierce County	Washington
+Sebastian-Vero Beach, FL	Indian River County	Florida
+Sebring-Avon Park, FL	Highlands County	Florida
+Sedalia, MO	Pettis County	Missouri
+Selinsgrove, PA	Snyder County	Pennsylvania
+Selma, AL	Dallas County	Alabama
+Seneca, SC	Oconee County	South Carolina
+Seneca Falls, NY	Seneca County	New York
+Sevierville, TN	Sevier County	Tennessee
+Seymour, IN	Jackson County	Indiana
+Shawano, WI	Menominee County	Wisconsin
+Shawano, WI	Shawano County	Wisconsin
+Shawnee, OK	Pottawatomie County	Oklahoma
+Sheboygan, WI	Sheboygan County	Wisconsin
+Shelby, NC	Cleveland County	North Carolina
+Shelbyville, TN	Bedford County	Tennessee
+Shelton, WA	Mason County	Washington
+Sheridan, WY	Sheridan County	Wyoming
+Sherman-Denison, TX	Grayson County	Texas
+Show Low, AZ	Navajo County	Arizona
+Shreveport-Bossier City, LA	Bossier Parish	Louisiana
+Shreveport-Bossier City, LA	Caddo Parish	Louisiana
+Shreveport-Bossier City, LA	De Soto Parish	Louisiana
+Sidney, OH	Shelby County	Ohio
+Sierra Vista-Douglas, AZ	Cochise County	Arizona
+Sikeston, MO	Scott County	Missouri
+Silver City, NM	Grant County	New Mexico
+Sioux City, IA-NE-SD	Woodbury County	Iowa
+Sioux City, IA-NE-SD	Dakota County	Nebraska
+Sioux City, IA-NE-SD	Dixon County	Nebraska
+Sioux City, IA-NE-SD	Union County	South Dakota
+Sioux Falls, SD	Lincoln County	South Dakota
+Sioux Falls, SD	McCook County	South Dakota
+Sioux Falls, SD	Minnehaha County	South Dakota
+Sioux Falls, SD	Turner County	South Dakota
+Snyder, TX	Scurry County	Texas
+Somerset, KY	Pulaski County	Kentucky
+Somerset, PA	Somerset County	Pennsylvania
+Sonora, CA	Tuolumne County	California
+South Bend-Mishawaka, IN-MI	St. Joseph County	Indiana
+South Bend-Mishawaka, IN-MI	Cass County	Michigan
+Spartanburg, SC	Spartanburg County	South Carolina
+Spearfish, SD	Lawrence County	South Dakota
+Spencer, IA	Clay County	Iowa
+Spirit Lake, IA	Dickinson County	Iowa
+Spokane-Spokane Valley, WA	Spokane County	Washington
+Spokane-Spokane Valley, WA	Stevens County	Washington
+Springfield, IL	Menard County	Illinois
+Springfield, IL	Sangamon County	Illinois
+Springfield, MA	Franklin County	Massachusetts
+Springfield, MA	Hampden County	Massachusetts
+Springfield, MA	Hampshire County	Massachusetts
+Springfield, MO	Christian County	Missouri
+Springfield, MO	Dallas County	Missouri
+Springfield, MO	Greene County	Missouri
+Springfield, MO	Polk County	Missouri
+Springfield, MO	Webster County	Missouri
+Springfield, OH	Clark County	Ohio
+Starkville, MS	Oktibbeha County	Mississippi
+Starkville, MS	Webster County	Mississippi
+State College, PA	Centre County	Pennsylvania
+Statesboro, GA	Bulloch County	Georgia
+Staunton, VA	Augusta County	Virginia
+Staunton, VA	Staunton city	Virginia
+Staunton, VA	Waynesboro city	Virginia
+Steamboat Springs, CO	Routt County	Colorado
+Stephenville, TX	Erath County	Texas
+Sterling, CO	Logan County	Colorado
+Sterling, IL	Whiteside County	Illinois
+Stevens Point, WI	Portage County	Wisconsin
+Stillwater, OK	Payne County	Oklahoma
+Stockton, CA	San Joaquin County	California
+Storm Lake, IA	Buena Vista County	Iowa
+Sturgis, MI	St. Joseph County	Michigan
+Sulphur Springs, TX	Hopkins County	Texas
+Summerville, GA	Chattooga County	Georgia
+Sumter, SC	Clarendon County	South Carolina
+Sumter, SC	Sumter County	South Carolina
+Sunbury, PA	Northumberland County	Pennsylvania
+Susanville, CA	Lassen County	California
+Sweetwater, TX	Nolan County	Texas
+Syracuse, NY	Madison County	New York
+Syracuse, NY	Onondaga County	New York
+Syracuse, NY	Oswego County	New York
+Tahlequah, OK	Cherokee County	Oklahoma
+Talladega-Sylacauga, AL	Talladega County	Alabama
+Tallahassee, FL	Gadsden County	Florida
+Tallahassee, FL	Jefferson County	Florida
+Tallahassee, FL	Leon County	Florida
+Tallahassee, FL	Wakulla County	Florida
+Tampa-St. Petersburg-Clearwater, FL	Hernando County	Florida
+Tampa-St. Petersburg-Clearwater, FL	Hillsborough County	Florida
+Tampa-St. Petersburg-Clearwater, FL	Pasco County	Florida
+Tampa-St. Petersburg-Clearwater, FL	Pinellas County	Florida
+Taos, NM	Taos County	New Mexico
+Taylorville, IL	Christian County	Illinois
+Terre Haute, IN	Clay County	Indiana
+Terre Haute, IN	Parke County	Indiana
+Terre Haute, IN	Sullivan County	Indiana
+Terre Haute, IN	Vermillion County	Indiana
+Terre Haute, IN	Vigo County	Indiana
+Texarkana, TX-AR	Little River County	Arkansas
+Texarkana, TX-AR	Miller County	Arkansas
+Texarkana, TX-AR	Bowie County	Texas
+The Dalles, OR	Wasco County	Oregon
+The Villages, FL	Sumter County	Florida
+Thomaston, GA	Upson County	Georgia
+Thomasville, GA	Thomas County	Georgia
+Tiffin, OH	Seneca County	Ohio
+Tifton, GA	Tift County	Georgia
+Toccoa, GA	Stephens County	Georgia
+Toledo, OH	Fulton County	Ohio
+Toledo, OH	Lucas County	Ohio
+Toledo, OH	Ottawa County	Ohio
+Toledo, OH	Wood County	Ohio
+Topeka, KS	Jackson County	Kansas
+Topeka, KS	Jefferson County	Kansas
+Topeka, KS	Osage County	Kansas
+Topeka, KS	Shawnee County	Kansas
+Topeka, KS	Wabaunsee County	Kansas
+Torrington, CT	Litchfield County	Connecticut
+Traverse City, MI	Benzie County	Michigan
+Traverse City, MI	Grand Traverse County	Michigan
+Traverse City, MI	Kalkaska County	Michigan
+Traverse City, MI	Leelanau County	Michigan
+Trenton-Princeton, NJ	Mercer County	New Jersey
+Troy, AL	Pike County	Alabama
+Truckee-Grass Valley, CA	Nevada County	California
+Tucson, AZ	Pima County	Arizona
+Tullahoma-Manchester, TN	Coffee County	Tennessee
+Tullahoma-Manchester, TN	Franklin County	Tennessee
+Tullahoma-Manchester, TN	Moore County	Tennessee
+Tulsa, OK	Creek County	Oklahoma
+Tulsa, OK	Okmulgee County	Oklahoma
+Tulsa, OK	Osage County	Oklahoma
+Tulsa, OK	Pawnee County	Oklahoma
+Tulsa, OK	Rogers County	Oklahoma
+Tulsa, OK	Tulsa County	Oklahoma
+Tulsa, OK	Wagoner County	Oklahoma
+Tupelo, MS	Itawamba County	Mississippi
+Tupelo, MS	Lee County	Mississippi
+Tupelo, MS	Pontotoc County	Mississippi
+Tupelo, MS	Prentiss County	Mississippi
+Tuscaloosa, AL	Greene County	Alabama
+Tuscaloosa, AL	Hale County	Alabama
+Tuscaloosa, AL	Pickens County	Alabama
+Tuscaloosa, AL	Tuscaloosa County	Alabama
+Twin Falls, ID	Jerome County	Idaho
+Twin Falls, ID	Twin Falls County	Idaho
+Tyler, TX	Smith County	Texas
+Ukiah, CA	Mendocino County	California
+Union, SC	Union County	South Carolina
+Union City, TN	Obion County	Tennessee
+Urbana, OH	Champaign County	Ohio
+Urban Honolulu, HI	Honolulu County	Hawaii
+Utica-Rome, NY	Herkimer County	New York
+Utica-Rome, NY	Oneida County	New York
+Uvalde, TX	Uvalde County	Texas
+Valdosta, GA	Brooks County	Georgia
+Valdosta, GA	Echols County	Georgia
+Valdosta, GA	Lanier County	Georgia
+Valdosta, GA	Lowndes County	Georgia
+Vallejo, CA	Solano County	California
+Van Wert, OH	Van Wert County	Ohio
+Vermillion, SD	Clay County	South Dakota
+Vernal, UT	Uintah County	Utah
+Vernon, TX	Wilbarger County	Texas
+Vicksburg, MS	Warren County	Mississippi
+Victoria, TX	Goliad County	Texas
+Victoria, TX	Victoria County	Texas
+Vidalia, GA	Montgomery County	Georgia
+Vidalia, GA	Toombs County	Georgia
+Vincennes, IN	Knox County	Indiana
+Vineland-Bridgeton, NJ	Cumberland County	New Jersey
+Vineyard Haven, MA	Dukes County	Massachusetts
+Virginia Beach-Norfolk-Newport News, VA-NC	Camden County	North Carolina
+Virginia Beach-Norfolk-Newport News, VA-NC	Currituck County	North Carolina
+Virginia Beach-Norfolk-Newport News, VA-NC	Gates County	North Carolina
+Virginia Beach-Norfolk-Newport News, VA-NC	Gloucester County	Virginia
+Virginia Beach-Norfolk-Newport News, VA-NC	Isle of Wight County	Virginia
+Virginia Beach-Norfolk-Newport News, VA-NC	James City County	Virginia
+Virginia Beach-Norfolk-Newport News, VA-NC	Mathews County	Virginia
+Virginia Beach-Norfolk-Newport News, VA-NC	Southampton County	Virginia
+Virginia Beach-Norfolk-Newport News, VA-NC	York County	Virginia
+Virginia Beach-Norfolk-Newport News, VA-NC	Chesapeake city	Virginia
+Virginia Beach-Norfolk-Newport News, VA-NC	Franklin city	Virginia
+Virginia Beach-Norfolk-Newport News, VA-NC	Hampton city	Virginia
+Virginia Beach-Norfolk-Newport News, VA-NC	Newport News city	Virginia
+Virginia Beach-Norfolk-Newport News, VA-NC	Norfolk city	Virginia
+Virginia Beach-Norfolk-Newport News, VA-NC	Poquoson city	Virginia
+Virginia Beach-Norfolk-Newport News, VA-NC	Portsmouth city	Virginia
+Virginia Beach-Norfolk-Newport News, VA-NC	Suffolk city	Virginia
+Virginia Beach-Norfolk-Newport News, VA-NC	Virginia Beach city	Virginia
+Virginia Beach-Norfolk-Newport News, VA-NC	Williamsburg city	Virginia
+Visalia, CA	Tulare County	California
+Wabash, IN	Wabash County	Indiana
+Waco, TX	Falls County	Texas
+Waco, TX	McLennan County	Texas
+Wahpeton, ND-MN	Wilkin County	Minnesota
+Wahpeton, ND-MN	Richland County	North Dakota
+Walla Walla, WA	Walla Walla County	Washington
+Wapakoneta, OH	Auglaize County	Ohio
+Warner Robins, GA	Houston County	Georgia
+Warner Robins, GA	Peach County	Georgia
+Warren, PA	Warren County	Pennsylvania
+Warrensburg, MO	Johnson County	Missouri
+Warsaw, IN	Kosciusko County	Indiana
+Washington, IN	Daviess County	Indiana
+Washington, NC	Beaufort County	North Carolina
+Washington-Arlington-Alexandria, DC-VA-MD-WV	Frederick County	Maryland
+Washington-Arlington-Alexandria, DC-VA-MD-WV	Montgomery County	Maryland
+Washington-Arlington-Alexandria, DC-VA-MD-WV	District of Columbia County	District of Columbia
+Washington-Arlington-Alexandria, DC-VA-MD-WV	Calvert County	Maryland
+Washington-Arlington-Alexandria, DC-VA-MD-WV	Charles County	Maryland
+Washington-Arlington-Alexandria, DC-VA-MD-WV	Prince George's County	Maryland
+Washington-Arlington-Alexandria, DC-VA-MD-WV	Arlington County	Virginia
+Washington-Arlington-Alexandria, DC-VA-MD-WV	Clarke County	Virginia
+Washington-Arlington-Alexandria, DC-VA-MD-WV	Culpeper County	Virginia
+Washington-Arlington-Alexandria, DC-VA-MD-WV	Fairfax County	Virginia
+Washington-Arlington-Alexandria, DC-VA-MD-WV	Fauquier County	Virginia
+Washington-Arlington-Alexandria, DC-VA-MD-WV	Loudoun County	Virginia
+Washington-Arlington-Alexandria, DC-VA-MD-WV	Madison County	Virginia
+Washington-Arlington-Alexandria, DC-VA-MD-WV	Prince William County	Virginia
+Washington-Arlington-Alexandria, DC-VA-MD-WV	Rappahannock County	Virginia
+Washington-Arlington-Alexandria, DC-VA-MD-WV	Spotsylvania County	Virginia
+Washington-Arlington-Alexandria, DC-VA-MD-WV	Stafford County	Virginia
+Washington-Arlington-Alexandria, DC-VA-MD-WV	Warren County	Virginia
+Washington-Arlington-Alexandria, DC-VA-MD-WV	Alexandria city	Virginia
+Washington-Arlington-Alexandria, DC-VA-MD-WV	Fairfax city	Virginia
+Washington-Arlington-Alexandria, DC-VA-MD-WV	Falls Church city	Virginia
+Washington-Arlington-Alexandria, DC-VA-MD-WV	Fredericksburg city	Virginia
+Washington-Arlington-Alexandria, DC-VA-MD-WV	Manassas city	Virginia
+Washington-Arlington-Alexandria, DC-VA-MD-WV	Manassas Park city	Virginia
+Washington-Arlington-Alexandria, DC-VA-MD-WV	Jefferson County	West Virginia
+Washington Court House, OH	Fayette County	Ohio
+Waterloo-Cedar Falls, IA	Black Hawk County	Iowa
+Waterloo-Cedar Falls, IA	Bremer County	Iowa
+Waterloo-Cedar Falls, IA	Grundy County	Iowa
+Watertown, SD	Codington County	South Dakota
+Watertown, SD	Hamlin County	South Dakota
+Watertown-Fort Atkinson, WI	Jefferson County	Wisconsin
+Watertown-Fort Drum, NY	Jefferson County	New York
+Wauchula, FL	Hardee County	Florida
+Wausau-Weston, WI	Lincoln County	Wisconsin
+Wausau-Weston, WI	Marathon County	Wisconsin
+Waycross, GA	Pierce County	Georgia
+Waycross, GA	Ware County	Georgia
+Weatherford, OK	Custer County	Oklahoma
+Weirton-Steubenville, WV-OH	Jefferson County	Ohio
+Weirton-Steubenville, WV-OH	Brooke County	West Virginia
+Weirton-Steubenville, WV-OH	Hancock County	West Virginia
+Wenatchee, WA	Chelan County	Washington
+Wenatchee, WA	Douglas County	Washington
+West Plains, MO	Howell County	Missouri
+West Point, MS	Clay County	Mississippi
+Wheeling, WV-OH	Belmont County	Ohio
+Wheeling, WV-OH	Marshall County	West Virginia
+Wheeling, WV-OH	Ohio County	West Virginia
+Whitewater, WI	Walworth County	Wisconsin
+Wichita, KS	Butler County	Kansas
+Wichita, KS	Harvey County	Kansas
+Wichita, KS	Sedgwick County	Kansas
+Wichita, KS	Sumner County	Kansas
+Wichita Falls, TX	Archer County	Texas
+Wichita Falls, TX	Clay County	Texas
+Wichita Falls, TX	Wichita County	Texas
+Williamsport, PA	Lycoming County	Pennsylvania
+Williston, ND	Williams County	North Dakota
+Willmar, MN	Kandiyohi County	Minnesota
+Wilmington, NC	New Hanover County	North Carolina
+Wilmington, NC	Pender County	North Carolina
+Wilmington, OH	Clinton County	Ohio
+Wilson, NC	Wilson County	North Carolina
+Winchester, VA-WV	Frederick County	Virginia
+Winchester, VA-WV	Winchester city	Virginia
+Winchester, VA-WV	Hampshire County	West Virginia
+Winfield, KS	Cowley County	Kansas
+Winnemucca, NV	Humboldt County	Nevada
+Winona, MN	Winona County	Minnesota
+Winston-Salem, NC	Davidson County	North Carolina
+Winston-Salem, NC	Davie County	North Carolina
+Winston-Salem, NC	Forsyth County	North Carolina
+Winston-Salem, NC	Stokes County	North Carolina
+Winston-Salem, NC	Yadkin County	North Carolina
+Wisconsin Rapids-Marshfield, WI	Wood County	Wisconsin
+Woodward, OK	Ellis County	Oklahoma
+Woodward, OK	Woodward County	Oklahoma
+Wooster, OH	Wayne County	Ohio
+Worcester, MA-CT	Windham County	Connecticut
+Worcester, MA-CT	Worcester County	Massachusetts
+Worthington, MN	Nobles County	Minnesota
+Yakima, WA	Yakima County	Washington
+Yankton, SD	Yankton County	South Dakota
+Yauco, PR	Guánica County	Puerto Rico
+Yauco, PR	Guayanilla County	Puerto Rico
+Yauco, PR	Peñuelas County	Puerto Rico
+Yauco, PR	Yauco County	Puerto Rico
+York-Hanover, PA	York County	Pennsylvania
+Youngstown-Warren-Boardman, OH-PA	Mahoning County	Ohio
+Youngstown-Warren-Boardman, OH-PA	Trumbull County	Ohio
+Youngstown-Warren-Boardman, OH-PA	Mercer County	Pennsylvania
+Yuba City, CA	Sutter County	California
+Yuba City, CA	Yuba County	California
+Yuma, AZ	Yuma County	Arizona
+Zanesville, OH	Muskingum County	Ohio
+Zapata, TX	Zapata County	Texas

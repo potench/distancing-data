@@ -1,0 +1,384 @@
+New York-Newark-Jersey City, NY-NJ-PA MSA	19,979,477	3/17/20	3/18/20	3/22/20
+Los Angeles-Long Beach-Anaheim, CA MSA	13,291,486	3/13/20	3/16/20	3/19/20
+Chicago-Naperville-Elgin, IL-IN-WI MSA	9,498,716	3/17/20	3/21/20	3/21/20
+Dallas-Fort Worth-Arlington, TX MSA	7,539,711	3/18/20	3/22/20	3/22/20
+Houston-The Woodlands-Sugar Land, TX MSA	6,997,384	3/19/20	3/15/20	3/24/20
+Washington-Arlington-Alexandria, DC-VA-MD-WV MSA	6,249,950	3/16/20	3/17/20	3/20/20
+Miami-Fort Lauderdale-Pompano Beach, FL MSA	6,198,792	3/13/20	3/16/20	
+Philadelphia-Camden-Wilmington, PA-NJ-DE-MD MSA	6,096,372	3/13/20	3/20/20	3/22/20
+Atlanta-Sandy Springs-Alpharetta, GA MSA	5,949,951	3/12/20	3/10/20	3/24/20
+Boston-Cambridge-Newton, MA-NH MSA	4,875,390	3/15/20	3/19/20	3/23/20
+Phoenix-Mesa-Chandler, AZ MSA	4,857,962	3/16/20	3/18/20	3/23/20
+San Francisco-Oakland-Berkeley, CA MSA	4,729,484	3/12/20	3/16/20	3/16/20
+Riverside-San Bernardino-Ontario, CA MSA	4,622,361	3/13/20	3/17/20	3/19/20
+Detroit-Warren-Dearborn, MI MSA	4,326,442	3/12/20	3/11/20	3/23/20
+Seattle-Tacoma-Bellevue, WA MSA	3,939,363	3/11/20	3/12/20	3/23/20
+Minneapolis-St. Paul-Bloomington, MN-WI MSA	3,629,190	3/15/20	3/16/20	3/27/20
+San Diego-Chula Vista-Carlsbad, CA MSA	3,343,364	3/13/20	3/19/20	3/22/20
+Tampa-St. Petersburg-Clearwater, FL MSA	3,142,663	3/13/20	3/17/20	3/27/20
+Denver-Aurora-Lakewood, CO MSA	2,932,415	3/12/20	3/16/20	3/22/20
+St. Louis, MO-IL MSA	2,805,465	3/17/20	3/15/20	3/21/20
+Baltimore-Columbia-Towson, MD MSA	2,802,789	3/16/20	3/14/20	
+Orlando-Kissimmee-Sanford, FL MSA	2,572,693	3/16/20	3/20/20	
+Charlotte-Concord-Gastonia, NC-SC MSA	2,569,213	3/13/20	3/20/20	3/24/20
+San Antonio-New Braunfels, TX MSA	2,518,036	3/12/20	3/18/20	3/23/20
+Portland-Vancouver-Hillsboro, OR-WA MSA	2,478,810	3/13/20	3/21/20	3/23/20
+Sacramento–Roseville–Folsom, CA MSA	2,345,210	3/13/20	3/11/20	3/18/20
+Pittsburgh, PA MSA	2,324,743	3/16/20	3/15/20	3/23/20
+Las Vegas-Henderson-Paradise, NV MSA	2,231,647	3/17/20	3/24/20	
+Cincinnati, OH-KY-IN MSA	2,190,209	3/17/20	3/19/20	3/24/20
+Austin-Round Rock-Georgetown, TX MSA	2,168,316	3/13/20	3/21/20	3/24/20
+Kansas City, MO-KS MSA	2,143,651	3/13/20	3/15/20	3/23/20
+Columbus, OH MSA	2,106,541	3/16/20	3/17/20	3/22/20
+Cleveland-Elyria, OH MSA	2,057,009	3/16/20	3/12/20	3/23/20
+Indianapolis-Carmel-Anderson, IN MSA	2,048,703	3/12/20	3/16/20	3/23/20
+San Jose-Sunnyvale-Santa Clara, CA MSA	1,999,107	3/13/20	3/22/20	3/22/20
+Nashville-Davidson–Murfreesboro–Franklin, TN MSA	1,930,961	3/16/20	3/12/20	3/22/20
+Virginia Beach-Norfolk-Newport News, VA-NC MSA	1,728,733	3/16/20	3/16/20	
+Providence-Warwick, RI-MA MSA	1,621,337	3/16/20	3/16/20	
+Milwaukee-Waukesha, WI MSA	1,576,113	3/13/20	3/17/20	3/24/20
+Jacksonville, FL MSA	1,534,701	3/13/20	3/17/20	3/24/20
+Oklahoma City, OK MSA	1,396,445	3/16/20	3/16/20	3/23/20
+Raleigh-Cary, NC MSA	1,362,540	3/14/20	3/16/20	
+Memphis, TN-MS-AR MSA	1,350,620	3/13/20	3/19/20	3/23/20
+Richmond, VA MSA	1,306,172	3/23/20	3/13/20	3/22/20
+Louisville/Jefferson County, KY-IN MSA	1,297,310	3/13/20	3/17/20	3/21/20
+New Orleans-Metairie, LA MSA	1,270,399	3/12/20	3/17/20	3/20/20
+Salt Lake City, UT MSA	1,222,540	3/16/20	3/17/20	
+Hartford-East Hartford-Middletown, CT MSA	1,206,300	3/16/20	3/12/20	3/23/20
+Birmingham-Hoover, AL MSA	1,151,801	3/16/20	3/12/20	3/24/20
+Buffalo-Cheektowaga, NY MSA	1,130,152	3/16/20	3/13/20	3/25/20
+Rochester, NY MSA	1,071,082	3/11/20	3/13/20	3/22/20
+Grand Rapids-Kentwood, MI MSA	1,069,405	3/16/20	3/13/20	3/24/20
+Tucson, AZ MSA	1,039,073	3/16/20	3/17/20	
+Fresno, CA MSA	994,400	3/16/20	3/11/20	3/19/20
+Tulsa, OK MSA	993,797	3/17/20	3/14/20	3/24/20
+Urban Honolulu, HI MSA	980,080	3/12/20	3/17/20	3/23/20
+Worcester, MA-CT MSA	947,866	3/13/20	3/13/20	3/24/20
+Bridgeport-Stamford-Norwalk, CT MSA	943,823	3/13/20	3/12/20	3/23/20
+Omaha-Council Bluffs, NE-IA MSA	942,198	3/16/20	3/16/20	
+Albuquerque, NM MSA	915,927	3/16/20	3/12/20	3/24/20
+Greenville-Anderson, SC MSA	906,626	3/16/20	3/16/20	
+Bakersfield, CA MSA	896,764	3/18/20	3/12/20	3/19/20
+Knoxville, TN MSA	883,309	3/16/20	3/13/20	3/24/20
+Albany-Schenectady-Troy, NY MSA	883,169			
+McAllen-Edinburg-Mission, TX MSA	865,939			
+New Haven-Milford, CT MSA	857,620			
+Oxnard-Thousand Oaks-Ventura, CA MSA	850,967			
+El Paso, TX MSA	845,553			
+Allentown-Bethlehem-Easton, PA-NJ MSA	842,913			
+Columbia, SC MSA	832,666			
+Baton Rouge, LA MSA	831,310			
+North Port-Sarasota-Bradenton, FL MSA	821,573			
+Dayton-Kettering, OH MSA	806,548			
+Charleston-North Charleston, SC MSA	787,643			
+Greensboro-High Point, NC MSA	767,711			
+Cape Coral-Fort Myers, FL MSA	754,610			
+Stockton, CA MSA	752,660			
+Little Rock-North Little Rock-Conway, AR MSA	741,104			
+Colorado Springs, CO MSA	738,939			
+Boise City, ID MSA	730,426			
+Lakeland-Winter Haven, FL MSA	708,009			
+Akron, OH MSA	704,845			
+Poughkeepsie-Newburgh-Middletown, NY MSA	675,669			
+Ogden-Clearfield, UT MSA	675,067			
+Winston-Salem, NC MSA	671,456			
+Madison, WI MSA	660,422			
+Deltona-Daytona Beach-Ormond Beach, FL MSA	659,605			
+Des Moines-West Des Moines, IA MSA	655,409			
+Syracuse, NY MSA	650,502			
+Wichita, KS MSA	644,888			
+Provo-Orem, UT MSA	633,768			
+Springfield, MA MSA	631,761			
+Augusta-Richmond County, GA-SC MSA	604,167			
+Toledo, OH MSA	602,871			
+Palm Bay-Melbourne-Titusville, FL MSA	596,849			
+Jackson, MS MSA	580,166			
+Durham-Chapel Hill, NC MSA	575,412			
+Harrisburg-Carlisle, PA MSA	574,659			
+Spokane-Spokane Valley, WA MSA	573,493			
+Chattanooga, TN-GA MSA	560,793			
+Scranton-–Wilkes-Barre, PA MSA	555,485			
+Modesto, CA MSA	549,815			
+Fayetteville-Springdale-Rogers, AR MSA	549,128			
+Lancaster, PA MSA	543,557			
+Youngstown-Warren-Boardman, OH-PA MSA	538,952			
+Portland-South Portland, ME MSA	535,420			
+Lexington-Fayette, KY MSA	516,697			
+Santa Rosa-Petaluma, CA MSA	499,942			
+Pensacola-Ferry Pass-Brent, FL MSA	494,883			
+Lafayette, LA MSA	489,364			
+Port St. Lucie, FL MSA	482,040			
+Lansing-East Lansing, MI MSA	481,893			
+Myrtle Beach-Conway-North Myrtle Beach, SC-NC MSA	480,891			
+Reno, NV MSA	469,764			
+Springfield, MO MSA	466,978			
+Visalia, CA MSA	465,861			
+Huntsville, AL MSA	462,693			
+Asheville, NC MSA	459,585			
+Corpus Christi, TX MSA	452,950			
+Killeen-Temple, TX MSA	451,679			
+York-Hanover, PA MSA	448,273			
+Vallejo, CA MSA	446,610			
+Santa Maria-Santa Barbara, CA MSA	446,527			
+Fort Wayne, IN MSA	437,631			
+Shreveport-Bossier City, LA MSA	436,341			
+Salinas, CA MSA	435,594			
+Salem, OR MSA	432,102			
+Brownsville-Harlingen, TX MSA	423,908			
+Reading, PA MSA	420,152			
+Manchester-Nashua, NH MSA	415,247			
+Mobile, AL MSA	413,757			
+Salisbury, MD-DE MSA	409,979			
+Beaumont-Port Arthur, TX MSA	409,526			
+Flint, MI MSA	406,892			
+Anchorage, AK MSA	399,148			
+Canton-Massillon, OH MSA	398,655			
+Gulfport-Biloxi, MS MSA	397,261			
+Savannah, GA MSA	389,494			
+Fayetteville, NC MSA	387,094			
+Tallahassee, FL MSA	385,145			
+Davenport-Moline-Rock Island, IA-IL MSA	381,451			
+Eugene-Springfield, OR MSA	379,611			
+Naples-Marco Island, FL MSA	378,488			
+Montgomery, AL MSA	373,225			
+Ann Arbor, MI MSA	370,963			
+Trenton-Princeton, NJ MSA	369,811			
+Hickory-Lenoir-Morganton, NC MSA	368,416			
+Peoria, IL MSA	368,373			
+Ocala, FL MSA	359,977			
+Huntington-Ashland, WV-KY-OH MSA	352,823			
+Fort Collins, CO MSA	350,518			
+Spartanburg, SC MSA	341,298			
+Kalamazoo-Portage, MI MSA	340,318			
+Rockford, IL MSA	337,658			
+Lincoln, NE MSA	334,590			
+Boulder, CO MSA	326,078			
+South Bend-Mishawaka, IN-MI MSA	322,424			
+Green Bay, WI MSA	321,591			
+Lubbock, TX MSA	319,068			
+Evansville, IN-KY MSA	314,672			
+Greeley, CO MSA	314,305			
+Roanoke, VA MSA	314,172			
+Kingsport-Bristol, TN-VA MSA	306,616			
+Columbus, GA-AL MSA	305,451			
+Kennewick-Richland, WA MSA	296,224			
+Wilmington, NC MSA	294,436			
+Clarksville, TN-KY MSA	292,264			
+Utica-Rome, NY MSA	291,410			
+Gainesville, FL MSA	288,212			
+Olympia-Lacey-Tumwater, WA MSA	286,419			
+San Luis Obispo-Paso Robles, CA MSA	284,010			
+Fort Smith, AR-OK MSA	282,318			
+Duluth, MN-WI MSA	278,799			
+Crestview-Fort Walton Beach-Destin, FL MSA	278,644			
+Laredo, TX MSA	275,910			
+Merced, CA MSA	274,765			
+Santa Cruz-Watsonville, CA MSA	274,255			
+Cedar Rapids, IA MSA	272,295			
+Erie, PA MSA	272,061			
+Waco, TX MSA	271,942			
+Bremerton-Silverdale-Port Orchard, WA MSA	269,805			
+Hagerstown-Martinsburg, MD-WV MSA	268,049			
+Norwich-New London, CT MSA	266,784			
+Amarillo, TX MSA	265,947			
+Sioux Falls, SD MSA	265,653			
+Atlantic City-Hammonton, NJ MSA	265,429			
+Lynchburg, VA MSA	263,353			
+College Station-Bryan, TX MSA	262,431			
+Yakima, WA MSA	251,446			
+Fargo, ND-MN MSA	245,471			
+Tuscaloosa, AL MSA	243,575			
+Binghamton, NY MSA	240,219			
+Champaign-Urbana, IL MSA	239,643			
+Appleton, WI MSA	237,524			
+Charlottesville, VA MSA	235,232			
+Topeka, KS MSA	232,594			
+Prescott Valley-Prescott, AZ MSA	231,993			
+Chico, CA MSA	231,256			
+Tyler, TX MSA	230,221			
+Macon-Bibb County, GA MSA	229,737			
+Bellingham, WA MSA	225,685			
+Lafayette-West Lafayette, IN MSA	221,828			
+Burlington-South Burlington, VT MSA	221,083			
+Rochester, MN MSA	219,802			
+Medford, OR MSA	219,564			
+Longview, TX MSA	219,417			
+Daphne-Fairhope-Foley, AL MSA	218,022			
+Hilton Head Island-Bluffton, SC MSA	217,686			
+Las Cruces, NM MSA	217,522			
+Barnstable Town, MA MSA	213,413			
+Yuma, AZ MSA	212,128			
+Athens-Clarke County, GA MSA	211,306			
+Charleston, WV MSA	211,037			
+Lake Charles, LA MSA	210,080			
+Lake Havasu City-Kingman, AZ MSA	209,550			
+Houma-Thibodaux, LA MSA	209,136			
+Springfield, IL MSA	207,636			
+Elkhart-Goshen, IN MSA	205,560			
+Florence, SC MSA	204,961			
+Johnson City, TN MSA	202,719			
+Gainesville, GA MSA	202,148			
+Panama City, FL MSA	201,451			
+St. Cloud, MN MSA	199,801			
+Jacksonville, NC MSA	197,683			
+Racine, WI MSA	196,584			
+Warner Robins, GA MSA	193,835			
+Bend, OR MSA	191,996			
+Saginaw, MI MSA	190,800			
+Bloomington, IL MSA	188,597			
+Punta Gorda, FL MSA	184,998			
+Blacksburg-Christiansburg-Radford, VA MSA	184,029			
+El Centro, CA MSA	181,827			
+Redding, CA MSA	180,040			
+Columbia, MO MSA	180,005			
+Greenville, NC MSA	179,914			
+Joplin, MO MSA	178,902			
+Kingston, NY MSA	178,599			
+Dover, DE MSA	178,550			
+Midland, TX MSA	178,337			
+Bowling Green, KY MSA	177,432			
+Monroe, LA MSA	176,805			
+Yuba City, CA MSA	174,848			
+Muskegon, MI MSA	173,588			
+Iowa City, IA MSA	173,401			
+St. George, UT MSA	171,700			
+Billings, MT MSA	171,677			
+Abilene, TX MSA	171,451			
+Oshkosh-Neenah, WI MSA	171,020			
+Terre Haute, IN MSA	169,725			
+Waterloo-Cedar Falls, IA MSA	169,659			
+East Stroudsburg, PA MSA	169,507			
+Sioux City, IA-NE-SD MSA	169,405			
+Eau Claire, WI MSA	168,669			
+Bloomington, IN MSA	167,762			
+Pueblo, CO MSA	167,529			
+Kahului-Wailuku-Lahaina, HI MSA	167,295			
+Burlington, NC MSA	166,436			
+Auburn-Opelika, AL MSA	163,941			
+Janesville-Beloit, WI MSA	163,129			
+State College, PA MSA	162,805			
+Odessa, TX MSA	162,124			
+Coeur d'Alene, ID MSA	161,505			
+Jackson, MI MSA	158,823			
+Madera, CA MSA	157,672			
+Sebastian-Vero Beach, FL MSA	157,413			
+Chambersburg-Waynesboro, PA MSA	154,835			
+Niles, MI MSA	154,141			
+Elizabethtown-Fort Knox, KY MSA	153,378			
+Grand Junction, CO MSA	153,207			
+Alexandria, LA MSA	153,044			
+Albany, GA MSA	153,009			
+Decatur, AL MSA	152,046			
+Jefferson City, MO MSA	151,520			
+Hanford-Corcoran, CA MSA	151,366			
+Wichita Falls, TX MSA	151,306			
+Bangor, ME MSA	151,096			
+Vineland-Bridgeton, NJ MSA	150,972			
+Monroe, MI MSA	150,972			
+Texarkana, TX-AR MSA	150,242			
+Santa Fe, NM MSA	150,056			
+Hattiesburg, MS MSA	149,414			
+Idaho Falls, ID MSA	148,904			
+Rapid City, SD MSA	148,749			
+Dothan, AL MSA	148,245			
+Homosassa Springs, FL MSA	147,929			
+Florence-Muscle Shoals, AL MSA	147,149			
+Valdosta, GA MSA	146,174			
+Rocky Mount, NC MSA	146,021			
+Dalton, GA MSA	143,983			
+Flagstaff, AZ MSA	142,854			
+Lebanon, PA MSA	141,314			
+Logan, UT-ID MSA	140,794			
+Morgantown, WV MSA	140,259			
+Wheeling, WV-OH MSA	140,045			
+Winchester, VA-WV MSA	139,810			
+Napa, CA MSA	139,417			
+La Crosse-Onalaska, WI-MN MSA	136,808			
+Wausau-Weston, WI MSA	135,428			
+Harrisonburg, VA MSA	135,277			
+Springfield, OH MSA	134,585			
+Battle Creek, MI MSA	134,487			
+Sherman-Denison, TX MSA	133,991			
+Hammond, LA MSA	133,777			
+Bismarck, ND MSA	132,678			
+Jonesboro, AR MSA	132,532			
+Johnstown, PA MSA	131,730			
+Jackson, TN MSA	129,209			
+The Villages, FL MSA	128,754			
+Mount Vernon-Anacortes, WA MSA	128,206			
+Albany-Lebanon, OR MSA	127,335			
+Sierra Vista-Douglas, AZ MSA	126,770			
+St. Joseph, MO-KS MSA	126,490			
+Pittsfield, MA MSA	126,348			
+Lawton, OK MSA	126,198			
+Glens Falls, NY MSA	125,462			
+New Bern, NC MSA	125,219			
+Farmington, NM MSA	125,043			
+Carbondale-Marion, IL MSA	124,475			
+Cleveland, TN MSA	123,625			
+Goldsboro, NC MSA	123,248			
+Staunton, VA MSA	123,007			
+Altoona, PA MSA	122,492			
+Lawrence, KS MSA	121,436			
+Mansfield, OH MSA	121,099			
+Wenatchee, WA MSA	119,943			
+San Angelo, TX MSA	119,711			
+Owensboro, KY MSA	119,114			
+Missoula, MT MSA	118,791			
+Morristown, TN MSA	118,581			
+Brunswick, GA MSA	118,456			
+Beckley, WV MSA	117,272			
+Weirton-Steubenville, WV-OH MSA	117,064			
+Sheboygan, WI MSA	115,456			
+Muncie, IN MSA	114,772			
+Anniston-Oxford, AL MSA	114,277			
+Williamsport, PA MSA	113,664			
+California-Lexington Park, MD MSA	112,664			
+Watertown-Fort Drum, NY MSA	111,755			
+Twin Falls, ID MSA	110,096			
+Kankakee, IL MSA	110,024			
+Michigan City-La Porte, IN MSA	110,007			
+Longview, WA MSA	108,987			
+Lewiston-Auburn, ME MSA	107,679			
+Sumter, SC MSA	106,512			
+Sebring-Avon Park, FL MSA	105,424			
+Decatur, IL MSA	104,712			
+Bay City, MI MSA	103,923			
+Fond du Lac, WI MSA	103,066			
+Gettysburg, PA MSA	102,811			
+Ithaca, NY MSA	102,793			
+Lima, OH MSA	102,663			
+Gadsden, AL MSA	102,501			
+Grand Forks, ND-MN MSA	102,299			
+Mankato, MN MSA	101,647			
+Victoria, TX MSA	99,619			
+Hot Springs, AR MSA	99,154			
+Cheyenne, WY MSA	98,976			
+Fairbanks, AK MSA	98,971			
+Ames, IA MSA	98,105			
+Manhattan, KS MSA	97,980			
+Rome, GA MSA	97,927			
+Cumberland, MD-WV MSA	97,915			
+Cape Girardeau, MO-IL MSA	96,982			
+Dubuque, IA MSA	96,854			
+Ocean City, NJ MSA	92,560			
+Corvallis, OR MSA	92,101			
+Parkersburg-Vienna, WV MSA	90,033			
+Pine Bluff, AR MSA	89,515			
+Grants Pass, OR MSA	87,393			
+Pocatello, ID MSA	87,138			
+Grand Island, NE MSA	85,088			
+Elmira, NY MSA	84,254			
+Bloomsburg-Berwick, PA MSA	83,696			
+Midland, MI MSA	83,209			
+Columbus, IN MSA	82,753			
+Kokomo, IN MSA	82,366			
+Great Falls, MT MSA	81,643			
+Hinesville, GA MSA	80,495			
+Casper, WY MSA	79,115			
+Danville, IL MSA	76,806			
+Walla Walla, WA MSA	64,981			
+Lewiston, ID-WA MSA	63,018			
+Enid, OK MSA	60,913			
+Carson City, NV MSA	55,414			
