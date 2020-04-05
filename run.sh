@@ -27,6 +27,8 @@ run_complete() {
 
     csvs=($(ls -p ./csv/$directory/ | grep -v /))
     echo "======== $directory + $parser ========"
+    echo "delete from covids;" | mysql $database
+    
     for i in "${csvs[@]}"
     do  
         # grab date part
