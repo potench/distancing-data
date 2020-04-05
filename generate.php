@@ -163,7 +163,8 @@ foreach (AllCovidsByDay($day) as $C) {
 	$last_total = number_format($last_total);
 	$days_left = DaysToPeak($current_ratio);
 	$popu = $pop[$st];
-	$C->SavePop(intval($popu));
+	$popuint = preg_replace("/,/","",$popu);
+	$C->SavePop(intval($popuint));
 	$peak_density = '';
 	$rcolor='';
 	$dcolor='';
@@ -179,7 +180,7 @@ foreach (AllCovidsByDay($day) as $C) {
 	$sch = '';
 	$lock = '';
 	$est_bed_shortage = 0;
-	if ($popu) {
+	if ($popuint) {
 		$sch = $schooldays[$st];
 		$lock = $lockdays[$st];
 		$est_beds = preg_replace("/,/","",$popu)/10000;
