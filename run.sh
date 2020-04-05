@@ -27,7 +27,6 @@ run_complete() {
 
     csvs=($(ls -p ./csv/$directory/ | grep -v /))
     echo "======== $directory + $parser ========"
-    echo "delete from covids;" | mysql $database
     
     for i in "${csvs[@]}"
     do  
@@ -77,7 +76,9 @@ if [ "$fetch" = "true" ]; then
     run_insert $date 'parse'
     run_generate $date
 elif [ "$complete" = "true" ]; then
-    echo "Running all cvs and json - this will take a minute"
+    echo "Resetting covids table and running all cvs and json - this will take a minute"
+    echo "delete from covids;" | mysql $database
+
     run_complete 'old' 'stateparse'
     run_complete 'new' 'parse'
 
