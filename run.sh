@@ -66,7 +66,7 @@ run_generate() {
 run_json() {
     datepart=$1
     echo "  > GENERATE JSON: $datepart";
-    htmlout=`php generate-json.php day $datepart`
+    htmlout=`php generate-manually.php $datepart`
     echo "      > $htmlout"
 }
 
