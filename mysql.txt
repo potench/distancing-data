@@ -10,6 +10,7 @@ CREATE TABLE `covids` (
   `deaths` int(11) NULL DEFAULT 0,
   `recovers` int(11) NULL DEFAULT 0,
   `new_cases` int(11) NULL DEFAULT 0,
+  `pop` int(11) NULL DEFAULT 0,
   PRIMARY KEY (`id`),
   KEY `day` (`day`),
   KEY `state` (`region`),

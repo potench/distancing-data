@@ -157,13 +157,13 @@ foreach (AllCovidsByDay($day) as $C) {
 	} else if ($C->region_type != 'World') {
 		$st = $C->region. ' '.$C->region_type;
 	}
-
 	$current_ratio = $C->ratio;
 	$last_total = $C->cases;
 	$peak_cases = number_format(RoundSigDigs($C->peak,2));
 	$last_total = number_format($last_total);
 	$days_left = DaysToPeak($current_ratio);
 	$popu = $pop[$st];
+	$C->SavePop(intval($popu));
 	$peak_density = '';
 	$rcolor='';
 	$dcolor='';

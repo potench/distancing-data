@@ -159,8 +159,16 @@ class TableObject {
 
 class Covid extends TableObject {
 	var $table = 'covids';
-	var $rows = array('id','day','region','cases','ratio','peak','country','region_type','deaths','recovers','new_cases');
+	var $rows = array('id','day','region','cases','ratio','peak','country','region_type','deaths','recovers','new_cases','pop');
 	var $primary_keys = array('id');
+
+	function SavePop($popu) {
+		if (!$this->pop) {
+			// echo "savePop: $this->region $popu \n";
+			$this->pop = $popu;
+			$this->Save();
+		}
+	}
 
 	function FillRatioPeak() {
 		if (!$this->ratio) {

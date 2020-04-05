@@ -26,9 +26,7 @@ mysqli_query($GLOBALS['DBH'], "SET SESSION sql_mode = ''");
 $return_arr = Array();
 
 $byDay = ($date) ? "WHERE day='$year-$date'" : "";
-$query = "SELECT * FROM `covids` $byDay"; 
-
-// echo "$query \n";
+$query = "SELECT region, country, region_type, ratio, cases, peak, deaths, recovers, new_cases, pop  FROM `covids` $byDay"; 
 
 $result = mysqli_query($GLOBALS['DBH'],$query) or die("Query Failed: $query");
 
