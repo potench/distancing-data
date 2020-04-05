@@ -33,8 +33,9 @@ print "DELETE FROM `covids` WHERE `day` = '".$year."-".$today."'; \n";
 
 #FIPS	Admin2	Province_State	Country_Region	Last_Update	Lat	Long_	Confirmed	Deaths	Recovered	Active	Combined_Key
 foreach (preg_split("/\n/",$data) as $line) {
-	$line = preg_replace("/'/","''",$line);
-	$parts = preg_split("/,/",$line);
+	// $line = preg_replace("/'/","''",$line);
+	// $parts = preg_split("/,/",$line);
+	$parts = str_getcsv($line, ",", '"');
 	$count = $parts['7'];
 	$deaths = $parts['8'];
 	$recovers = $parts['9'];
