@@ -4,6 +4,7 @@ complete=${complete} # runs all csvs
 date=${date}
 database=${database}
 
+
 while [ $# -gt 0 ]; do
    if [[ $1 == *"--"* ]]; then
         param="${1/--/}"
@@ -30,11 +31,12 @@ run_complete() {
         # grab date part
         filename=(`echo $i | sed -En 's/[^0-9]*([0-9]{1,})[^0-9]*/\1 /gp'`) 
         datepart="${filename[0]}-${filename[1]}"
-        run_file $parser $datepart
+        run_insert $parser $datepart
+        run_generate
     done
 }
 
-run_file() {
+run_insert() {
     parser=$1
     datepart=$2
     
@@ -45,17 +47,22 @@ run_file() {
     echo "$sqlout" | mysql $database
 }
 
+run_generate() {
+    echo "  >   GENERATING: php generate.php $datepart"
+    htmlout=`php generate.php $datepart`
+    echo "$htmlout" > output.txt
+    echo "$htmlout"
+}
+
 if [ "$complete" = "true" ]; then
     echo "Running all cvs - this will take a minute"
     run_complete 'old' 'stateparse'
     run_complete 'new' 'parse'
 elif [ "$date" != "" ]; then
     if [[ "$parser" =  "generate" ]]; then
-        echo "  >   GENERATING: php generate.php $date"
-        htmlout=`php generate.php $date`
-        echo "$htmlout" > output.txt
-        echo "$htmlout"
+        run_generate $date
     else
-        run_file $parser $date
+        run_insert $parser $date
+        run_generate $date
     fi
 fi

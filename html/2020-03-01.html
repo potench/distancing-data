@@ -1,0 +1,1601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-87949-17"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-87949-17');
+</script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Daily infection counts, rates, and predictions for the covid-19 coronavirus by region.</title>
+<link rel="icon" type="image/png" sizes="96x96" href="favicon.png">
+<link rel="manifest" href="manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/mdb.min.css">
+<!-- MDBootstrap Datatables  -->
+<link href="css/addons/datatables.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="css/style.css">
+<style>
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting:before,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_asc:before,
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_asc_disabled:before,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_desc:before,
+table.dataTable thead .sorting_desc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:before {
+bottom: .5em;
+}</style>
+</head>
+<body style="margin:10px">
+<h1>&#x1F9A0; Live Covid-19 Cases for <b>March 1st</b></h1>
+<h5><small
+Data is pulled daily from <a href=https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports>this repository.</a>
+Estimates assume physical distancing remains in place until the availability of widespread testing and contact tracing.
+Peak estimates are based on <a href=https://www.facebook.com/blakestah>Dave Blake Jr.'s</a> work. See this <a href=https://medium.com/@dblake.mcg/estimating-peak-covid19-infection-rates-950c7f3cfc1a?sk=12e76358dedf8294e01e247e2c663bde>post.</a>
+Estimated ICU beds assume 1 bed per 10,000 people, and 10% of cases will need one.
+The real-time nature of this event means we cannot promise our estimates are accurate. You may download the source code for this site <a href=source.zip>here.</a>
+</small></h5>
+<br>
+<h5>Try searching for <i>"China"</i>, <i>"Europe"</i>, <i>"City"</i>, <i>"New York"</i>, etc..</h5>
+<table id="dtBasicExample" class="table table-striped table-bordered table-sm" cellspacing="0" width="100%">
+  <thead>
+    <tr>
+      <th class="th-sm">Region
+      </th>
+      <th class="th-sm">Type
+      </th>
+      <th class="th-sm">Population
+      </th>
+      <th class="th-sm">Confirmed Total Cases
+      </th>
+      <th class="th-sm">Current Daily Growth
+      </th>
+      <th class="th-sm">Days Since Schools Closed
+      </th>
+      <th class="th-sm">Days Since Physical Distancing
+      </th>
+      <th class="th-sm">Est. Peak Cases
+      </th>
+      <th class="th-sm">Est. Spare ICU Beds
+      </th>
+      <th class="th-sm">Days To Peak Cases
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+
+<tr>
+<td>Hubei</td>
+<td>State in Mainland China</td>
+<td></td>
+<td>66,907</td>
+<td style='background-color:lightgreen'>1%</td>
+<td></td>
+<td></td>
+<td>74,000</td>
+<td style='background-color:'>0</td>
+<td>3</td>
+</tr>
+<tr>
+<td>South Korea</td>
+<td>Country in Eastern Asia</td>
+<td>51,000,000</td>
+<td>3,736</td>
+<td style='background-color:lightgoldenrodyellow'>28%</td>
+<td></td>
+<td></td>
+<td>120,000</td>
+<td style='background-color:palevioletred'>-6,900</td>
+<td>20</td>
+</tr>
+<tr>
+<td>Italy</td>
+<td>Country in Southern Europe</td>
+<td>61,000,000</td>
+<td>1,694</td>
+<td style='background-color:palevioletred'>37%</td>
+<td></td>
+<td></td>
+<td>81,000</td>
+<td style='background-color:lightgoldenrodyellow'>-2,000</td>
+<td>30</td>
+</tr>
+<tr>
+<td>Guangdong</td>
+<td>State in Mainland China</td>
+<td></td>
+<td>1,349</td>
+<td style='background-color:lightgreen'>0%</td>
+<td></td>
+<td></td>
+<td>1,300</td>
+<td style='background-color:'>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Henan</td>
+<td>State in Mainland China</td>
+<td></td>
+<td>1,272</td>
+<td style='background-color:lightgreen'>0%</td>
+<td></td>
+<td></td>
+<td>1,300</td>
+<td style='background-color:'>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Zhejiang</td>
+<td>State in Mainland China</td>
+<td></td>
+<td>1,205</td>
+<td style='background-color:lightgreen'>0%</td>
+<td></td>
+<td></td>
+<td>1,200</td>
+<td style='background-color:'>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Hunan</td>
+<td>State in Mainland China</td>
+<td></td>
+<td>1,018</td>
+<td style='background-color:lightgreen'>0%</td>
+<td></td>
+<td></td>
+<td>1,000</td>
+<td style='background-color:'>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Anhui</td>
+<td>State in Mainland China</td>
+<td></td>
+<td>990</td>
+<td style='background-color:lightgreen'>0%</td>
+<td></td>
+<td></td>
+<td>990</td>
+<td style='background-color:'>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Iran</td>
+<td>Country in Southern Asia</td>
+<td>83,000,000</td>
+<td>978</td>
+<td style='background-color:palevioletred'>59%</td>
+<td></td>
+<td></td>
+<td>47,000</td>
+<td style='background-color:lightgreen'>3,600</td>
+<td>30</td>
+</tr>
+<tr>
+<td>Jiangxi</td>
+<td>State in Mainland China</td>
+<td></td>
+<td>935</td>
+<td style='background-color:lightgreen'>0%</td>
+<td></td>
+<td></td>
+<td>940</td>
+<td style='background-color:'>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Shandong</td>
+<td>State in Mainland China</td>
+<td></td>
+<td>758</td>
+<td style='background-color:lightgreen'>0%</td>
+<td></td>
+<td></td>
+<td>760</td>
+<td style='background-color:'>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Diamond Princess cruise ship</td>
+<td>State in Others</td>
+<td></td>
+<td>705</td>
+<td style='background-color:lightgreen'>0%</td>
+<td></td>
+<td></td>
+<td>710</td>
+<td style='background-color:'>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Jiangsu</td>
+<td>State in Mainland China</td>
+<td></td>
+<td>631</td>
+<td style='background-color:lightgreen'>0%</td>
+<td></td>
+<td></td>
+<td>630</td>
+<td style='background-color:'>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Chongqing</td>
+<td>State in Mainland China</td>
+<td></td>
+<td>576</td>
+<td style='background-color:lightgreen'>0%</td>
+<td></td>
+<td></td>
+<td>580</td>
+<td style='background-color:'>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Sichuan</td>
+<td>State in Mainland China</td>
+<td></td>
+<td>538</td>
+<td style='background-color:lightgreen'>0%</td>
+<td></td>
+<td></td>
+<td>540</td>
+<td style='background-color:'>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Heilongjiang</td>
+<td>State in Mainland China</td>
+<td></td>
+<td>480</td>
+<td style='background-color:lightgreen'>0%</td>
+<td></td>
+<td></td>
+<td>480</td>
+<td style='background-color:'>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Beijing</td>
+<td>State in Mainland China</td>
+<td></td>
+<td>413</td>
+<td style='background-color:lightgreen'>0%</td>
+<td></td>
+<td></td>
+<td>410</td>
+<td style='background-color:'>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Shanghai</td>
+<td>State in Mainland China</td>
+<td></td>
+<td>337</td>
+<td style='background-color:lightgreen'>0%</td>
+<td></td>
+<td></td>
+<td>340</td>
+<td style='background-color:'>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Hebei</td>
+<td>State in Mainland China</td>
+<td></td>
+<td>318</td>
+<td style='background-color:lightgreen'>0%</td>
+<td></td>
+<td></td>
+<td>320</td>
+<td style='background-color:'>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Fujian</td>
+<td>State in Mainland China</td>
+<td></td>
+<td>296</td>
+<td style='background-color:lightgreen'>0%</td>
+<td></td>
+<td></td>
+<td>300</td>
+<td style='background-color:'>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Japan</td>
+<td>Country in Eastern Asia</td>
+<td>130,000,000</td>
+<td>256</td>
+<td style='background-color:lightgreen'>6%</td>
+<td></td>
+<td></td>
+<td>320</td>
+<td style='background-color:lightgreen'>12,968</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Guangxi</td>
+<td>State in Mainland China</td>
+<td></td>
+<td>252</td>
+<td style='background-color:lightgreen'>0%</td>
+<td></td>
+<td></td>
+<td>250</td>
+<td style='background-color:'>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Shaanxi</td>
+<td>State in Mainland China</td>
+<td></td>
+<td>245</td>
+<td style='background-color:lightgreen'>0%</td>
+<td></td>
+<td></td>
+<td>250</td>
+<td style='background-color:'>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Yunnan</td>
+<td>State in Mainland China</td>
+<td></td>
+<td>174</td>
+<td style='background-color:lightgreen'>0%</td>
+<td></td>
+<td></td>
+<td>170</td>
+<td style='background-color:'>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Hainan</td>
+<td>State in Mainland China</td>
+<td></td>
+<td>168</td>
+<td style='background-color:lightgreen'>0%</td>
+<td></td>
+<td></td>
+<td>170</td>
+<td style='background-color:'>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Guizhou</td>
+<td>State in Mainland China</td>
+<td></td>
+<td>146</td>
+<td style='background-color:lightgreen'>0%</td>
+<td></td>
+<td></td>
+<td>150</td>
+<td style='background-color:'>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Tianjin</td>
+<td>State in Mainland China</td>
+<td></td>
+<td>136</td>
+<td style='background-color:lightgreen'>0%</td>
+<td></td>
+<td></td>
+<td>140</td>
+<td style='background-color:'>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Shanxi</td>
+<td>State in Mainland China</td>
+<td></td>
+<td>133</td>
+<td style='background-color:lightgreen'>0%</td>
+<td></td>
+<td></td>
+<td>130</td>
+<td style='background-color:'>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>France</td>
+<td>Country in Western Europe</td>
+<td>65,000,000</td>
+<td>130</td>
+<td style='background-color:palevioletred'>51%</td>
+<td></td>
+<td></td>
+<td>6,200</td>
+<td style='background-color:lightgreen'>5,880</td>
+<td>30</td>
+</tr>
+<tr>
+<td>Germany</td>
+<td>Country in Western Europe</td>
+<td>84,000,000</td>
+<td>130</td>
+<td style='background-color:palevioletred'>41%</td>
+<td></td>
+<td></td>
+<td>6,200</td>
+<td style='background-color:lightgreen'>7,780</td>
+<td>30</td>
+</tr>
+<tr>
+<td>Liaoning</td>
+<td>State in Mainland China</td>
+<td></td>
+<td>122</td>
+<td style='background-color:lightgreen'>0%</td>
+<td></td>
+<td></td>
+<td>120</td>
+<td style='background-color:'>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Singapore</td>
+<td>Country in South-eastern Asia</td>
+<td>5,800,000</td>
+<td>106</td>
+<td style='background-color:lightgreen'>4%</td>
+<td></td>
+<td></td>
+<td>120</td>
+<td style='background-color:lightgreen'>568</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Hong Kong</td>
+<td>State in Hong Kong</td>
+<td></td>
+<td>96</td>
+<td style='background-color:lightgreen'>1%</td>
+<td></td>
+<td></td>
+<td>110</td>
+<td style='background-color:'>0</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Jilin</td>
+<td>State in Mainland China</td>
+<td></td>
+<td>93</td>
+<td style='background-color:lightgreen'>0%</td>
+<td></td>
+<td></td>
+<td>93</td>
+<td style='background-color:'>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Gansu</td>
+<td>State in Mainland China</td>
+<td></td>
+<td>91</td>
+<td style='background-color:lightgreen'>0%</td>
+<td></td>
+<td></td>
+<td>91</td>
+<td style='background-color:'>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Spain</td>
+<td>Country in Southern Europe</td>
+<td>47,000,000</td>
+<td>84</td>
+<td style='background-color:palevioletred'>78%</td>
+<td></td>
+<td></td>
+<td>4,000</td>
+<td style='background-color:lightgreen'>4,300</td>
+<td>30</td>
+</tr>
+<tr>
+<td>Xinjiang</td>
+<td>State in Mainland China</td>
+<td></td>
+<td>76</td>
+<td style='background-color:lightgreen'>0%</td>
+<td></td>
+<td></td>
+<td>76</td>
+<td style='background-color:'>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Inner Mongolia</td>
+<td>State in Mainland China</td>
+<td></td>
+<td>75</td>
+<td style='background-color:lightgreen'>0%</td>
+<td></td>
+<td></td>
+<td>75</td>
+<td style='background-color:'>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Ningxia</td>
+<td>State in Mainland China</td>
+<td></td>
+<td>73</td>
+<td style='background-color:lightgreen'>0%</td>
+<td></td>
+<td></td>
+<td>73</td>
+<td style='background-color:'>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Bahrain</td>
+<td>Country in Western Asia</td>
+<td>1,600,000</td>
+<td>47</td>
+<td style='background-color:lightgoldenrodyellow'>13%</td>
+<td></td>
+<td></td>
+<td>120</td>
+<td style='background-color:lightgreen'>148</td>
+<td>7</td>
+</tr>
+<tr>
+<td>Kuwait</td>
+<td>Country in Western Asia</td>
+<td>4,200,000</td>
+<td>45</td>
+<td style='background-color:lightgreen'>2%</td>
+<td></td>
+<td></td>
+<td>50</td>
+<td style='background-color:lightgreen'>415</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Unassigned Location (From Diamond Princess)</td>
+<td>State in USA</td>
+<td></td>
+<td>44</td>
+<td style='background-color:lightgreen'>2%</td>
+<td></td>
+<td></td>
+<td>48</td>
+<td style='background-color:'>0</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Thailand</td>
+<td>Country in South-eastern Asia</td>
+<td>69,000,000</td>
+<td>42</td>
+<td style='background-color:lightgreen'>2%</td>
+<td></td>
+<td></td>
+<td>46</td>
+<td style='background-color:lightgreen'>6,895</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Taiwan</td>
+<td>State in Taiwan</td>
+<td></td>
+<td>40</td>
+<td style='background-color:lightgreen'>8%</td>
+<td></td>
+<td></td>
+<td>50</td>
+<td style='background-color:'>0</td>
+<td>5</td>
+</tr>
+<tr>
+<td>UK</td>
+<td>Country in </td>
+<td></td>
+<td>36</td>
+<td style='background-color:palevioletred'>34%</td>
+<td></td>
+<td></td>
+<td>1,700</td>
+<td style='background-color:'>0</td>
+<td>30</td>
+</tr>
+<tr>
+<td>Malaysia</td>
+<td>Country in South-eastern Asia</td>
+<td>32,000,000</td>
+<td>29</td>
+<td style='background-color:lightgreen'>8%</td>
+<td></td>
+<td></td>
+<td>36</td>
+<td style='background-color:lightgreen'>3,196</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Switzerland</td>
+<td>Country in Western Europe</td>
+<td>8,600,000</td>
+<td>27</td>
+<td style='background-color:palevioletred'>50%</td>
+<td></td>
+<td></td>
+<td>1,300</td>
+<td style='background-color:lightgreen'>730</td>
+<td>30</td>
+</tr>
+<tr>
+<td>United Arab Emirates</td>
+<td>Country in Western Asia</td>
+<td>9,800,000</td>
+<td>21</td>
+<td style='background-color:lightgoldenrodyellow'>17%</td>
+<td></td>
+<td></td>
+<td>110</td>
+<td style='background-color:lightgreen'>969</td>
+<td>11</td>
+</tr>
+<tr>
+<td>Iraq</td>
+<td>Country in Western Asia</td>
+<td>39,000,000</td>
+<td>19</td>
+<td style='background-color:'>39%</td>
+<td></td>
+<td></td>
+<td>910</td>
+<td style='background-color:'>3,809</td>
+<td>30</td>
+</tr>
+<tr>
+<td>Norway</td>
+<td>Country in Northern Europe</td>
+<td>5,400,000</td>
+<td>19</td>
+<td style='background-color:'>127%</td>
+<td></td>
+<td></td>
+<td>910</td>
+<td style='background-color:'>449</td>
+<td>30</td>
+</tr>
+<tr>
+<td>Qinghai</td>
+<td>State in Mainland China</td>
+<td></td>
+<td>18</td>
+<td style='background-color:'>0%</td>
+<td></td>
+<td></td>
+<td>18</td>
+<td style='background-color:'>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Vietnam</td>
+<td>Country in South-eastern Asia</td>
+<td>96,000,000</td>
+<td>16</td>
+<td style='background-color:'>0%</td>
+<td></td>
+<td></td>
+<td>16</td>
+<td style='background-color:'>9,598</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Austria</td>
+<td>Country in Western Europe</td>
+<td>9,000,000</td>
+<td>14</td>
+<td style='background-color:'>67%</td>
+<td></td>
+<td></td>
+<td>670</td>
+<td style='background-color:'>833</td>
+<td>30</td>
+</tr>
+<tr>
+<td>Toronto, ON</td>
+<td>State in Canada</td>
+<td></td>
+<td>14</td>
+<td style='background-color:'>41%</td>
+<td></td>
+<td></td>
+<td>670</td>
+<td style='background-color:'>0</td>
+<td>30</td>
+</tr>
+<tr>
+<td>Sweden</td>
+<td>Country in Northern Europe</td>
+<td>10,000,000</td>
+<td>14</td>
+<td style='background-color:'>26%</td>
+<td></td>
+<td></td>
+<td>460</td>
+<td style='background-color:'>954</td>
+<td>20</td>
+</tr>
+<tr>
+<td>Israel</td>
+<td>Country in Western Asia</td>
+<td>8,500,000</td>
+<td>10</td>
+<td style='background-color:'>49%</td>
+<td></td>
+<td></td>
+<td>480</td>
+<td style='background-color:'>802</td>
+<td>30</td>
+</tr>
+<tr>
+<td>Lebanon</td>
+<td>Country in Western Asia</td>
+<td>6,900,000</td>
+<td>10</td>
+<td style='background-color:'>71%</td>
+<td></td>
+<td></td>
+<td>480</td>
+<td style='background-color:'>642</td>
+<td>30</td>
+</tr>
+<tr>
+<td>Macau</td>
+<td>State in Macau</td>
+<td></td>
+<td>10</td>
+<td style='background-color:'>0%</td>
+<td></td>
+<td></td>
+<td>10</td>
+<td style='background-color:'>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Netherlands</td>
+<td>Country in Western Europe</td>
+<td>17,000,000</td>
+<td>10</td>
+<td style='background-color:'>115%</td>
+<td></td>
+<td></td>
+<td>480</td>
+<td style='background-color:'>1,652</td>
+<td>30</td>
+</tr>
+<tr>
+<td>Queensland</td>
+<td>State in Australia</td>
+<td></td>
+<td>9</td>
+<td style='background-color:'>22%</td>
+<td></td>
+<td></td>
+<td>110</td>
+<td style='background-color:'>0</td>
+<td>15</td>
+</tr>
+<tr>
+<td>Seattle, WA</td>
+<td>State in USA</td>
+<td></td>
+<td>9</td>
+<td style='background-color:'>108%</td>
+<td></td>
+<td></td>
+<td>430</td>
+<td style='background-color:'>0</td>
+<td>30</td>
+</tr>
+<tr>
+<td>British Columbia</td>
+<td>State in Canada</td>
+<td></td>
+<td>8</td>
+<td style='background-color:'>5%</td>
+<td></td>
+<td></td>
+<td>9</td>
+<td style='background-color:'>0</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Victoria</td>
+<td>State in Australia</td>
+<td></td>
+<td>7</td>
+<td style='background-color:'>21%</td>
+<td></td>
+<td></td>
+<td>84</td>
+<td style='background-color:'>0</td>
+<td>15</td>
+</tr>
+<tr>
+<td>Croatia</td>
+<td>Country in Southern Europe</td>
+<td>4,100,000</td>
+<td>7</td>
+<td style='background-color:'>33%</td>
+<td></td>
+<td></td>
+<td>340</td>
+<td style='background-color:'>376</td>
+<td>30</td>
+</tr>
+<tr>
+<td>Greece</td>
+<td>Country in Southern Europe</td>
+<td>10,000,000</td>
+<td>7</td>
+<td style='background-color:'>33%</td>
+<td></td>
+<td></td>
+<td>340</td>
+<td style='background-color:'>966</td>
+<td>30</td>
+</tr>
+<tr>
+<td>New South Wales</td>
+<td>State in Australia</td>
+<td></td>
+<td>6</td>
+<td style='background-color:'>14%</td>
+<td></td>
+<td></td>
+<td>15</td>
+<td style='background-color:'>0</td>
+<td>7</td>
+</tr>
+<tr>
+<td>Ecuador</td>
+<td>Country in South America</td>
+<td>17,000,000</td>
+<td>6</td>
+<td style='background-color:'>0%</td>
+<td></td>
+<td></td>
+<td>6</td>
+<td style='background-color:'>1,699</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Finland</td>
+<td>Country in Northern Europe</td>
+<td>5,500,000</td>
+<td>6</td>
+<td style='background-color:'>44%</td>
+<td></td>
+<td></td>
+<td>290</td>
+<td style='background-color:'>521</td>
+<td>30</td>
+</tr>
+<tr>
+<td>Oman</td>
+<td>Country in Western Asia</td>
+<td>5,000,000</td>
+<td>6</td>
+<td style='background-color:'>14%</td>
+<td></td>
+<td></td>
+<td>15</td>
+<td style='background-color:'>499</td>
+<td>7</td>
+</tr>
+<tr>
+<td>Mexico</td>
+<td>Country in Central America</td>
+<td>130,000,000</td>
+<td>5</td>
+<td style='background-color:'>124%</td>
+<td></td>
+<td></td>
+<td>240</td>
+<td style='background-color:'>12,976</td>
+<td>30</td>
+</tr>
+<tr>
+<td>Denmark</td>
+<td>Country in Northern Europe</td>
+<td>5,800,000</td>
+<td>4</td>
+<td style='background-color:'>59%</td>
+<td></td>
+<td></td>
+<td>190</td>
+<td style='background-color:'>561</td>
+<td>30</td>
+</tr>
+<tr>
+<td>Pakistan</td>
+<td>Country in Southern Asia</td>
+<td>220,000,000</td>
+<td>4</td>
+<td style='background-color:'>26%</td>
+<td></td>
+<td></td>
+<td>130</td>
+<td style='background-color:'>21,987</td>
+<td>20</td>
+</tr>
+<tr>
+<td>South Australia</td>
+<td>State in Australia</td>
+<td></td>
+<td>3</td>
+<td style='background-color:'>14%</td>
+<td></td>
+<td></td>
+<td>8</td>
+<td style='background-color:'>0</td>
+<td>7</td>
+</tr>
+<tr>
+<td>Azerbaijan</td>
+<td>Country in Western Asia</td>
+<td>10,000,000</td>
+<td>3</td>
+<td style='background-color:'>0%</td>
+<td></td>
+<td></td>
+<td>3</td>
+<td style='background-color:'>1,000</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Czech Republic</td>
+<td>Country in Eastern Europe</td>
+<td>11,000,000</td>
+<td>3</td>
+<td style='background-color:'>0%</td>
+<td></td>
+<td></td>
+<td>3</td>
+<td style='background-color:'>1,100</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Georgia</td>
+<td>Country in Western Asia</td>
+<td>4,000,000</td>
+<td>3</td>
+<td style='background-color:'>44%</td>
+<td></td>
+<td></td>
+<td>140</td>
+<td style='background-color:'>386</td>
+<td>30</td>
+</tr>
+<tr>
+<td>Iceland</td>
+<td>Country in Northern Europe</td>
+<td>340,000</td>
+<td>3</td>
+<td style='background-color:'>73%</td>
+<td></td>
+<td></td>
+<td>140</td>
+<td style='background-color:'>20</td>
+<td>30</td>
+</tr>
+<tr>
+<td>India</td>
+<td>Country in Southern Asia</td>
+<td>1,400,000,000</td>
+<td>3</td>
+<td style='background-color:'>0%</td>
+<td></td>
+<td></td>
+<td>3</td>
+<td style='background-color:'>140,000</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Philippines</td>
+<td>Country in South-eastern Asia</td>
+<td>110,000,000</td>
+<td>3</td>
+<td style='background-color:'>0%</td>
+<td></td>
+<td></td>
+<td>3</td>
+<td style='background-color:'>11,000</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Qatar</td>
+<td>Country in Western Asia</td>
+<td>2,800,000</td>
+<td>3</td>
+<td style='background-color:'>127%</td>
+<td></td>
+<td></td>
+<td>140</td>
+<td style='background-color:'>266</td>
+<td>30</td>
+</tr>
+<tr>
+<td>Romania</td>
+<td>Country in Eastern Europe</td>
+<td>19,000,000</td>
+<td>3</td>
+<td style='background-color:'>44%</td>
+<td></td>
+<td></td>
+<td>140</td>
+<td style='background-color:'>1,886</td>
+<td>30</td>
+</tr>
+<tr>
+<td>Chicago, IL</td>
+<td>State in USA</td>
+<td></td>
+<td>3</td>
+<td style='background-color:'>14%</td>
+<td></td>
+<td></td>
+<td>8</td>
+<td style='background-color:'>0</td>
+<td>7</td>
+</tr>
+<tr>
+<td>Santa Clara, CA</td>
+<td>State in USA</td>
+<td></td>
+<td>3</td>
+<td style='background-color:'>14%</td>
+<td></td>
+<td></td>
+<td>8</td>
+<td style='background-color:'>0</td>
+<td>7</td>
+</tr>
+<tr>
+<td>Western Australia</td>
+<td>State in Australia</td>
+<td></td>
+<td>2</td>
+<td style='background-color:'>0%</td>
+<td></td>
+<td></td>
+<td>2</td>
+<td style='background-color:'>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Belgium</td>
+<td>Country in Western Europe</td>
+<td>12,000,000</td>
+<td>2</td>
+<td style='background-color:'>26%</td>
+<td></td>
+<td></td>
+<td>66</td>
+<td style='background-color:'>1,193</td>
+<td>20</td>
+</tr>
+<tr>
+<td>Brazil</td>
+<td>Country in South America</td>
+<td>210,000,000</td>
+<td>2</td>
+<td style='background-color:'>26%</td>
+<td></td>
+<td></td>
+<td>66</td>
+<td style='background-color:'>20,993</td>
+<td>20</td>
+</tr>
+<tr>
+<td>Egypt</td>
+<td>Country in Northern Africa</td>
+<td>100,000,000</td>
+<td>2</td>
+<td style='background-color:'>26%</td>
+<td></td>
+<td></td>
+<td>66</td>
+<td style='background-color:'>9,993</td>
+<td>20</td>
+</tr>
+<tr>
+<td>Russia</td>
+<td>Country in Eastern Europe</td>
+<td>150,000,000</td>
+<td>2</td>
+<td style='background-color:'>0%</td>
+<td></td>
+<td></td>
+<td>2</td>
+<td style='background-color:'>15,000</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Sacramento County, CA</td>
+<td>State in USA</td>
+<td></td>
+<td>2</td>
+<td style='background-color:'>0%</td>
+<td></td>
+<td></td>
+<td>2</td>
+<td style='background-color:'>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>San Benito, CA</td>
+<td>State in USA</td>
+<td></td>
+<td>2</td>
+<td style='background-color:'>0%</td>
+<td></td>
+<td></td>
+<td>2</td>
+<td style='background-color:'>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>San Diego County, CA</td>
+<td>State in USA</td>
+<td></td>
+<td>2</td>
+<td style='background-color:'>0%</td>
+<td></td>
+<td></td>
+<td>2</td>
+<td style='background-color:'>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Snohomish County, WA</td>
+<td>State in USA</td>
+<td></td>
+<td>2</td>
+<td style='background-color:'>100%</td>
+<td></td>
+<td></td>
+<td>96</td>
+<td style='background-color:'>0</td>
+<td>30</td>
+</tr>
+<tr>
+<td>Afghanistan</td>
+<td>Country in Southern Asia</td>
+<td>38,000,000</td>
+<td>1</td>
+<td style='background-color:'>0%</td>
+<td></td>
+<td></td>
+<td>1</td>
+<td style='background-color:'>3,800</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Algeria</td>
+<td>Country in Northern Africa</td>
+<td>43,000,000</td>
+<td>1</td>
+<td style='background-color:'>0%</td>
+<td></td>
+<td></td>
+<td>1</td>
+<td style='background-color:'>4,300</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Armenia</td>
+<td>Country in Western Asia</td>
+<td>3,000,000</td>
+<td>1</td>
+<td style='background-color:'>0%</td>
+<td></td>
+<td></td>
+<td>1</td>
+<td style='background-color:'>300</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Belarus</td>
+<td>Country in Eastern Europe</td>
+<td>9,500,000</td>
+<td>1</td>
+<td style='background-color:'>0%</td>
+<td></td>
+<td></td>
+<td>1</td>
+<td style='background-color:'>950</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Cambodia</td>
+<td>Country in South-eastern Asia</td>
+<td>16,000,000</td>
+<td>1</td>
+<td style='background-color:'>0%</td>
+<td></td>
+<td></td>
+<td>1</td>
+<td style='background-color:'>1,600</td>
+<td>0</td>
+</tr>
+<tr>
+<td> Montreal, QC</td>
+<td>State in Canada</td>
+<td></td>
+<td>1</td>
+<td style='background-color:'>0%</td>
+<td></td>
+<td></td>
+<td>1</td>
+<td style='background-color:'>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>London, ON</td>
+<td>State in Canada</td>
+<td></td>
+<td>1</td>
+<td style='background-color:'>0%</td>
+<td></td>
+<td></td>
+<td>1</td>
+<td style='background-color:'>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Dominican Republic</td>
+<td>Country in Caribbean</td>
+<td>11,000,000</td>
+<td>1</td>
+<td style='background-color:'>0%</td>
+<td></td>
+<td></td>
+<td>1</td>
+<td style='background-color:'>1,100</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Estonia</td>
+<td>Country in Northern Europe</td>
+<td>1,300,000</td>
+<td>1</td>
+<td style='background-color:'>0%</td>
+<td></td>
+<td></td>
+<td>1</td>
+<td style='background-color:'>130</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Ireland</td>
+<td>Country in Northern Europe</td>
+<td>4,900,000</td>
+<td>1</td>
+<td style='background-color:'>0%</td>
+<td></td>
+<td></td>
+<td>1</td>
+<td style='background-color:'>490</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Lithuania</td>
+<td>Country in Northern Europe</td>
+<td>2,800,000</td>
+<td>1</td>
+<td style='background-color:'>0%</td>
+<td></td>
+<td></td>
+<td>1</td>
+<td style='background-color:'>280</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Luxembourg</td>
+<td>Country in Western Europe</td>
+<td>620,000</td>
+<td>1</td>
+<td style='background-color:'>0%</td>
+<td></td>
+<td></td>
+<td>1</td>
+<td style='background-color:'>62</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Tibet</td>
+<td>State in Mainland China</td>
+<td></td>
+<td>1</td>
+<td style='background-color:'>0%</td>
+<td></td>
+<td></td>
+<td>1</td>
+<td style='background-color:'>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Monaco</td>
+<td>Country in Western Europe</td>
+<td>39,000</td>
+<td>1</td>
+<td style='background-color:'>0%</td>
+<td></td>
+<td></td>
+<td>1</td>
+<td style='background-color:'>4</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Nepal</td>
+<td>Country in Southern Asia</td>
+<td>29,000,000</td>
+<td>1</td>
+<td style='background-color:'>0%</td>
+<td></td>
+<td></td>
+<td>1</td>
+<td style='background-color:'>2,900</td>
+<td>0</td>
+</tr>
+<tr>
+<td>New Zealand</td>
+<td>Country in Australia and New Zealand</td>
+<td>4,800,000</td>
+<td>1</td>
+<td style='background-color:'>0%</td>
+<td></td>
+<td></td>
+<td>1</td>
+<td style='background-color:'>480</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Nigeria</td>
+<td>Country in Western Africa</td>
+<td>200,000,000</td>
+<td>1</td>
+<td style='background-color:'>0%</td>
+<td></td>
+<td></td>
+<td>1</td>
+<td style='background-color:'>20,000</td>
+<td>0</td>
+</tr>
+<tr>
+<td>North Macedonia</td>
+<td>Country in Southern Europe</td>
+<td>2,100,000</td>
+<td>1</td>
+<td style='background-color:'>0%</td>
+<td></td>
+<td></td>
+<td>1</td>
+<td style='background-color:'>210</td>
+<td>0</td>
+</tr>
+<tr>
+<td>San Marino</td>
+<td>Country in Southern Europe</td>
+<td>34,000</td>
+<td>1</td>
+<td style='background-color:'>0%</td>
+<td></td>
+<td></td>
+<td>1</td>
+<td style='background-color:'>3</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Sri Lanka</td>
+<td>Country in Southern Asia</td>
+<td>21,000,000</td>
+<td>1</td>
+<td style='background-color:'>0%</td>
+<td></td>
+<td></td>
+<td>1</td>
+<td style='background-color:'>2,100</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Boston, MA</td>
+<td>State in USA</td>
+<td></td>
+<td>1</td>
+<td style='background-color:'>0%</td>
+<td></td>
+<td></td>
+<td>1</td>
+<td style='background-color:'>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Humboldt County, CA</td>
+<td>State in USA</td>
+<td></td>
+<td>1</td>
+<td style='background-color:'>0%</td>
+<td></td>
+<td></td>
+<td>1</td>
+<td style='background-color:'>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Los Angeles, CA</td>
+<td>State in USA</td>
+<td></td>
+<td>1</td>
+<td style='background-color:'>0%</td>
+<td></td>
+<td></td>
+<td>1</td>
+<td style='background-color:'>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Madison, WI</td>
+<td>State in USA</td>
+<td></td>
+<td>1</td>
+<td style='background-color:'>0%</td>
+<td></td>
+<td></td>
+<td>1</td>
+<td style='background-color:'>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Orange, CA</td>
+<td>State in USA</td>
+<td></td>
+<td>1</td>
+<td style='background-color:'>0%</td>
+<td></td>
+<td></td>
+<td>1</td>
+<td style='background-color:'>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Portland, OR</td>
+<td>State in USA</td>
+<td></td>
+<td>1</td>
+<td style='background-color:'>0%</td>
+<td></td>
+<td></td>
+<td>1</td>
+<td style='background-color:'>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Providence, RI</td>
+<td>State in USA</td>
+<td></td>
+<td>1</td>
+<td style='background-color:'>0%</td>
+<td></td>
+<td></td>
+<td>1</td>
+<td style='background-color:'>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>San Antonio, TX</td>
+<td>State in USA</td>
+<td></td>
+<td>1</td>
+<td style='background-color:'>0%</td>
+<td></td>
+<td></td>
+<td>1</td>
+<td style='background-color:'>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Tempe, AZ</td>
+<td>State in USA</td>
+<td></td>
+<td>1</td>
+<td style='background-color:'>0%</td>
+<td></td>
+<td></td>
+<td>1</td>
+<td style='background-color:'>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>USA</td>
+<td>Country in Northern America</td>
+<td>330,000,000</td>
+<td>76</td>
+<td style='background-color:lightgreen'>8%</td>
+<td></td>
+<td></td>
+<td>610</td>
+<td style='background-color:lightgreen'>32,939</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Australia</td>
+<td>Country in Australia and New Zealand</td>
+<td>25,000,000</td>
+<td>27</td>
+<td style='background-color:lightgreen'>5%</td>
+<td></td>
+<td></td>
+<td>220</td>
+<td style='background-color:lightgreen'>2,478</td>
+<td>3</td>
+</tr>
+<tr>
+<td>World</td>
+<td>All Countries</td>
+<td>7,800,000,000</td>
+<td>7,670</td>
+<td style='background-color:lightgoldenrodyellow'>31%</td>
+<td></td>
+<td></td>
+<td>280,000</td>
+<td style='background-color:lightgreen'>752,000</td>
+<td>30</td>
+</tr>
+
+  </tbody>
+</table>
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+<!-- MDBootstrap Datatables  -->
+<script type="text/javascript" src="js/addons/datatables.min.js"></script>
+  <!-- Your custom scripts (optional) -->
+  <script type="text/javascript">
+$(document).ready(function () {
+$('#dtBasicExample').DataTable({
+"paging": false,
+"order": [[7,"desc"]]
+});
+$('.dataTables_length').addClass('bs-select');
+});
+</script>
+
+</body>
+</html>

@@ -13,6 +13,8 @@ if (! $GLOBALS['DBH']) {
 mysqli_query($GLOBALS['DBH'], "SET GLOBAL sql_mode = ''");
 mysqli_query($GLOBALS['DBH'], "SET SESSION sql_mode = ''");
 
+// $query = "DELETE FROM `covids` WHERE `region`='World'";
+// $result = mysqli_query($GLOBALS['DBH'],$query) or die("Queryt failed: $query");
 # objects #
 
 class TableObject {
@@ -20,6 +22,7 @@ class TableObject {
 	var $table;
 	var $rows;
 	var $primary_keys;
+	
 
     function Kids($objectname,$etc='') {
 
@@ -108,17 +111,9 @@ class TableObject {
 				$val = "''";
 			}
 			array_push($vals, $val);
-
-			if ($row == "deaths" || $row == "recovers" || $row == "new_cases" || $row == 'cases' || $row == 'peak') {
-				$val = intval($val);
-			} else if ($row == "ratio") {
-				$val = floatval($val);
-			}
-
-			# echo "Save::: $val ::: $row \n";
 		}
 
-		$replace = "replace into `$this->table` (".join(",",$this->rows).") values (".join(",",$vals).")";
+		$replace = "replace into ".$this->table." (".join(",",$this->rows).") values (".join(",",$vals).")";
 #		print $replace;
 		$result = mysqli_query($GLOBALS['DBH'],$replace) or die("Queryf failed: $replace");
 #			@mysqli_close($link);
@@ -175,6 +170,7 @@ class Covid extends TableObject {
 			while ($line = mysqli_fetch_assoc($result)) {
 				array_push($cases,$line['cases']);
 			}
+
 			$ratio = 0;
 			if ($cases[2]) {
 				$ratio = round((pow($this->cases/$cases[2],.33333)-1)*100);
@@ -185,6 +181,8 @@ class Covid extends TableObject {
 			}
 			$this->ratio = $ratio;
 			$this->new_cases = $this->cases-$cases[0];
+		} else {
+			#echo "had ratio for $this->region : $this->ratio : $this->new_cases \n";
 		}
 		if (!$this->peak) {
 			$this->peak = GetPeak($this->ratio,$this->cases);
@@ -223,7 +221,6 @@ function AllCovidsByDay($day) {
 }
 
 function FillInCountriesWorld($day) {
-
 	# check if we already did this day?!
 	$query = "select count(*) as done from covids where day='$day' and region='World'";
 	$result = mysqli_query($GLOBALS['DBH'],$query) or die("Queryp failed: $query");
@@ -237,6 +234,7 @@ function FillInCountriesWorld($day) {
 	$tpeak = array();
 	$worldcases = 0;
 	$worldpeak = 0;
+	
 	foreach (AllCovidsByDay($day) as $C) {
 		$C->FillRatioPeak(); # do this to get peak for country and world.
 		#china canada australia us we can just add the states up.
@@ -271,7 +269,6 @@ function FillInCountriesWorld($day) {
 	$C->peak = $worldpeak;
 	$C->Save();
 	$C->FillRatioPeak(); # doesn't overwrite a peak or ratio already there.
-
 }
 
 function GetPeak($ratio,$tot) {
@@ -345,22 +342,18 @@ function DaysToPeak($ratio) {
 }
 
 function RoundSigDigs($number, $sigdigs) {
-    if (!$number || !is_infinite($number)) {
+    if (!$number) {
         return 0;
     }
-	$multiplier = 1;
-	$tries = 0;
-    while ($number < 0.1 && $tries < 100) {
+    $multiplier = 1;
+    while ($number < 0.1) {
         $number *= 10;
-		$multiplier /= 10;
-		$tries += 1;
-	}
-	$tries = 0;
-    while ($number >= 1 && $tries < 100) {
+        $multiplier /= 10;
+    }
+    while ($number >= 1) {
         $number /= 10;
-		$multiplier *= 10;
-		$tries += 1;
-	}
+        $multiplier *= 10;
+    }
     return round(round($number, $sigdigs) * $multiplier);
 }
 

@@ -55,7 +55,7 @@ bottom: .5em;
 </head>
 <body style="margin:10px">
 <h1>&#x1F9A0; Live Covid-19 Cases for <b>'.$word.'</b></h1>
-<h5><small>
+<h5><small
 Data is pulled daily from <a href=https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports>this repository.</a>
 Estimates assume physical distancing remains in place until the availability of widespread testing and contact tracing.
 Peak estimates are based on <a href=https://www.facebook.com/blakestah>Dave Blake Jr.\'s</a> work. See this <a href=https://medium.com/@dblake.mcg/estimating-peak-covid19-infection-rates-950c7f3cfc1a?sk=12e76358dedf8294e01e247e2c663bde>post.</a>
@@ -92,6 +92,7 @@ The real-time nature of this event means we cannot promise our estimates are acc
   <tbody>
 
 ';
+
 FillInCountriesWorld($day);
 $pop = array();
 $continents = array();
@@ -111,7 +112,6 @@ $citypop = file_get_contents('city-pop-dates.txt');
 $today = new DateTime($day);
 $schooldays = array();
 $lockdays = array();
-
 foreach (preg_split("/\n/",$citypop) as $line) {
 	$parts = preg_split("/\t/",$line);
 	$city = preg_replace("/ MSA/",'',$parts[0]);
@@ -147,6 +147,7 @@ foreach (preg_split("/\n/",$spop) as $line) {
 	$pop[$state." State"] = number_format(RoundSigDigs($count,2));
 }
 
+
 foreach (AllCovidsByDay($day) as $C) {
 	$st = 'World';
 	if ($C->region_type == 'City') {
@@ -157,8 +158,6 @@ foreach (AllCovidsByDay($day) as $C) {
 		$st = $C->region. ' '.$C->region_type;
 	}
 
-	
-
 	$current_ratio = $C->ratio;
 	$last_total = $C->cases;
 	$peak_cases = number_format(RoundSigDigs($C->peak,2));
@@ -168,7 +167,7 @@ foreach (AllCovidsByDay($day) as $C) {
 	$peak_density = '';
 	$rcolor='';
 	$dcolor='';
-	
+
 	if ($C->cases > 20) {
 		$rcolor='lightgoldenrodyellow';
 		if ($current_ratio >= 33) {
@@ -186,9 +185,8 @@ foreach (AllCovidsByDay($day) as $C) {
 		$est_beds = preg_replace("/,/","",$popu)/10000;
 		$est_peak_beds = preg_replace("/,/","",$peak_cases)/10;
 		$est_bed_shortage = number_format($est_beds-$est_peak_beds);
-		$shortage_ratio = $est_peak_beds / $est_beds; # >1 means shortage
+		$shortage_ratio = $est_peak_beds/$est_beds; # >1 means shortage.
 		$peak_density = RoundSigDigs(preg_replace("/,/","",$popu)/preg_replace("/,/","",$peak_cases),2);
-		
 		if ($C->cases > 20) {
 			$dcolor='lightgoldenrodyellow';
 			if ($shortage_ratio <= 0.8) {
@@ -198,10 +196,7 @@ foreach (AllCovidsByDay($day) as $C) {
 			}
 		}
 		$peak_density = number_format($peak_density);
-
-		echo ">> POP:::  $peak_cases | $popu | $peak_cases | $peak_density \n";
 	}
-	
 	$rtype = '';
 	if ($C->region_type == 'Country') {
 		$rtype = 'Country in '.$continents[$C->region];
@@ -223,8 +218,6 @@ foreach (AllCovidsByDay($day) as $C) {
 <td>$days_left</td>
 </tr>\n";
 }
-
-
 $out .= '
   </tbody>
 </table>
@@ -253,5 +246,5 @@ $(\'.dataTables_length\').addClass(\'bs-select\');
 </body>
 </html>';
 
-echo $out;
-file_put_contents("./html/".$day.".html",$out);
+file_put_contents("./html/$day.html",$out);
+file_put_contents("./html/index.html",$out);

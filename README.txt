@@ -32,3 +32,25 @@ https://distancingdata.org/2020-04-02.html
 Assuming it does, you can copy it live with:
 cp 2020-04-02.html index.html
 
+
+## Notes
+
+Bootstrap all data 
+```
+$ ./run.sh --database potench --complete true
+```
+
+Parse 
+```
+$ ./run.sh --database potench --parser parse --date 03-31
+```
+
+Generate 
+```
+$ ./run.sh --database potench --parser generate --date 03-31
+```
+
+Old Parse for < 03-22
+```
+$ ./run.sh --database potench --parser stateparse --date 03-22
+```

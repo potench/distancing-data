@@ -10,7 +10,6 @@ foreach (preg_split("/\n/",file_get_contents('county-to-city.txt')) as $line) {
 	}
 }
 
-$colnames = '(`day`,`region`,`cases`,`ratio`,`peak`,`country`,`region_type`,`deaths`,`recovers`)';
 
 $today = '03-25';
 $today = $argv[1];
@@ -64,9 +63,9 @@ foreach (preg_split("/\n/",$data) as $line) {
 			} else if ($country == 'Australia') {
 				$type = 'State';
 			}
-			print "INSERT INTO `covids` $colnames VALUES ('".$year."-".$today."',\"{$state}\",$count,0,0,\"{$country}\",'$type',$deaths,$recovers);\n";
+			print "insert into covids values ('','".$year."-".$today."',\"{$state}\",$count,'','','$country','$type',$deaths,$recovers,'');\n";
 		} else {
-			print "INSERT INTO `covids` $colnames VALUES ('".$year."-".$today."',\"{$country}\",$count,0,0,\"{$country}\",'Country',$deaths,$recovers);\n";
+			print "insert into covids values ('','".$year."-".$today."',\"{$country}\",$count,'','',\"{$country}\",'Country',$deaths,$recovers,'');\n";
 		}
 		continue;
 	}
@@ -91,17 +90,17 @@ foreach (preg_split("/\n/",$data) as $line) {
 foreach ($states as $state => $count) {
 	$deaths = $statedeaths[$state];
 	$recovers = $staterecovers[$state];
-	print "INSERT INTO `covids` $colnames VALUES ('".$year."-".$today."',\"{$state}\",$count,0,0,'USA','State',$deaths,$recovers);\n";
+	print "insert into covids values ('','".$year."-".$today."',\"{$state}\",$count,'','','USA','State',$deaths,$recovers,'');\n";
 }
 foreach ($counties as $state => $count) {
 	$deaths = $countydeaths[$state];
 	$recovers = $countyrecovers[$state];
-	print "INSERT INTO `covids` $colnames VALUES ('".$year."-".$today."',\"{$state}\",$count,0,0,'USA','Counties',$deaths,$recovers);\n";
+	print "insert into covids values ('','".$year."-".$today."',\"{$state}\",$count,'','','USA','Counties',$deaths,$recovers,'');\n";
 }
 foreach ($cities as $state => $count) {
 	$deaths = $citydeaths[$state];
 	$recovers = $cityrecovers[$state];
-	print "INSERT INTO `covids` $colnames VALUES('".$year."-".$today."',\"{$state}\",$count,0,0,'USA','City',$deaths,$recovers);\n";
+	print "insert into covids values ('','".$year."-".$today."',\"{$state}\",$count,'','','USA','City',$deaths,$recovers,'');\n";
 }
 print "delete from covids where region='wuhan evacuee';\n";
 print "delete from covids where region='Diamond Princess';\n";

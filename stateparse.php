@@ -12,11 +12,11 @@ $data = preg_replace("/Cote d'Ivoire/",'Ivory Coast',$data);
 $data = preg_replace('/"Gambia, The"/','Gambia',$data);
 $data = preg_replace('/"Virgin Islands, U.S."/','United States Virgin Islands',$data);
 
-$colnames = '(`day`,`region`,`cases`,`ratio`,`peak`,`country`,`region_type`,`deaths`,`recovers`)';
+print "DELETE FROM `covids` WHERE `day` = '".$year."-".$today."'; \n";
 
 foreach (preg_split("/\n/",$data) as $line) {
-	$parts = str_getcsv($line, ",", '"');
 	# $parts = preg_split("/,/",$line);
+	$parts = str_getcsv($line, ",", '"');
 	$count = $parts['3'];
 	if (!$count) {
 		continue;
@@ -39,5 +39,5 @@ foreach (preg_split("/\n/",$data) as $line) {
 		$type = 'Country';
 		$state = $country;
 	}
-	print "INSERT INTO `covids` $colnames VALUES ('".$year."-".$today."',\"{$state}\",$count,0,0,\"{$country}\",\"{$type}\",$deaths,$recovers);\n";
+	print "insert into covids values ('','".$year."-".$today."','$state',$count,'','','$country','$type',$deaths,$recovers,'');\n";
 }
