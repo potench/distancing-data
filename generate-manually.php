@@ -63,6 +63,7 @@ foreach (preg_split("/\n/",$spop) as $line) {
 
 $firstRun = true;
 foreach (AllCovidsByDay($day) as $C) {
+	
     $st = 'World';
 	if ($C->region_type == 'City') {
 		$st = 'City of '.$C->region;
@@ -83,6 +84,10 @@ foreach (AllCovidsByDay($day) as $C) {
 	$rcolor='';
 	$dcolor='';
 
+	// if ($popu != "") {
+	// 	continue;
+	// }
+	
 	if ($C->cases > 20) {
 		$rcolor='lightgoldenrodyellow';
 		if ($current_ratio >= 33) {
@@ -125,23 +130,23 @@ foreach (AllCovidsByDay($day) as $C) {
     }
 
 	$out .= trim("{
-        \"region\":\"$C->region\",
-        \"type\":\"$rtype\",
-        \"pop\":\"".preg_replace("/,/","",$popu)."\",
-        \"cases\":\"".preg_replace("/,/","",$last_total)."\",
-        \"ratio\":\"".intval($current_ratio)."\",
-        \"schoolClosed\":\"$sch\",
-        \"physDist\":\"$lock\",
-        \"peak\":\"".preg_replace("/,/","",$peak_cases)."\",
-        \"estBedShort\":\"".preg_replace("/,/","",$est_bed_shortage)."\",
-        \"estDaysPeak\":\"".preg_replace("/,/","",$days_left)."\"
-    }");
+		\"region\":\"$C->region\",
+		\"type\":\"$rtype\",
+		\"pop\":\"".preg_replace("/,/","",$popu)."\",
+		\"cases\":\"".preg_replace("/,/","",$last_total)."\",
+		\"ratio\":\"".intval($current_ratio)."\",
+		\"schoolClosed\":\"$sch\",
+		\"physDist\":\"$lock\",
+		\"peak\":\"".preg_replace("/,/","",$peak_cases)."\",
+		\"estBedShort\":\"".preg_replace("/,/","",$est_bed_shortage)."\",
+		\"estDaysPeak\":\"".preg_replace("/,/","",$days_left)."\"
+	}");
 
     $firstRun = false;
 }
 $out .= "]";
 // $out = preg_replace("/\n/", '', $out);
-$filename = ($day) ? "./json/$day.json" : "./json/all.json";
+$filename = ($day) ? "./json/no-pop.json" : "./json/all.json";
 $fp = fopen($filename, 'w');
 fwrite($fp, $out);
 fclose($fp);

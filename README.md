@@ -28,29 +28,78 @@ then visit:
 https://distancingdata.org/2020-04-02.html
 ... and check if it looks fine!
 
-
 Assuming it does, you can copy it live with:
 cp 2020-04-02.html index.html
 
+## Setup
 
-## Notes
+### Create Database Locally
 
-Bootstrap all data 
-```
-$ ./run.sh --database potench --complete true
+```shell
+mysql -u root # login to mysql
+
+LIST DATABASES; # you have a DB you already want to use or you want to create one?
+
+CREATE DATABASE covids; # create a new DB
+
+USE covids # use this db
+
+CREATE TABLE `covids` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `day` date NOT NULL,
+  `region` char(64) NOT NULL,
+  `cases` int(11) NULL DEFAULT 0,
+  `ratio` tinyint(4) NULL DEFAULT 0,
+  `peak` int(11) NULL DEFAULT 0,
+  `country` char(64) NOT NULL,
+  `region_type` char(16) NOT NULL,
+  `deaths` int(11) NULL DEFAULT 0,
+  `recovers` int(11) NULL DEFAULT 0,
+  `new_cases` int(11) NULL DEFAULT 0,
+  `pop` int(11) NULL DEFAULT 0,
+  PRIMARY KEY (`id`),
+  KEY `day` (`day`),
+  KEY `state` (`region`),
+  KEY `cases` (`cases`),
+  KEY `growth` (`ratio`),
+  KEY `peak` (`peak`),
+  KEY `country` (`country`),
+  KEY `region_type` (`region_type`),
+  KEY `deaths` (`deaths`),
+  KEY `recovers` (`recovers`),
+  KEY `new_cases` (`new_cases`)
+) ENGINE=InnoDB AUTO_INCREMENT=43841 DEFAULT CHARSET=latin1;
+
 ```
 
-Parse 
+### Use run.sh script
+
+#### Runs parse, generate, generate-json on everything
+
 ```
-$ ./run.sh --database potench --parser parse --date 03-31
+$ ./run.sh --database covids --complete true
 ```
 
-Generate 
+#### Fetch data by date; then runs parse, generate. generate-json on that day
+
 ```
-$ ./run.sh --database potench --parser generate --date 03-31
+$ ./run.sh --database covids --fetch true --date 03-31
 ```
 
-Old Parse for < 03-22
+#### Generate data by date
+
 ```
-$ ./run.sh --database potench --parser stateparse --date 03-22
+$ ./run.sh --database covids --parser generate --date 03-31
+```
+
+#### Generate JSON data < 03-22
+
+```
+$ ./run.sh --database covids --parser json --date 03-22
+```
+
+#### Old Parse to generate data < 03-22
+
+```
+$ ./run.sh --database covids --parser stateparse --date 03-22
 ```

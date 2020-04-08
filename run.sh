@@ -72,9 +72,19 @@ run_json() {
 
 if [ "$fetch" = "true" ]; then 
     echo "fetching latest $date-2020.csv"
-    curl -o ./csv/new/$date-2020.csv https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/$date-2020.csv
-    run_insert $date 'parse'
-    run_generate $date
+    status=`curl --write-out %{http_code} --silent --output /dev/null https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/$date-2020.csv`
+    if [ "$status" = "404" ]; then 
+        echo "-------------------------"
+        echo "ERROR:: "
+        echo "  >   https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/$date-2020.csv Does not exist"
+        echo "  >   Try again later"
+        echo "-------------------------"
+    else         
+        curl -o ./csv/new/$date-2020.csv https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/$date-2020.csv
+        run_insert $date 'parse'
+        run_generate $date
+        run_json $date
+    fi
 elif [ "$complete" = "true" ]; then
     echo "Resetting covids table and running all cvs and json - this will take a minute"
     echo "delete from covids;" | mysql $database
