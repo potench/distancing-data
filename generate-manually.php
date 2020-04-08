@@ -75,6 +75,7 @@ foreach (AllCovidsByDay($day) as $C) {
 	$current_ratio = $C->ratio;
 	$last_total = $C->cases;
 	$new_cases = number_format($C->new_cases);
+	$new_cases_day = number_format($C->new_cases_day);
 	$peak_cases = number_format(RoundSigDigs($C->peak,2));
 	$last_total = number_format($last_total);
 	$days_left = DaysToPeak($current_ratio);
@@ -136,6 +137,7 @@ foreach (AllCovidsByDay($day) as $C) {
 		\"pop\":\"".preg_replace("/,/","",$popu)."\",
 		\"cases\":\"".preg_replace("/,/","",$last_total)."\",
 		\"newCases\":\"".preg_replace("/,/","",$new_cases)."\",
+		\"newCasesDay\":\"".preg_replace("/,/","",$new_cases_day)."\",
 		\"ratio\":\"".intval($current_ratio)."\",
 		\"schoolClosed\":\"$sch\",
 		\"physDist\":\"$lock\",
