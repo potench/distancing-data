@@ -10,6 +10,7 @@ CREATE TABLE `covids` (
   `deaths` int(11) NULL DEFAULT 0,
   `recovers` int(11) NULL DEFAULT 0,
   `new_cases` int(11) NULL DEFAULT 0,
+  `new_cases_day` int(11) NULL DEFAULT 0,
   `pop` int(11) NULL DEFAULT 0,
   PRIMARY KEY (`id`),
   KEY `day` (`day`),
@@ -21,5 +22,7 @@ CREATE TABLE `covids` (
   KEY `region_type` (`region_type`),
   KEY `deaths` (`deaths`),
   KEY `recovers` (`recovers`),
-  KEY `new_cases` (`new_cases`)
+  KEY `new_cases` (`new_cases`),
+  KEY `new_cases_day` (`new_cases_day`),
+  KEY `pop` (`pop`)
 ) ENGINE=InnoDB AUTO_INCREMENT=43841 DEFAULT CHARSET=latin1;
