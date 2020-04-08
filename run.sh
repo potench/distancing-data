@@ -5,6 +5,7 @@ date=${date}
 database=${database}
 fetch=${fetch}
 json=${json}
+reset=${reset}
 
 while [ $# -gt 0 ]; do
    if [[ $1 == *"--"* ]]; then
@@ -70,7 +71,10 @@ run_json() {
     echo "      > $htmlout"
 }
 
-if [ "$fetch" = "true" ]; then 
+if [ "$reset" = "true" ]; then
+    echo 'DROP TABLE IF EXISTS `covids`;' | mysql $database
+    echo `cat ./mysql.txt` | mysql $database
+elif [ "$fetch" = "true" ]; then 
     echo "fetching latest $date-2020.csv"
     status=`curl --write-out %{http_code} --silent --output /dev/null https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/$date-2020.csv`
     if [ "$status" = "404" ]; then 
