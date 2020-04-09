@@ -64,9 +64,9 @@ foreach (preg_split("/\n/",$data) as $line) {
 			} else if ($country == 'Australia') {
 				$type = 'State';
 			}
-			print "insert into covids values ('','".$year."-".$today."',\"{$state}\",$count,'','','$country','$type',$deaths,$recovers,'','','');\n";
+			print "insert into covids values ('','".$year."-".$today."',\"{$state}\",$count,'','','$country','$type',$deaths,$recovers,'','','','');\n";
 		} else {
-			print "insert into covids values ('','".$year."-".$today."',\"{$country}\",$count,'','',\"{$country}\",'Country',$deaths,$recovers,'','','');\n";
+			print "insert into covids values ('','".$year."-".$today."',\"{$country}\",$count,'','',\"{$country}\",'Country',$deaths,$recovers,'','','','');\n";
 		}
 		continue;
 	}
@@ -91,17 +91,17 @@ foreach (preg_split("/\n/",$data) as $line) {
 foreach ($states as $state => $count) {
 	$deaths = $statedeaths[$state];
 	$recovers = $staterecovers[$state];
-	print "insert into covids values ('','".$year."-".$today."',\"{$state}\",$count,'','','USA','State',$deaths,$recovers,'','','');\n";
+	print "insert into covids values ('','".$year."-".$today."',\"{$state}\",$count,'','','USA','State',$deaths,$recovers,'','','','');\n";
 }
 foreach ($counties as $state => $count) {
 	$deaths = $countydeaths[$state];
 	$recovers = $countyrecovers[$state];
-	print "insert into covids values ('','".$year."-".$today."',\"{$state}\",$count,'','','USA','Counties',$deaths,$recovers,'','','');\n";
+	print "insert into covids values ('','".$year."-".$today."',\"{$state}\",$count,'','','USA','Counties',$deaths,$recovers,'','','','');\n";
 }
 foreach ($cities as $state => $count) {
 	$deaths = $citydeaths[$state];
 	$recovers = $cityrecovers[$state];
-	print "insert into covids values ('','".$year."-".$today."',\"{$state}\",$count,'','','USA','City',$deaths,$recovers,'','','');\n";
+	print "insert into covids values ('','".$year."-".$today."',\"{$state}\",$count,'','','USA','City',$deaths,$recovers,'','','','');\n";
 }
 print "delete from covids where region='wuhan evacuee';\n";
 print "delete from covids where region='Diamond Princess';\n";

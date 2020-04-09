@@ -159,7 +159,7 @@ class TableObject {
 
 class Covid extends TableObject {
 	var $table = 'covids';
-	var $rows = array('id','day','region','cases','ratio','peak','country','region_type','deaths','recovers','new_cases','new_cases_day','pop');
+	var $rows = array('id','day','region','cases','ratio','peak','country','region_type','deaths','recovers','new_cases','new_cases_day','cases_10','pop');
 	var $primary_keys = array('id');
 
 	function SavePop($popu) {
@@ -200,7 +200,7 @@ class Covid extends TableObject {
 	}
 
 	function FillReopenData() {
-		$query = "select new_cases from covids where day<'{$this->day}' and region='".mysqli_real_escape_string($GLOBALS['DBH'],trim($this->region))."' and country='".mysqli_real_escape_string($GLOBALS['DBH'],trim($this->country))."' and region_type='".$this->region_type."' order by day desc limit 10";
+		$query = "select new_cases from covids where day<='{$this->day}' and region='".mysqli_real_escape_string($GLOBALS['DBH'],trim($this->region))."' and country='".mysqli_real_escape_string($GLOBALS['DBH'],trim($this->country))."' and region_type='".$this->region_type."' order by day desc limit 10";
 		$result = mysqli_query($GLOBALS['DBH'],$query) or die("Queryp failed: $query");
 		$new_cases = array();
 		while ($line = mysqli_fetch_assoc($result)) {
@@ -208,10 +208,12 @@ class Covid extends TableObject {
 		}
 
 		$this->new_cases_day = 0;
-
+		$this->cases_10 = 0;
 		if (count($new_cases) > 0) {
-			$new_cases_day = round(array_sum($new_cases) / count($new_cases));
+			$cases_10 = array_sum($new_cases);
+			$new_cases_day = round($cases_10 / count($new_cases));
 			$this->new_cases_day = $new_cases_day;
+			$this->cases_10 = $cases_10;
 			# echo "new cases day ($this->region): $this->new_cases_day \n";
 		}
 	}

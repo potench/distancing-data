@@ -39,5 +39,5 @@ foreach (preg_split("/\n/",$data) as $line) {
 		$type = 'Country';
 		$state = $country;
 	}
-	print "insert into covids values ('','".$year."-".$today."','$state',$count,'','','$country','$type',$deaths,$recovers,'','','');\n";
+	print "insert into covids values ('','".$year."-".$today."','$state',$count,'','','$country','$type',$deaths,$recovers,'','','','');\n";
 }
