@@ -113,7 +113,7 @@
 	},{
 		"region":"British Columbia",
 		"type":"Province in Canada",
-		"pop":"",
+		"pop":"5100000",
 		"cases":"1174",
 		"newCases":"53",
 		"newCasesDay":"50",
@@ -122,7 +122,7 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"1300",
-		"estBedShort":"0",
+		"estBedShort":"380",
 		"estDaysPeak":"3"
 	},{
 		"region":"British Virgin Islands",
@@ -155,7 +155,7 @@
 	},{
 		"region":"Channel Islands",
 		"type":"Country in ",
-		"pop":"",
+		"pop":"170000",
 		"cases":"232",
 		"newCases":"39",
 		"newCasesDay":"16",
@@ -164,7 +164,7 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"1200",
-		"estBedShort":"0",
+		"estBedShort":"-103",
 		"estDaysPeak":"11"
 	},{
 		"region":"Chongqing",

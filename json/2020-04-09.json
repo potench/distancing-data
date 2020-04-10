@@ -113,7 +113,7 @@
 	},{
 		"region":"British Columbia",
 		"type":"Province in Canada",
-		"pop":"",
+		"pop":"5100000",
 		"cases":"1336",
 		"newCases":"45",
 		"newCasesDay":"32",
@@ -122,7 +122,7 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"1500",
-		"estBedShort":"0",
+		"estBedShort":"360",
 		"estDaysPeak":"3"
 	},{
 		"region":"British Virgin Islands",
@@ -155,7 +155,7 @@
 	},{
 		"region":"Channel Islands",
 		"type":"Country in ",
-		"pop":"",
+		"pop":"170000",
 		"cases":"361",
 		"newCases":"10",
 		"newCasesDay":"21",
@@ -164,7 +164,7 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"400",
-		"estBedShort":"0",
+		"estBedShort":"-23",
 		"estDaysPeak":"3"
 	},{
 		"region":"Chongqing",
@@ -197,7 +197,7 @@
 	},{
 		"region":"Falkland Islands (Malvinas)",
 		"type":"Country in ",
-		"pop":"",
+		"pop":"3500",
 		"cases":"5",
 		"newCases":"0",
 		"newCasesDay":"2",
@@ -206,7 +206,7 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"240",
-		"estBedShort":"0",
+		"estBedShort":"-24",
 		"estDaysPeak":"30"
 	},{
 		"region":"Faroe Islands",

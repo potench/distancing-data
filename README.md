@@ -22,7 +22,7 @@ See `./output.txt` to review the MySQL commands that were last run.
 Creates (or empties) a `covids` table in the `--database` you provide.
 
 ```
-$./run.sh --database corona_data --reset true
+$ ./run.sh --database corona_data --reset true
 ```
 
 ### Populate Table with All CSV data
@@ -77,7 +77,12 @@ $ ./run.sh --database corona_data --parser stateparse --date 03-22
 
 ## Population Data
 
-You can add missing population data to output.txt.
+Check `./missing-pop.txt` to see which regions are missing population data. You can add missing population data to `./output.txt`. You will need to run the following after a population update
+
+```
+$ ./run.sh --database corona_data --reset true
+$ ./run.sh --database corona_data --complete true
+```
 
 If you want to update/fix any city/county population data or dates they started social distancing, just update the tab-delimited files that look like "city-pop-dates.txt".
 
