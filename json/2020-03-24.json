@@ -6875,7 +6875,7 @@
 	},{
 		"region":"Danville, VA",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"43000",
 		"cases":"1",
 		"newCases":"0",
 		"newCasesDay":"1",
@@ -6884,7 +6884,7 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"1",
-		"estBedShort":"0",
+		"estBedShort":"4",
 		"estDaysPeak":"0"
 	},{
 		"region":"Greenville, OH",

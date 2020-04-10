@@ -7995,7 +7995,7 @@
 	},{
 		"region":"Danville, VA",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"43000",
 		"cases":"5",
 		"newCases":"0",
 		"newCasesDay":"1",
@@ -8004,7 +8004,7 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"6",
-		"estBedShort":"0",
+		"estBedShort":"4",
 		"estDaysPeak":"3"
 	},{
 		"region":"Kill Devil Hills, NC",
