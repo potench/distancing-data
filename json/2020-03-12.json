@@ -2941,7 +2941,7 @@
 	},{
 		"region":"World",
 		"type":"All Countries",
-		"pop":"7800000000",
+		"pop":"2147483647",
 		"cases":"124170",
 		"newCases":"2296",
 		"newCasesDay":"11247",
@@ -2950,6 +2950,6 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"450000",
-		"estBedShort":"735000",
+		"estBedShort":"169748",
 		"estDaysPeak":"30"
 	}]

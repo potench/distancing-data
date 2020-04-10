@@ -80,8 +80,10 @@ foreach (AllCovidsByDay($day) as $C) {
 	$peak_cases = number_format(RoundSigDigs($C->peak,2));
 	$last_total = number_format($last_total);
 	$days_left = DaysToPeak($current_ratio);
-	$popu = $pop[$st];
+	
+	$popu = $C->pop ? strval($C->pop) : $pop[$st];
 	$popuint = preg_replace("/,/","",$popu);
+
 	$C->SavePop(intval($popuint));
 	$peak_density = '';
 	$rcolor='';

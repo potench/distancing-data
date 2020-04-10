@@ -1,7 +1,7 @@
 [{
 		"region":"Alberta",
 		"type":"Province in Canada",
-		"pop":"",
+		"pop":"4400000",
 		"cases":"1181",
 		"newCases":"106",
 		"newCasesDay":"59",
@@ -10,7 +10,7 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"1500",
-		"estBedShort":"0",
+		"estBedShort":"290",
 		"estDaysPeak":"5"
 	},{
 		"region":"Anguilla",
@@ -29,7 +29,7 @@
 	},{
 		"region":"Anhui",
 		"type":"Province in China",
-		"pop":"",
+		"pop":"62000000",
 		"cases":"990",
 		"newCases":"0",
 		"newCasesDay":"0",
@@ -38,7 +38,7 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"990",
-		"estBedShort":"0",
+		"estBedShort":"6101",
 		"estDaysPeak":"0"
 	},{
 		"region":"Aruba",
@@ -57,7 +57,7 @@
 	},{
 		"region":"Australian Capital Territory",
 		"type":"State in Australia",
-		"pop":"",
+		"pop":"430000",
 		"cases":"96",
 		"newCases":"3",
 		"newCasesDay":"4",
@@ -66,7 +66,7 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"110",
-		"estBedShort":"0",
+		"estBedShort":"32",
 		"estDaysPeak":"3"
 	},{
 		"region":"Beijing",
@@ -6567,7 +6567,7 @@
 	},{
 		"region":"Nashville-Davidson--Murfreesboro--Franklin, TN",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"2100000",
 		"cases":"1762",
 		"newCases":"132",
 		"newCasesDay":"114",
@@ -6576,7 +6576,7 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"2200",
-		"estBedShort":"0",
+		"estBedShort":"-10",
 		"estDaysPeak":"5"
 	},{
 		"region":"Ocean City, NJ",
@@ -13315,7 +13315,7 @@
 	},{
 		"region":"Blacksburg-Christiansburg, VA",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"67000",
 		"cases":"8",
 		"newCases":"0",
 		"newCasesDay":"1",
@@ -13324,7 +13324,7 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"380",
-		"estBedShort":"0",
+		"estBedShort":"-31",
 		"estDaysPeak":"30"
 	},{
 		"region":"Montrose, CO",
@@ -15723,7 +15723,7 @@
 	},{
 		"region":"Lewisburg, PA",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"5700",
 		"cases":"6",
 		"newCases":"1",
 		"newCasesDay":"1",
@@ -15732,12 +15732,12 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"290",
-		"estBedShort":"0",
+		"estBedShort":"-28",
 		"estDaysPeak":"30"
 	},{
 		"region":"Union, SC",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"7800",
 		"cases":"11",
 		"newCases":"2",
 		"newCasesDay":"1",
@@ -15746,7 +15746,7 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"360",
-		"estBedShort":"0",
+		"estBedShort":"-35",
 		"estDaysPeak":"20"
 	},{
 		"region":"Sioux City, IA-NE-SD",
@@ -15765,7 +15765,7 @@
 	},{
 		"region":"Thomaston, GA",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"8800",
 		"cases":"13",
 		"newCases":"3",
 		"newCasesDay":"1",
@@ -15774,7 +15774,7 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"430",
-		"estBedShort":"0",
+		"estBedShort":"-42",
 		"estDaysPeak":"20"
 	},{
 		"region":"Provo-Orem, UT",
@@ -15793,7 +15793,7 @@
 	},{
 		"region":"Uvalde, TX",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"16000",
 		"cases":"4",
 		"newCases":"0",
 		"newCasesDay":"0",
@@ -15802,12 +15802,12 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"4",
-		"estBedShort":"0",
+		"estBedShort":"1",
 		"estDaysPeak":"0"
 	},{
 		"region":"Del Rio, TX",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"36000",
 		"cases":"5",
 		"newCases":"0",
 		"newCasesDay":"0",
@@ -15816,12 +15816,12 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"5",
-		"estBedShort":"0",
+		"estBedShort":"3",
 		"estDaysPeak":"0"
 	},{
 		"region":"Van Wert, OH",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"11000",
 		"cases":"2",
 		"newCases":"0",
 		"newCasesDay":"0",
@@ -15830,12 +15830,12 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"2",
-		"estBedShort":"0",
+		"estBedShort":"1",
 		"estDaysPeak":"0"
 	},{
 		"region":"Henderson, NC",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"15000",
 		"cases":"12",
 		"newCases":"2",
 		"newCasesDay":"1",
@@ -15844,12 +15844,12 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"400",
-		"estBedShort":"0",
+		"estBedShort":"-39",
 		"estDaysPeak":"20"
 	},{
 		"region":"Oil City, PA",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"9900",
 		"cases":"3",
 		"newCases":"0",
 		"newCasesDay":"0",
@@ -15858,7 +15858,7 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"3",
-		"estBedShort":"0",
+		"estBedShort":"1",
 		"estDaysPeak":"0"
 	},{
 		"region":"Oxnard-Thousand Oaks-Ventura, CA",
@@ -15891,7 +15891,7 @@
 	},{
 		"region":"Wabash, IN",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"10000",
 		"cases":"1",
 		"newCases":"0",
 		"newCasesDay":"0",
@@ -15900,12 +15900,12 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"1",
-		"estBedShort":"0",
+		"estBedShort":"1",
 		"estDaysPeak":"0"
 	},{
 		"region":"Jasper, AL",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"14000",
 		"cases":"49",
 		"newCases":"0",
 		"newCasesDay":"3",
@@ -15914,12 +15914,12 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"120",
-		"estBedShort":"0",
+		"estBedShort":"-11",
 		"estDaysPeak":"7"
 	},{
 		"region":"Huntsville, TX",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"41000",
 		"cases":"10",
 		"newCases":"2",
 		"newCasesDay":"1",
@@ -15928,7 +15928,7 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"25",
-		"estBedShort":"0",
+		"estBedShort":"2",
 		"estDaysPeak":"7"
 	},{
 		"region":"Walla Walla, WA",
@@ -15947,7 +15947,7 @@
 	},{
 		"region":"Whitewater, WI",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"15000",
 		"cases":"20",
 		"newCases":"5",
 		"newCasesDay":"1",
@@ -15956,12 +15956,12 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"25",
-		"estBedShort":"0",
+		"estBedShort":"-1",
 		"estDaysPeak":"5"
 	},{
 		"region":"Ottumwa, IA",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"24000",
 		"cases":"1",
 		"newCases":"0",
 		"newCasesDay":"0",
@@ -15970,12 +15970,12 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"1",
-		"estBedShort":"0",
+		"estBedShort":"2",
 		"estDaysPeak":"0"
 	},{
 		"region":"Vicksburg, MS",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"22000",
 		"cases":"5",
 		"newCases":"2",
 		"newCasesDay":"0",
@@ -15984,7 +15984,7 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"240",
-		"estBedShort":"0",
+		"estBedShort":"-22",
 		"estDaysPeak":"30"
 	},{
 		"region":"Glens Falls, NY",
@@ -16003,7 +16003,7 @@
 	},{
 		"region":"Warren, PA",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"9200",
 		"cases":"1",
 		"newCases":"0",
 		"newCasesDay":"0",
@@ -16012,12 +16012,12 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"1",
-		"estBedShort":"0",
+		"estBedShort":"1",
 		"estDaysPeak":"0"
 	},{
 		"region":"McMinnville, TN",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"14000",
 		"cases":"1",
 		"newCases":"0",
 		"newCasesDay":"0",
@@ -16026,12 +16026,12 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"1",
-		"estBedShort":"0",
+		"estBedShort":"1",
 		"estDaysPeak":"0"
 	},{
 		"region":"The Dalles, OR",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"14000",
 		"cases":"7",
 		"newCases":"0",
 		"newCasesDay":"1",
@@ -16040,12 +16040,12 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"7",
-		"estBedShort":"0",
+		"estBedShort":"1",
 		"estDaysPeak":"0"
 	},{
 		"region":"Greenville, MS",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"31000",
 		"cases":"36",
 		"newCases":"5",
 		"newCasesDay":"2",
@@ -16054,12 +16054,12 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"45",
-		"estBedShort":"0",
+		"estBedShort":"-1",
 		"estDaysPeak":"5"
 	},{
 		"region":"Marietta, OH",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"14000",
 		"cases":"8",
 		"newCases":"2",
 		"newCasesDay":"1",
@@ -16068,12 +16068,12 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"260",
-		"estBedShort":"0",
+		"estBedShort":"-25",
 		"estDaysPeak":"20"
 	},{
 		"region":"Bartlesville, OK",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"36000",
 		"cases":"35",
 		"newCases":"2",
 		"newCasesDay":"3",
@@ -16082,12 +16082,12 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"88",
-		"estBedShort":"0",
+		"estBedShort":"-5",
 		"estDaysPeak":"7"
 	},{
 		"region":"Brenham, TX",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"17000",
 		"cases":"17",
 		"newCases":"0",
 		"newCasesDay":"2",
@@ -16115,7 +16115,7 @@
 	},{
 		"region":"Barre, VT",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"8700",
 		"cases":"22",
 		"newCases":"1",
 		"newCasesDay":"1",
@@ -16124,7 +16124,7 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"28",
-		"estBedShort":"0",
+		"estBedShort":"-2",
 		"estDaysPeak":"5"
 	},{
 		"region":"Reno, NV",
@@ -16157,7 +16157,7 @@
 	},{
 		"region":"Boone, NC",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"19000",
 		"cases":"8",
 		"newCases":"0",
 		"newCasesDay":"1",
@@ -16166,12 +16166,12 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"8",
-		"estBedShort":"0",
+		"estBedShort":"1",
 		"estDaysPeak":"0"
 	},{
 		"region":"Jesup, GA",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"9800",
 		"cases":"1",
 		"newCases":"1",
 		"newCasesDay":"0",
@@ -16180,12 +16180,12 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"1",
-		"estBedShort":"0",
+		"estBedShort":"1",
 		"estDaysPeak":"0"
 	},{
 		"region":"Richmond, IN",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"230000",
 		"cases":"8",
 		"newCases":"2",
 		"newCasesDay":"1",
@@ -16194,7 +16194,7 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"380",
-		"estBedShort":"0",
+		"estBedShort":"-15",
 		"estDaysPeak":"30"
 	},{
 		"region":"Goldsboro, NC",
@@ -16213,7 +16213,7 @@
 	},{
 		"region":"Wooster, OH",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"27000",
 		"cases":"26",
 		"newCases":"1",
 		"newCasesDay":"2",
@@ -16222,12 +16222,12 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"1200",
-		"estBedShort":"0",
+		"estBedShort":"-117",
 		"estDaysPeak":"30"
 	},{
 		"region":"Martin, TN",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"11000",
 		"cases":"5",
 		"newCases":"4",
 		"newCasesDay":"0",
@@ -16236,7 +16236,7 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"240",
-		"estBedShort":"0",
+		"estBedShort":"-23",
 		"estDaysPeak":"30"
 	},{
 		"region":"Laredo, TX",
@@ -16255,7 +16255,7 @@
 	},{
 		"region":"Fort Dodge, IA",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"24000",
 		"cases":"1",
 		"newCases":"0",
 		"newCasesDay":"0",
@@ -16264,7 +16264,7 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"1",
-		"estBedShort":"0",
+		"estBedShort":"2",
 		"estDaysPeak":"0"
 	},{
 		"region":"Greeley, CO",
@@ -16283,7 +16283,7 @@
 	},{
 		"region":"El Campo, TX",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"12000",
 		"cases":"9",
 		"newCases":"0",
 		"newCasesDay":"1",
@@ -16311,7 +16311,7 @@
 	},{
 		"region":"Searcy, AR",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"24000",
 		"cases":"25",
 		"newCases":"2",
 		"newCasesDay":"2",
@@ -16320,12 +16320,12 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"130",
-		"estBedShort":"0",
+		"estBedShort":"-11",
 		"estDaysPeak":"11"
 	},{
 		"region":"Sterling, IL",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"15000",
 		"cases":"18",
 		"newCases":"3",
 		"newCasesDay":"1",
@@ -16334,12 +16334,12 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"860",
-		"estBedShort":"0",
+		"estBedShort":"-85",
 		"estDaysPeak":"30"
 	},{
 		"region":"Pullman, WA",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"33000",
 		"cases":"11",
 		"newCases":"0",
 		"newCasesDay":"1",
@@ -16348,12 +16348,12 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"11",
-		"estBedShort":"0",
+		"estBedShort":"2",
 		"estDaysPeak":"0"
 	},{
 		"region":"North Wilkesboro, NC",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"4300",
 		"cases":"4",
 		"newCases":"0",
 		"newCasesDay":"1",
@@ -16367,7 +16367,7 @@
 	},{
 		"region":"Wahpeton, ND-MN",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"7800",
 		"cases":"2",
 		"newCases":"0",
 		"newCasesDay":"0",
@@ -16376,12 +16376,12 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"66",
-		"estBedShort":"0",
+		"estBedShort":"-6",
 		"estDaysPeak":"20"
 	},{
 		"region":"Raymondville, TX",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"11000",
 		"cases":"5",
 		"newCases":"0",
 		"newCasesDay":"1",
@@ -16390,12 +16390,12 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"25",
-		"estBedShort":"0",
+		"estBedShort":"-1",
 		"estDaysPeak":"11"
 	},{
 		"region":"Williston, ND",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"26000",
 		"cases":"5",
 		"newCases":"0",
 		"newCasesDay":"1",
@@ -16404,12 +16404,12 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"6",
-		"estBedShort":"0",
+		"estBedShort":"2",
 		"estDaysPeak":"5"
 	},{
 		"region":"Wilson, NC",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"49000",
 		"cases":"28",
 		"newCases":"0",
 		"newCasesDay":"2",
@@ -16418,7 +16418,7 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"140",
-		"estBedShort":"0",
+		"estBedShort":"-9",
 		"estDaysPeak":"11"
 	},{
 		"region":"Worcester, MA-CT",
@@ -16451,7 +16451,7 @@
 	},{
 		"region":"Winona, MN",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"27000",
 		"cases":"14",
 		"newCases":"1",
 		"newCasesDay":"1",
@@ -16460,7 +16460,7 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"18",
-		"estBedShort":"0",
+		"estBedShort":"1",
 		"estDaysPeak":"5"
 	},{
 		"region":"Parkersburg-Vienna, WV",
@@ -16479,7 +16479,7 @@
 	},{
 		"region":"Big Stone Gap, VA",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"5300",
 		"cases":"1",
 		"newCases":"0",
 		"newCasesDay":"1",
@@ -16493,7 +16493,7 @@
 	},{
 		"region":"Wisconsin Rapids-Marshfield, WI",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"94000",
 		"cases":"2",
 		"newCases":"0",
 		"newCasesDay":"0",
@@ -16502,12 +16502,12 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"2",
-		"estBedShort":"0",
+		"estBedShort":"9",
 		"estDaysPeak":"0"
 	},{
 		"region":"Woodward, OK",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"12000",
 		"cases":"1",
 		"newCases":"0",
 		"newCasesDay":"0",
@@ -16516,7 +16516,7 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"1",
-		"estBedShort":"0",
+		"estBedShort":"1",
 		"estDaysPeak":"0"
 	},{
 		"region":"Yakima, WA",
@@ -16535,7 +16535,7 @@
 	},{
 		"region":"Yankton, SD",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"15000",
 		"cases":"14",
 		"newCases":"0",
 		"newCasesDay":"2",
@@ -16544,7 +16544,7 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"22",
-		"estBedShort":"0",
+		"estBedShort":"-1",
 		"estDaysPeak":"6"
 	},{
 		"region":"Prescott Valley-Prescott, AZ",
@@ -16633,7 +16633,7 @@
 	},{
 		"region":"World",
 		"type":"All Countries",
-		"pop":"7800000000",
+		"pop":"2147483647",
 		"cases":"1255495",
 		"newCases":"71932",
 		"newCasesDay":"65880",
@@ -16642,6 +16642,6 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"2200000",
-		"estBedShort":"560000",
+		"estBedShort":"-5252",
 		"estDaysPeak":"5"
 	}]

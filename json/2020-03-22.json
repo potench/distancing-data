@@ -2885,7 +2885,7 @@
 	},{
 		"region":"Australian Capital Territory",
 		"type":"State in Australia",
-		"pop":"",
+		"pop":"430000",
 		"cases":"19",
 		"newCases":"10",
 		"newCasesDay":"1",
@@ -2894,7 +2894,7 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"910",
-		"estBedShort":"0",
+		"estBedShort":"-48",
 		"estDaysPeak":"30"
 	},{
 		"region":"Manitoba",
@@ -4089,7 +4089,7 @@
 	},{
 		"region":"World",
 		"type":"All Countries",
-		"pop":"7800000000",
+		"pop":"2147483647",
 		"cases":"306264",
 		"newCases":"28162",
 		"newCasesDay":"15393",
@@ -4098,6 +4098,6 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"2600000",
-		"estBedShort":"520000",
+		"estBedShort":"-45252",
 		"estDaysPeak":"6"
 	}]

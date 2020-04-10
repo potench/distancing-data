@@ -1,0 +1,48 @@
+Alberta	Province	4,371,000
+Anhui	Province	62,000,000
+Australian Capital	Territory State	426,704
+City of	Zapata, TX	14,390
+City of	Yankton, SD	14,516
+City of	Williston, ND	25,586
+City of	Wilson, NC	49,348
+City of	Winona, MN	26,928
+City of	Big Stone Gap, VA	5,263
+City of	Wisconsin Rapids-Marshfield, WI	93,867
+City of	Woodward, OK	12,268
+City of	Fort Dodge, IA	24,305
+City of	El Campo, TX	11,751
+City of	Searcy, AR	23,916
+City of	Sterling, IL	14,766
+City of	Pullman, WA	33,354
+City of	North Wilkesboro, NC	4,276
+City of	Wahpeton, ND-MN	7,766
+City of	Raymondville, TX	11,003
+City of	Nashville-Davidson--Murfreesboro--Franklin, TN	2,090,956
+City of	Brenham, TX	16,951
+City of	Barre, VT	8,659
+City of	Boone, NC	19,205
+City of	Jesup, GA	9,754
+City of	Richmond, IN	227,032
+City of	Wooster, OH	26,618
+City of	Martin, TN	10,543
+City of	Ottumwa, IA	24,454 
+City of	Vicksburg, MS	22,489
+City of	Warren, PA	9,162
+City of	McMinnville, TN	13,662
+City of	The Dalles, OR	13,631
+City of	Greenville, MS	30,686
+City of	Marietta, OH	13,673
+City of	Bartlesville, OK	36,389
+City of	Lewisburg, PA	5,712
+City of	Union, SC	7,821 
+City of	Thomaston, GA	8,755
+City of	Uvalde, TX	16,298
+City of	Del Rio, TX	36,006
+City of	Van Wert, OH	10,654
+City of	Henderson, NC	14,852
+City of	Oil City, PA	9,863
+City of	Wabash, IN	10,112
+City of	Jasper, AL	13,618
+City of	Huntsville, TX	41,277
+City of	Whitewater, WI	14,540
+City of	Blacksburg-Christiansburg, VA	66,937

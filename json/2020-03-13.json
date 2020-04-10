@@ -729,7 +729,7 @@
 	},{
 		"region":"Australian Capital Territory",
 		"type":"State in Australia",
-		"pop":"",
+		"pop":"430000",
 		"cases":"1",
 		"newCases":"1",
 		"newCasesDay":"0",
@@ -738,7 +738,7 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"1",
-		"estBedShort":"0",
+		"estBedShort":"43",
 		"estDaysPeak":"0"
 	},{
 		"region":"Germany",
@@ -3179,7 +3179,7 @@
 	},{
 		"region":"World",
 		"type":"All Countries",
-		"pop":"7800000000",
+		"pop":"2147483647",
 		"cases":"139032",
 		"newCases":"14862",
 		"newCasesDay":"11237",
@@ -3188,6 +3188,6 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"1100000",
-		"estBedShort":"670000",
+		"estBedShort":"104748",
 		"estDaysPeak":"30"
 	}]

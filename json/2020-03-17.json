@@ -3207,7 +3207,7 @@
 	},{
 		"region":"Australian Capital Territory",
 		"type":"State in Australia",
-		"pop":"",
+		"pop":"430000",
 		"cases":"2",
 		"newCases":"0",
 		"newCasesDay":"0",
@@ -3216,7 +3216,7 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"66",
-		"estBedShort":"0",
+		"estBedShort":"36",
 		"estDaysPeak":"20"
 	},{
 		"region":"Barbados",
@@ -3767,7 +3767,7 @@
 	},{
 		"region":"World",
 		"type":"All Countries",
-		"pop":"7800000000",
+		"pop":"2147483647",
 		"cases":"183619",
 		"newCases":"13731",
 		"newCasesDay":"14562",
@@ -3776,6 +3776,6 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"1200000",
-		"estBedShort":"660000",
+		"estBedShort":"94748",
 		"estDaysPeak":"5"
 	}]

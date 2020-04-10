@@ -1,0 +1,665 @@
+0: Alberta Province 4400000 
+1: Anguilla Country 15000 
+2: Anhui Province 62000000 
+3: Aruba Country 110000 
+4: Australian Capital Territory State 430000 
+5: Bermuda Country 63000 
+6: British Virgin Islands Country 30000 
+7: Cayman Islands Country 65000 
+8: Curacao Country 160000 
+9: Faroe Islands Country 49000 
+10: French Guiana Country 280000 
+11: French Polynesia Country 280000 
+12: Gibraltar Country 34000 
+13: Greenland Country 57000 
+14: Guadeloupe Country 450000 
+15: Isle of Man Country 85000 
+16: Martinique Country 380000 
+17: Mayotte Country 270000 
+18: Montserrat Country 5000 
+19: New Caledonia Country 280000 
+20: Saint Pierre and Miquelon Country 5800 
+21: Sint Maarten Country 42000 
+22: Turks and Caicos Islands Country 38000 
+23: Afghanistan Country 38000000 
+24: Albania Country 2900000 
+25: Algeria Country 43000000 
+26: Andorra Country 77000 
+27: Angola Country 32000000 
+28: Antigua and Barbuda Country 97000 
+29: Argentina Country 45000000 
+30: Armenia Country 3000000 
+31: Austria Country 9000000 
+32: Azerbaijan Country 10000000 
+33: Bahamas Country 390000 
+34: Bahrain Country 1600000 
+35: Bangladesh Country 160000000 
+36: Barbados Country 290000 
+37: Belarus Country 9500000 
+38: Belgium Country 12000000 
+39: Belize Country 390000 
+40: Benin Country 12000000 
+41: Bhutan Country 760000 
+42: Bolivia Country 12000000 
+43: Bosnia and Herzegovina Country 3300000 
+44: Botswana Country 2300000 
+45: Brazil Country 210000000 
+46: Brunei Country 430000 
+47: Bulgaria Country 7000000 
+48: Burkina Faso Country 20000000 
+49: Burundi Country 11000000 
+50: Cambodia Country 16000000 
+51: Cameroon Country 26000000 
+52: Central African Republic Country 4700000 
+53: Chad Country 16000000 
+54: Chile Country 19000000 
+55: Colombia Country 50000000 
+56: Congo (Brazzaville) Country 5400000 
+57: Congo (Kinshasa) Country 87000000 
+58: Costa Rica Country 5000000 
+59: Ivory Coast Country 26000000 
+60: Croatia Country 4100000 
+61: Cuba Country 11000000 
+62: Cyprus Country 1200000 
+63: Denmark Country 5800000 
+64: Djibouti Country 970000 
+65: Dominica Country 72000 
+66: Dominican Republic Country 11000000 
+67: Ecuador Country 17000000 
+68: Egypt Country 100000000 
+69: El Salvador Country 6500000 
+70: Equatorial Guinea Country 1400000 
+71: Eritrea Country 3500000 
+72: Estonia Country 1300000 
+73: Eswatini Country 1100000 
+74: Ethiopia Country 110000000 
+75: Fiji Country 890000 
+76: Finland Country 5500000 
+77: France Country 65000000 
+78: Gabon Country 2200000 
+79: Gambia Country 2300000 
+80: Georgia Country 4000000 
+81: Germany Country 84000000 
+82: Ghana Country 29000000 
+83: Greece Country 10000000 
+84: Grenada Country 110000 
+85: Guatemala Country 18000000 
+86: Guinea Country 13000000 
+87: Guinea-Bissau Country 1900000 
+88: Guyana Country 780000 
+89: Haiti Country 11000000 
+90: Holy See Country 800 
+91: Honduras Country 9700000 
+92: Hungary Country 9700000 
+93: Iceland Country 340000 
+94: India Country 1400000000 
+95: Indonesia Country 270000000 
+96: Iran Country 83000000 
+97: Iraq Country 39000000 
+98: Ireland Country 4900000 
+99: Israel Country 8500000 
+100: Italy Country 61000000 
+101: Jamaica Country 2900000 
+102: Japan Country 130000000 
+103: Jordan Country 10000000 
+104: Kazakhstan Country 19000000 
+105: Kenya Country 53000000 
+106: South Korea Country 51000000 
+107: Kosovo Country 1800000 
+108: Kuwait Country 4200000 
+109: Kyrgyzstan Country 6400000 
+110: Laos Country 7200000 
+111: Latvia Country 1900000 
+112: Lebanon Country 6900000 
+113: Liberia Country 4900000 
+114: Libya Country 6800000 
+115: Liechtenstein Country 38000 
+116: Lithuania Country 2800000 
+117: Luxembourg Country 620000 
+118: Madagascar Country 27000000 
+119: Malawi Country 19000000 
+120: Malaysia Country 32000000 
+121: Maldives Country 530000 
+122: Mali Country 20000000 
+123: Malta Country 440000 
+124: Mauritania Country 4500000 
+125: Mauritius Country 1200000 
+126: Mexico Country 130000000 
+127: Moldova Country 4000000 
+128: Monaco Country 39000 
+129: Mongolia Country 3200000 
+130: Montenegro Country 630000 
+131: Morocco Country 36000000 
+132: Mozambique Country 30000000 
+133: Namibia Country 2500000 
+134: Nepal Country 29000000 
+135: Netherlands Country 17000000 
+136: New Zealand Country 4800000 
+137: Nicaragua Country 6500000 
+138: Niger Country 23000000 
+139: Nigeria Country 200000000 
+140: North Macedonia Country 2100000 
+141: Norway Country 5400000 
+142: Oman Country 5000000 
+143: Pakistan Country 220000000 
+144: Panama Country 4200000 
+145: Papua New Guinea Country 8800000 
+146: Paraguay Country 7000000 
+147: Peru Country 33000000 
+148: Philippines Country 110000000 
+149: Poland Country 38000000 
+150: Portugal Country 10000000 
+151: Qatar Country 2800000 
+152: Romania Country 19000000 
+153: Russia Country 150000000 
+154: Rwanda Country 13000000 
+155: Saint Kitts and Nevis Country 53000 
+156: Saint Lucia Country 180000 
+157: Saint Vincent and the Grenadines Country 110000 
+158: San Marino Country 34000 
+159: Saudi Arabia Country 34000000 
+160: Senegal Country 16000000 
+161: Serbia Country 7000000 
+162: Seychelles Country 98000 
+163: Sierra Leone Country 7800000 
+164: Singapore Country 5800000 
+165: Slovakia Country 5500000 
+166: Slovenia Country 2100000 
+167: Somalia Country 15000000 
+168: South Africa Country 59000000 
+169: South Sudan Country 11000000 
+170: Spain Country 47000000 
+171: Sri Lanka Country 21000000 
+172: Sudan Country 43000000 
+173: Suriname Country 580000 
+174: Sweden Country 10000000 
+175: Switzerland Country 8600000 
+176: Syria Country 17000000 
+177: Taiwan Country 24000000 
+178: Tanzania Country 58000000 
+179: Thailand Country 69000000 
+180: Togo Country 8100000 
+181: Trinidad and Tobago Country 1400000 
+182: Tunisia Country 12000000 
+183: Turkey Country 83000000 
+184: Uganda Country 44000000 
+185: Ukraine Country 44000000 
+186: United Arab Emirates Country 9800000 
+187: United Kingdom Country 68000000 
+188: Uruguay Country 3500000 
+189: Uzbekistan Country 33000000 
+190: Venezuela Country 29000000 
+191: Vietnam Country 96000000 
+192: Western Sahara Country 580000 
+193: Zambia Country 18000000 
+194: Zimbabwe Country 15000000 
+195: South Carolina State 5200000 
+196: Louisiana State 4600000 
+197: Virginia State 8600000 
+198: Idaho State 1800000 
+199: Iowa State 3200000 
+200: Kentucky State 4500000 
+201: Missouri State 6200000 
+202: Oklahoma State 4000000 
+203: Colorado State 5800000 
+204: Illinois State 13000000 
+205: Indiana State 6700000 
+206: Mississippi State 3000000 
+207: Nebraska State 2000000 
+208: Ohio State 12000000 
+209: Pennsylvania State 13000000 
+210: Washington State 7800000 
+211: Wisconsin State 5900000 
+212: Vermont State 630000 
+213: Florida State 22000000 
+214: North Carolina State 11000000 
+215: California State 40000000 
+216: New York State 19000000 
+217: Wyoming State 570000 
+218: Michigan State 10000000 
+219: Maryland State 6100000 
+220: Alaska State 730000 
+221: Tennessee State 6900000 
+222: Texas State 29000000 
+223: Maine State 1300000 
+224: Minnesota State 5700000 
+225: Arizona State 7400000 
+226: Georgia State 11000000 
+227: Arkansas State 3000000 
+228: Kansas State 2900000 
+229: New Jersey State 8900000 
+230: South Dakota State 900000 
+231: Alabama State 4900000 
+232: West Virginia State 1800000 
+233: North Dakota State 760000 
+234: Massachusetts State 7000000 
+235: Montana State 1100000 
+236: New Hampshire State 1400000 
+237: Oregon State 4300000 
+238: New Mexico State 2100000 
+239: Utah State 3300000 
+240: Rhode Island State 1100000 
+241: Nevada State 3100000 
+242: District of Columbia State 720000 
+243: Connecticut State 3600000 
+244: Hawaii State 1400000 
+245: Delaware State 980000 
+246: Puerto Rico State 3000000 
+247: City of Boise City, ID 730000 
+248: City of Denver-Aurora-Lakewood, CO 2900000 
+249: City of Gettysburg, PA 100000 
+250: City of Augusta-Richmond County, GA-SC 600000 
+251: City of Gainesville, FL 290000 
+252: City of Burlington, NC 170000 
+253: City of San Francisco-Oakland-Berkeley, CA 4700000 
+254: City of Albany-Schenectady-Troy, NY 880000 
+255: City of Charlottesville, VA 240000 
+256: City of Hickory-Lenoir-Morganton, NC 370000 
+257: City of Washington-Arlington-Alexandria, DC-VA-MD-WV 6200000 
+258: City of Cumberland, MD-WV 98000 
+259: City of Pittsburgh, PA 2300000 
+260: City of Fort Wayne, IN 440000 
+261: City of Bowling Green, KY 180000 
+262: City of Lima, OH 100000 
+263: City of Richmond, VA 1300000 
+264: City of Lynchburg, VA 260000 
+265: City of Anchorage, AK 400000 
+266: City of Greenville-Anderson, SC 910000 
+267: City of Knoxville, TN 880000 
+268: City of Lewiston-Auburn, ME 110000 
+269: City of Baltimore-Columbia-Towson, MD 2800000 
+270: City of Minneapolis-St. Paul-Bloomington, MN-WI 3600000 
+271: City of Charlotte-Concord-Gastonia, NC-SC 2600000 
+272: City of Lewiston, ID-WA 63000 
+273: City of San Antonio-New Braunfels, TX 2500000 
+274: City of Atlantic City-Hammonton, NJ 270000 
+275: City of Staunton, VA 120000 
+276: City of Houston-The Woodlands-Sugar Land, TX 7000000 
+277: City of Montgomery, AL 370000 
+278: City of Jacksonville, FL 1500000 
+279: City of Daphne-Fairhope-Foley, AL 220000 
+280: City of Pocatello, ID 87000 
+281: City of Barnstable Town, MA 210000 
+282: City of Atlanta-Sandy Springs-Alpharetta, GA 5900000 
+283: City of Columbus, IN 83000 
+284: City of Austin-Round Rock-Georgetown, TX 2200000 
+285: City of Kansas City, MO-KS 2100000 
+286: City of Panama City, FL 200000 
+287: City of Bay City, MI 100000 
+288: City of Hilton Head Island-Bluffton, SC 220000 
+289: City of Killeen-Temple, TX 450000 
+290: City of Wheeling, WV-OH 140000 
+291: City of Fayetteville-Springdale-Rogers, AR 550000 
+292: City of Cedar Rapids, IA 270000 
+293: City of St. Cloud, MN 200000 
+294: City of Corvallis, OR 92000 
+295: City of Kennewick-Richland, WA 300000 
+296: City of New York-Newark-Jersey City, NY-NJ-PA 20000000 
+297: City of Charleston-North Charleston, SC 790000 
+298: City of Hagerstown-Martinsburg, MD-WV 270000 
+299: City of Reading, PA 420000 
+300: City of Pittsfield, MA 130000 
+301: City of Albuquerque, NM 920000 
+302: City of Niles, MI 150000 
+303: City of Birmingham-Hoover, AL 1200000 
+304: City of Macon-Bibb County, GA 230000 
+305: City of Waterloo-Cedar Falls, IA 170000 
+306: City of Altoona, PA 120000 
+307: City of Mankato, MN 100000 
+308: City of Cape Girardeau, MO-IL 97000 
+309: City of St. Louis, MO-IL 2800000 
+310: City of Idaho Falls, ID 150000 
+311: City of Rockford, IL 340000 
+312: City of Indianapolis-Carmel-Anderson, IN 2000000 
+313: City of Ames, IA 98000 
+314: City of Cincinnati, OH-KY-IN 2200000 
+315: City of Columbia, MO 180000 
+316: City of Charleston, WV 210000 
+317: City of Roanoke, VA 310000 
+318: City of Boulder, CO 330000 
+319: City of Lexington-Fayette, KY 520000 
+320: City of Texarkana, TX-AR 150000 
+321: City of Ogden-Clearfield, UT 680000 
+322: City of Huntington-Ashland, WV-KY-OH 350000 
+323: City of Cleveland, TN 120000 
+324: City of Brunswick, GA 120000 
+325: City of College Station-Bryan, TX 260000 
+326: City of Palm Bay-Melbourne-Titusville, FL 600000 
+327: City of Providence-Warwick, RI-MA 1600000 
+328: City of Kingsport-Bristol, TN-VA 310000 
+329: City of Weirton-Steubenville, WV-OH 120000 
+330: City of Valdosta, GA 150000 
+331: City of Binghamton, NY 240000 
+332: City of Miami-Fort Lauderdale-Pompano Beach, FL 6200000 
+333: City of Green Bay, WI 320000 
+334: City of Myrtle Beach-Conway-North Myrtle Beach, SC-NC 480000 
+335: City of Savannah, GA 390000 
+336: City of St. Joseph, MO-KS 130000 
+337: City of Philadelphia-Camden-Wilmington, PA-NJ-DE-MD 6100000 
+338: City of Louisville/Jefferson County, KY-IN 1300000 
+339: City of Asheville, NC 460000 
+340: City of Bismarck, ND 130000 
+341: City of Wichita, KS 640000 
+342: City of Chico, CA 230000 
+343: City of Logan, UT-ID 140000 
+344: City of Anniston-Oxford, AL 110000 
+345: City of Battle Creek, MI 130000 
+346: City of Columbia, SC 830000 
+347: City of Abilene, TX 170000 
+348: City of Jefferson City, MO 150000 
+349: City of Appleton, WI 240000 
+350: City of Johnstown, PA 130000 
+351: City of Brownsville-Harlingen, TX 420000 
+352: City of Oklahoma City, OK 1400000 
+353: City of Nashville-Davidson--Murfreesboro--Franklin, TN 2100000 
+354: City of Ocean City, NJ 93000 
+355: City of Billings, MT 170000 
+356: City of Allentown-Bethlehem-Easton, PA-NJ 840000 
+357: City of Duluth, MN-WI 280000 
+358: City of Lafayette-West Lafayette, IN 220000 
+359: City of Canton-Massillon, OH 400000 
+360: City of Johnson City, TN 200000 
+361: City of Great Falls, MT 82000 
+362: City of South Bend-Mishawaka, IN-MI 320000 
+363: City of Omaha-Council Bluffs, NE-IA 940000 
+364: City of Fargo, ND-MN 250000 
+365: City of Chattanooga, TN-GA 560000 
+366: City of State College, PA 160000 
+367: City of Champaign-Urbana, IL 240000 
+368: City of Punta Gorda, FL 180000 
+369: City of Durham-Chapel Hill, NC 580000 
+370: City of Columbus, GA-AL 310000 
+371: City of Wenatchee, WA 120000 
+372: City of Elmira, NY 84000 
+373: City of Virginia Beach-Norfolk-Newport News, VA-NC 1700000 
+374: City of Jackson, TN 130000 
+375: City of Eau Claire, WI 170000 
+376: City of Burlington-South Burlington, VT 220000 
+377: City of Clarksville, TN-KY 290000 
+378: City of Springfield, MO 470000 
+379: City of Homosassa Springs, FL 150000 
+380: City of Portland-Vancouver-Hillsboro, OR-WA 2500000 
+381: City of Sumter, SC 110000 
+382: City of Las Vegas-Henderson-Paradise, NV 2200000 
+383: City of Springfield, OH 130000 
+384: City of Athens-Clarke County, GA 210000 
+385: City of Terre Haute, IN 170000 
+386: City of Wichita Falls, TX 150000 
+387: City of Pine Bluff, AR 90000 
+388: City of Lansing-East Lansing, MI 480000 
+389: City of Sierra Vista-Douglas, AZ 130000 
+390: City of Flagstaff, AZ 140000 
+391: City of Florence-Muscle Shoals, AL 150000 
+392: City of Naples-Marco Island, FL 380000 
+393: City of Dallas-Fort Worth-Arlington, TX 7500000 
+394: City of Bloomsburg-Berwick, PA 84000 
+395: City of Madison, WI 660000 
+396: City of Lawton, OK 130000 
+397: City of Chicago-Naperville-Elgin, IL-IN-WI 9500000 
+398: City of Jackson, MS 580000 
+399: City of Hattiesburg, MS 150000 
+400: City of Longview, WA 110000 
+401: City of Jonesboro, AR 130000 
+402: City of New Bern, NC 130000 
+403: City of Fort Smith, AR-OK 280000 
+404: City of Tulsa, OK 990000 
+405: City of Memphis, TN-MS-AR 1400000 
+406: City of Lubbock, TX 320000 
+407: City of Portland-South Portland, ME 540000 
+408: City of Vineland-Bridgeton, NJ 150000 
+409: City of Fayetteville, NC 390000 
+410: City of Harrisburg-Carlisle, PA 570000 
+411: City of Cleveland-Elyria, OH 2100000 
+412: City of Des Moines-West Des Moines, IA 660000 
+413: City of Florence, SC 200000 
+414: City of Winston-Salem, NC 670000 
+415: City of Owensboro, KY 120000 
+416: City of Muncie, IN 110000 
+417: City of Columbus, OH 2100000 
+418: City of Bend, OR 190000 
+419: City of Rochester, MN 220000 
+420: City of Albany, GA 150000 
+421: City of Lawrence, KS 120000 
+422: City of Dubuque, IA 97000 
+423: City of Poughkeepsie-Newburgh-Middletown, NY 680000 
+424: City of Odessa, TX 160000 
+425: City of Rocky Mount, NC 150000 
+426: City of Colorado Springs, CO 740000 
+427: City of El Paso, TX 850000 
+428: City of Elkhart-Goshen, IN 210000 
+429: City of Buffalo-Cheektowaga, NY 1100000 
+430: City of Erie, PA 270000 
+431: City of Pensacola-Ferry Pass-Brent, FL 490000 
+432: City of Boston-Cambridge-Newton, MA-NH 4900000 
+433: City of Gadsden, AL 100000 
+434: City of Fairbanks, AK 99000 
+435: City of Bridgeport-Stamford-Norwalk, CT 940000 
+436: City of Waco, TX 270000 
+437: City of Little Rock-North Little Rock-Conway, AR 740000 
+438: City of Beckley, WV 120000 
+439: City of Deltona-Daytona Beach-Ormond Beach, FL 660000 
+440: City of Rome, GA 98000 
+441: City of Fond du Lac, WI 100000 
+442: City of Springfield, MA 630000 
+443: City of Raleigh-Cary, NC 1400000 
+444: City of Chambersburg-Waynesboro, PA 150000 
+445: City of Winchester, VA-WV 140000 
+446: City of Fresno, CA 990000 
+447: City of Toledo, OH 600000 
+448: City of Tallahassee, FL 390000 
+449: City of Enid, OK 61000 
+450: City of Hot Springs, AR 99000 
+451: City of Manhattan, KS 98000 
+452: City of Flint, MI 410000 
+453: City of Dothan, AL 150000 
+454: City of Blacksburg-Christiansburg, VA 67000 
+455: City of Victoria, TX 100000 
+456: City of Morristown, TN 120000 
+457: City of Grand Forks, ND-MN 100000 
+458: City of Sherman-Denison, TX 130000 
+459: City of Tuscaloosa, AL 240000 
+460: City of Dayton-Kettering, OH 810000 
+461: City of Longview, TX 220000 
+462: City of Greensboro-High Point, NC 770000 
+463: City of Gainesville, GA 200000 
+464: City of Grand Island, NE 85000 
+465: City of Gulfport-Biloxi, MS 400000 
+466: City of Elizabethtown-Fort Knox, KY 150000 
+467: City of Beaumont-Port Arthur, TX 410000 
+468: City of Harrisonburg, VA 140000 
+469: City of Hartford-East Hartford-Middletown, CT 1200000 
+470: City of Evansville, IN-KY 310000 
+471: City of Davenport-Moline-Rock Island, IA-IL 380000 
+472: City of Utica-Rome, NY 290000 
+473: City of Tampa-St. Petersburg-Clearwater, FL 3100000 
+474: City of McAllen-Edinburg-Mission, TX 870000 
+475: City of Sebring-Avon Park, FL 110000 
+476: City of Manchester-Nashua, NH 420000 
+477: City of Urban Honolulu, HI 980000 
+478: City of Warner Robins, GA 190000 
+479: City of La Crosse-Onalaska, WI-MN 140000 
+480: City of Kokomo, IN 82000 
+481: City of El Centro, CA 180000 
+482: City of Sebastian-Vero Beach, FL 160000 
+483: City of Grand Rapids-Kentwood, MI 1100000 
+484: City of Carbondale-Marion, IL 120000 
+485: City of Topeka, KS 230000 
+486: City of Jackson, MI 160000 
+487: City of Medford, OR 220000 
+488: City of Joplin, MO 180000 
+489: City of Watertown-Fort Drum, NY 110000 
+490: City of Twin Falls, ID 110000 
+491: City of Iowa City, IA 170000 
+492: City of Grants Pass, OR 87000 
+493: City of Kalamazoo-Portage, MI 340000 
+494: City of Kankakee, IL 110000 
+495: City of Dover, DE 180000 
+496: City of Bakersfield, CA 900000 
+497: City of Seattle-Tacoma-Bellevue, WA 3900000 
+498: City of Hanford-Corcoran, CA 150000 
+499: City of Bremerton-Silverdale-Port Orchard, WA 270000 
+500: City of Coeur d'Alene, ID 160000 
+501: City of Michigan City-La Porte, IN 110000 
+502: City of Orlando-Kissimmee-Sanford, FL 2600000 
+503: City of Lincoln, NE 330000 
+504: City of Lancaster, PA 540000 
+505: City of Eugene-Springfield, OR 380000 
+506: City of Detroit-Warren-Dearborn, MI 4300000 
+507: City of Cheyenne, WY 99000 
+508: City of Fort Collins, CO 350000 
+509: City of Decatur, AL 150000 
+510: City of Lebanon, PA 140000 
+511: City of Auburn-Opelika, AL 160000 
+512: City of Cape Coral-Fort Myers, FL 750000 
+513: City of Hinesville, GA 80000 
+514: City of Huntsville, AL 460000 
+515: City of Sioux Falls, SD 270000 
+516: City of Albany-Lebanon, OR 130000 
+517: City of Rochester, NY 1100000 
+518: City of Los Angeles-Long Beach-Anaheim, CA 13000000 
+519: City of Williamsport, PA 110000 
+520: City of Decatur, IL 100000 
+521: City of Madera, CA 160000 
+522: City of Syracuse, NY 650000 
+523: City of Youngstown-Warren-Boardman, OH-PA 540000 
+524: City of North Port-Sarasota-Bradenton, FL 820000 
+525: City of Wausau-Weston, WI 140000 
+526: City of Phoenix-Mesa-Chandler, AZ 4900000 
+527: City of Ocala, FL 360000 
+528: City of Salem, OR 430000 
+529: City of Peoria, IL 370000 
+530: City of Port St. Lucie, FL 480000 
+531: City of Midland, TX 180000 
+532: City of Kahului-Wailuku-Lahaina, HI 170000 
+533: City of Bloomington, IL 190000 
+534: City of Rapid City, SD 150000 
+535: City of Springfield, IL 210000 
+536: City of Merced, CA 270000 
+537: City of Trenton-Princeton, NJ 370000 
+538: City of Grand Junction, CO 150000 
+539: City of Midland, MI 83000 
+540: City of Milwaukee-Waukesha, WI 1600000 
+541: City of Missoula, MT 120000 
+542: City of Mobile, AL 410000 
+543: City of Lake Havasu City-Kingman, AZ 210000 
+544: City of Morgantown, WV 140000 
+545: City of Bloomington, IN 170000 
+546: City of Monroe, MI 150000 
+547: City of East Stroudsburg, PA 170000 
+548: City of Salinas, CA 440000 
+549: City of Dalton, GA 140000 
+550: City of Muskegon, MI 170000 
+551: City of Napa, CA 140000 
+552: City of Casper, WY 79000 
+553: City of Wilmington, NC 290000 
+554: City of New Haven-Milford, CT 860000 
+555: City of Norwich-New London, CT 270000 
+556: City of Corpus Christi, TX 450000 
+557: City of Crestview-Fort Walton Beach-Destin, FL 280000 
+558: City of Amarillo, TX 270000 
+559: City of Jacksonville, NC 200000 
+560: City of Bangor, ME 150000 
+561: City of Tucson, AZ 1000000 
+562: City of Greenville, NC 180000 
+563: City of Lakeland-Winter Haven, FL 710000 
+564: City of Akron, OH 700000 
+565: City of Pueblo, CO 170000 
+566: City of Racine, WI 200000 
+567: City of Wahpeton, ND-MN 7800 
+568: City of Mansfield, OH 120000 
+569: City of Riverside-San Bernardino-Ontario, CA 4600000 
+570: City of Janesville-Beloit, WI 160000 
+571: City of Saginaw, MI 190000 
+572: City of Salt Lake City, UT 1200000 
+573: City of San Jose-Sunnyvale-Santa Clara, CA 2000000 
+574: City of San Diego-Chula Vista-Carlsbad, CA 3300000 
+575: City of Stockton, CA 750000 
+576: City of Farmington, NM 130000 
+577: City of San Luis Obispo-Paso Robles, CA 280000 
+578: City of Santa Maria-Santa Barbara, CA 450000 
+579: City of Santa Cruz-Watsonville, CA 270000 
+580: City of Santa Fe, NM 150000 
+581: City of Redding, CA 180000 
+582: City of Sheboygan, WI 120000 
+583: City of Mount Vernon-Anacortes, WA 130000 
+584: City of Tyler, TX 230000 
+585: City of Vallejo, CA 450000 
+586: City of Salisbury, MD-DE 410000 
+587: City of Santa Rosa-Petaluma, CA 500000 
+588: City of Spartanburg, SC 340000 
+589: City of Spokane-Spokane Valley, WA 570000 
+590: City of California-Lexington Park, MD 110000 
+591: City of Modesto, CA 550000 
+592: City of The Villages, FL 130000 
+593: City of Yuba City, CA 170000 
+594: City of Olympia-Lacey-Tumwater, WA 290000 
+595: City of San Angelo, TX 120000 
+596: City of Ithaca, NY 100000 
+597: City of Visalia, CA 470000 
+598: City of Kingston, NY 180000 
+599: City of Lewisburg, PA 5700 
+600: City of Union, SC 7800 
+601: City of Sioux City, IA-NE-SD 170000 
+602: City of Thomaston, GA 8800 
+603: City of Provo-Orem, UT 630000 
+604: City of Uvalde, TX 16000 
+605: City of Del Rio, TX 36000 
+606: City of Van Wert, OH 11000 
+607: City of Henderson, NC 15000 
+608: City of Oil City, PA 9900 
+609: City of Oxnard-Thousand Oaks-Ventura, CA 850000 
+610: City of Danville, IL 77000 
+611: City of Wabash, IN 10000 
+612: City of Jasper, AL 14000 
+613: City of Huntsville, TX 41000 
+614: City of Walla Walla, WA 65000 
+615: City of Whitewater, WI 15000 
+616: City of Ottumwa, IA 24000 
+617: City of Vicksburg, MS 22000 
+618: City of Glens Falls, NY 130000 
+619: City of Warren, PA 9200 
+620: City of McMinnville, TN 14000 
+621: City of The Dalles, OR 14000 
+622: City of Greenville, MS 31000 
+623: City of Marietta, OH 14000 
+624: City of Bartlesville, OK 36000 
+625: City of Brenham, TX 17000 
+626: City of St. George, UT 170000 
+627: City of Barre, VT 8700 
+628: City of Reno, NV 470000 
+629: City of Ann Arbor, MI 370000 
+630: City of Boone, NC 19000 
+631: City of Jesup, GA 9800 
+632: City of Richmond, IN 230000 
+633: City of Goldsboro, NC 120000 
+634: City of Wooster, OH 27000 
+635: City of Martin, TN 11000 
+636: City of Laredo, TX 280000 
+637: City of Fort Dodge, IA 24000 
+638: City of Greeley, CO 310000 
+639: City of El Campo, TX 12000 
+640: City of Bellingham, WA 230000 
+641: City of Searcy, AR 24000 
+642: City of Sterling, IL 15000 
+643: City of Pullman, WA 33000 
+644: City of North Wilkesboro, NC 4300 
+645: City of Raymondville, TX 11000 
+646: City of Williston, ND 26000 
+647: City of Wilson, NC 49000 
+648: City of Worcester, MA-CT 950000 
+649: City of Oshkosh-Neenah, WI 170000 
+650: City of Winona, MN 27000 
+651: City of Parkersburg-Vienna, WV 90000 
+652: City of Big Stone Gap, VA 5300 
+653: City of Wisconsin Rapids-Marshfield, WI 94000 
+654: City of Woodward, OK 12000 
+655: City of Yakima, WA 250000 
+656: City of Yankton, SD 15000 
+657: City of Prescott Valley-Prescott, AZ 230000 
+658: City of York-Hanover, PA 450000 
+659: City of Yuma, AZ 210000 
+660: City of Zapata, TX 14000 
+661: China Country 1400000000 
+662: Australia Country 25000000 
+663: USA Country 330000000 
+664: World 7800000000 

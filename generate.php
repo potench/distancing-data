@@ -100,6 +100,15 @@ $continents['USA'] = 'Northern America';
 $pop['USA Country'] = '330,000,000';
 $pop['World'] = '7,800,000,000';
 
+$otherpop = file_get_contents('other-pop.txt');
+foreach (preg_split("/\n/",$otherpop) as $line) {
+	$parts = preg_split("/\t/",$line);
+	if ($parts[0]) {
+		$count = preg_replace('/,/','',$parts[2]);
+		$pop[trim($parts[0])." ".trim($parts[1])] = number_format(RoundSigDigs($count,2));
+	}
+}
+
 $cpop = file_get_contents('country-pop.txt');
 foreach (preg_split("/\n/",$cpop) as $line) {
 	$parts = preg_split("/\t/",$line);
@@ -147,7 +156,8 @@ foreach (preg_split("/\n/",$spop) as $line) {
 	$pop[$state." State"] = number_format(RoundSigDigs($count,2));
 }
 
-
+$counter = 0;
+$missing_pop = "";
 foreach (AllCovidsByDay($day) as $C) {
 	$st = 'World';
 	if ($C->region_type == 'City') {
@@ -164,6 +174,10 @@ foreach (AllCovidsByDay($day) as $C) {
 	$days_left = DaysToPeak($current_ratio);
 	$popu = $pop[$st];
 	$popuint = preg_replace("/,/","",$popu);
+	if ($popu) {
+		$missing_pop .= "$counter: $st $popuint \n";
+		$counter += 1;
+	}
 	$C->SavePop(intval($popuint));
 	$peak_density = '';
 	$rcolor='';
@@ -246,6 +260,6 @@ $(\'.dataTables_length\').addClass(\'bs-select\');
 
 </body>
 </html>';
-
+file_put_contents("./missing-pop.txt", $missing_pop);
 file_put_contents("./html/$day.html",$out);
 file_put_contents("./html/index.html",$out);

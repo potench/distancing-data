@@ -2955,7 +2955,7 @@
 	},{
 		"region":"Australian Capital Territory",
 		"type":"State in Australia",
-		"pop":"",
+		"pop":"430000",
 		"cases":"1",
 		"newCases":"0",
 		"newCasesDay":"1",
@@ -2964,7 +2964,7 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"1",
-		"estBedShort":"0",
+		"estBedShort":"43",
 		"estDaysPeak":"0"
 	},{
 		"region":"Northern Territory",
@@ -3445,7 +3445,7 @@
 	},{
 		"region":"World",
 		"type":"All Countries",
-		"pop":"7800000000",
+		"pop":"2147483647",
 		"cases":"148748",
 		"newCases":"9716",
 		"newCasesDay":"12508",
@@ -3454,6 +3454,6 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"1100000",
-		"estBedShort":"670000",
+		"estBedShort":"104748",
 		"estDaysPeak":"5"
 	}]

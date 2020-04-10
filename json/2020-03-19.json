@@ -3151,7 +3151,7 @@
 	},{
 		"region":"Australian Capital Territory",
 		"type":"State in Australia",
-		"pop":"",
+		"pop":"430000",
 		"cases":"4",
 		"newCases":"1",
 		"newCasesDay":"0",
@@ -3160,7 +3160,7 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"130",
-		"estBedShort":"0",
+		"estBedShort":"30",
 		"estDaysPeak":"20"
 	},{
 		"region":"St Martin",
@@ -3879,7 +3879,7 @@
 	},{
 		"region":"World",
 		"type":"All Countries",
-		"pop":"7800000000",
+		"pop":"2147483647",
 		"cases":"223908",
 		"newCases":"25228",
 		"newCasesDay":"16678",
@@ -3888,6 +3888,6 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"2000000",
-		"estBedShort":"580000",
+		"estBedShort":"14748",
 		"estDaysPeak":"5"
 	}]
