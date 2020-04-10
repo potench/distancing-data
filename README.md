@@ -1,68 +1,66 @@
-ONE TIME SETUP:
-make a mysql db with the table covids defined in mysql.txt.
-update covid.php with the mysqldbname and password at the top.
-Then prefill the mysql db with at least the last three days of data by downloading the last three .csv files from
-https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports
-and running (for example)
-php parse.php 03-30 | mysql mydqldbname
-php parse.php 03-31 | mysql mydqldbname
-php parse.php 04-01 | mysql mydqldbname
+## Data For https://distancingdata.org
 
-If you want to parse csv files from 03-22-2020.csv and earlier, use stateparse.php instead of parse.php (same syntax otherwise).
+Days until reopening assumes (1) limited re-opening will be possible when the number of active cases is 1 per 10,000 people or less, and (2) the availability of widespread testing and contact tracing. Peak estimates are based on [Dave Blake Jr.'s](https://www.facebook.com/blakestah) work. See this [post](https://medium.com/@dblake.mcg/estimating-peak-covid19-infection-rates-950c7f3cfc1a?sk=12e76358dedf8294e01e247e2c663bde). Estimated ICU beds assume 1 bed per 10,000 people, and 10% of cases will need one.
 
-If you want to update/fix any city/county population data or dates they started social distancing, just update the tab-delimited files that look like "city-pop-dates.txt"
+The real-time nature of this event means we cannot promise our estimates are accurate. Data is pulled daily from https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports.
 
-DAILY:
+## Local Development Setup
 
-around 5:30pm each day, download the newest csv file from that site (I used wget)
-... make sure it's got the US (county) data, sometimes that comes in an hour or two later.. so it may be safer to wait until 8pm?!
+Use the provided `./run.sh` shell script to create and populate a local MySQL database, to generate the old site's HTML, and to generate JSON use on https://distancingdata.org.
 
-then every day run
-php parse.php 04-02 | mysql mysqldbname
-.. but replace 04-02 with today's month-day.
-
-then run:
-php generate.php 04-02
-
-then visit:
-https://distancingdata.org/2020-04-02.html
-... and check if it looks fine!
-
-Assuming it does, you can copy it live with:
-cp 2020-04-02.html index.html
-
-## Setup
+See `./output.txt` to review the MySQL commands that were last run.
 
 ### Create Database Locally
+
+Creates (or empties) a `covids` table in the `--database` you provide.
 
 ```
 $./run.sh --database corona_data --reset true
 ```
 
-### Use run.sh script
+### Populate Table with All CSV data
 
-#### Runs parse, generate, generate-json on everything
-
-```
-$ ./run.sh --database corona_data --complete true
-```
-
-#### Fetch data by date; then runs parse, generate. generate-json on that day
+Runs parse (or stateparse), generate-HTML, and generate-JSON on each CSV filling your database sequentially.
+It is recommended to run `--reset true` above followd by `--complete true` below to ensure the calculated output remains consistent.
 
 ```
-$ ./run.sh --database corona_data --fetch true --date 03-31
+$./run.sh --database corona_data --reset true # reset, this is optional
+$ ./run.sh --database corona_data --complete true # does a complete run
 ```
 
-#### Generate data by date
+### Fetch data by date
+
+Fetches CSV data from https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports, then runs parse+insert, generate-html, and generate-json to append the data to existing set.
+
+Data is updated around 5:30pm PST each day.
+Make sure it's got the US (county) data, sometimes that comes in an hour or two later.. so it may be safer to wait until 8pm PST
+
+You can just rerun it and it will overwrite any existing day-data.
 
 ```
-$ ./run.sh --database corona_data --parser generate --date 03-31
+$ ./run.sh --database corona_data --fetch true --date 04-10
 ```
 
-#### Generate JSON data < 03-22
+### Parse CSV and Insert Into the Table by Date
+
+Parse+inserts data by date into the database, generates old html and generates json. Overwrites existing data for the day
+
+```
+$ ./run.sh --database corona_data --date 03-31
+```
+
+### Generate JSON data < 03-22
+
+Generates JSON for the date provided
 
 ```
 $ ./run.sh --database corona_data --parser json --date 03-22
+```
+
+Generates JSON for all dates
+
+```
+$ ./run.sh --database corona_data --parser json
 ```
 
 #### Old Parse to generate data < 03-22
@@ -70,3 +68,9 @@ $ ./run.sh --database corona_data --parser json --date 03-22
 ```
 $ ./run.sh --database corona_data --parser stateparse --date 03-22
 ```
+
+## Population Data
+
+You can add missing population data to output.txt.
+
+If you want to update/fix any city/county population data or dates they started social distancing, just update the tab-delimited files that look like "city-pop-dates.txt".

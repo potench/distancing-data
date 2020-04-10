@@ -36,10 +36,10 @@ run_complete() {
         datepart="${filename[0]}-${filename[1]}"
 
         if [ "$parser" = "json" ]; then
-            run_json $datepart
+            generate_json $datepart
         else 
             run_insert $datepart $parser
-            run_generate $datepart
+            generate_html $datepart
         fi
     done
 }
@@ -49,25 +49,25 @@ run_insert() {
     parser=$2
     
     
-    echo "  >   INSERTING: php $parser.php $datepart | mysql $database"
+    echo "  >   INSERTING MySQL: php $parser.php $datepart | mysql $database"
 
     sqlout=`php $parser.php $datepart`
     echo "$sqlout" > output.txt
     echo "$sqlout" | mysql $database
 }
 
-run_generate() {
+generate_html() {
     datepart=$1
-    echo "  >   GENERATING: php generate.php $datepart"
-    htmlout=`php generate.php $datepart`
+    echo "  >   GENERATING HTML: php generate.php $datepart"
+    htmlout=`php generate-html.php $datepart`
     echo "$htmlout" > output.txt
     echo "$htmlout"
 }
 
-run_json() {
+generate_json() {
     datepart=$1
-    echo "  > GENERATE JSON: $datepart";
-    htmlout=`php generate-manually.php $datepart`
+    echo "  >   GENERATING JSON: $datepart";
+    htmlout=`php generate-json.php $datepart`
     echo "      > $htmlout"
 }
 
@@ -86,8 +86,8 @@ elif [ "$fetch" = "true" ]; then
     else         
         curl -o ./csv/new/$date-2020.csv https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/$date-2020.csv
         run_insert $date 'parse'
-        run_generate $date
-        run_json $date
+        generate_html $date
+        generate_json $date
     fi
 elif [ "$complete" = "true" ]; then
     echo "Resetting covids table and running all cvs and json - this will take a minute"
@@ -100,17 +100,19 @@ elif [ "$complete" = "true" ]; then
     run_complete 'new' 'json'
 elif [ "$parser" = "json" ]; then 
     if [ "$date" ]; then
-        run_json $date
+        generate_json $date
     else
         echo "compiling all json - this will take a minute"
         run_complete 'old' 'json'
         run_complete 'new' 'json'
     fi
 elif [ "$date" != "" ]; then
-    if [[ "$parser" =  "generate" ]]; then
-        run_generate $date
+    if [[ "$parser" =  "stateparse" ]]; then
+        run_insert $date 'stateparse'
     else
-        run_insert $date $parser
-        run_generate $date
+        run_insert $date 'parse'
     fi
+
+    generate_html $date
+    generate_json $date
 fi
