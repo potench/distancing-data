@@ -99,7 +99,7 @@
 	},{
 		"region":"British Columbia",
 		"type":"Province in Canada",
-		"pop":"",
+		"pop":"5100000",
 		"cases":"884",
 		"newCases":"159",
 		"newCasesDay":"121",
@@ -108,7 +108,7 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"2200",
-		"estBedShort":"0",
+		"estBedShort":"290",
 		"estDaysPeak":"7"
 	},{
 		"region":"British Virgin Islands",
@@ -141,7 +141,7 @@
 	},{
 		"region":"Channel Islands",
 		"type":"Country in ",
-		"pop":"",
+		"pop":"170000",
 		"cases":"97",
 		"newCases":"9",
 		"newCasesDay":"13",
@@ -150,7 +150,7 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"3200",
-		"estBedShort":"0",
+		"estBedShort":"-303",
 		"estDaysPeak":"20"
 	},{
 		"region":"Chongqing",
@@ -7617,7 +7617,7 @@
 	},{
 		"region":"Danville, VA",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"43000",
 		"cases":"5",
 		"newCases":"0",
 		"newCasesDay":"1",
@@ -7626,7 +7626,7 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"240",
-		"estBedShort":"0",
+		"estBedShort":"-20",
 		"estDaysPeak":"30"
 	},{
 		"region":"Kill Devil Hills, NC",

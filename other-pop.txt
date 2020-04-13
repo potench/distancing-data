@@ -1,6 +1,9 @@
 Alberta	Province	4,371,000
 Anhui	Province	62,000,000
 Australian Capital	Territory State	426,704
+British Columbia	Province	5,071,000
+Channel Islands	Country	172,259  
+Falkland Islands (Malvinas)	Country	3,456
 City of	Zapata, TX	14,390
 City of	Yankton, SD	14,516
 City of	Williston, ND	25,586
@@ -46,3 +49,5 @@ City of	Jasper, AL	13,618
 City of	Huntsville, TX	41,277
 City of	Whitewater, WI	14,540
 City of	Blacksburg-Christiansburg, VA	66,937
+City of	Danville, VA	42,852
+City of	Martinsville	13,559

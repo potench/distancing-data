@@ -98,7 +98,7 @@ elif [ "$complete" = "true" ]; then
 
     run_complete 'old' 'json'
     run_complete 'new' 'json'
-elif [ "$parser" = "json" ]; then 
+elif [ "$json" = "true" ]; then 
     if [ "$date" ]; then
         generate_json $date
     else

@@ -174,7 +174,7 @@ foreach (AllCovidsByDay($day) as $C) {
 	$days_left = DaysToPeak($current_ratio);
 	$popu = $pop[$st];
 	$popuint = preg_replace("/,/","",$popu);
-	if ($popu) {
+	if (!$popu) {
 		$missing_pop .= "$counter: $st $popuint \n";
 		$counter += 1;
 	}

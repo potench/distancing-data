@@ -10,12 +10,19 @@ Use the provided `./run.sh` shell script to create and populate a local MySQL da
 
 See `./output.txt` to review the MySQL commands that were last run.
 
+- `--database` String, which database to use, run `SHOW DATABASES;` to see a list
+- `--reset` Boolean, true to empty/create the `covids` table
+- `--json` Boolean, true to output JSON
+- `--date` String format `mm-dd`, date to perform action on
+- `--fetch` Boolean, true to fetch, insert, generate-html, generate-json for that day
+- `--parser` String, `stateparse` or `parse` to switch between old and new parsing < 03-22
+
 ### Create Database Locally
 
 Creates (or empties) a `covids` table in the `--database` you provide.
 
 ```
-$./run.sh --database corona_data --reset true
+$ ./run.sh --database corona_data --reset true
 ```
 
 ### Populate Table with All CSV data
@@ -24,7 +31,6 @@ Runs parse (or stateparse), generate-HTML, and generate-JSON on each CSV filling
 It is recommended to run `--reset true` above followd by `--complete true` below to ensure the calculated output remains consistent.
 
 ```
-$./run.sh --database corona_data --reset true # reset, this is optional
 $ ./run.sh --database corona_data --complete true # does a complete run
 ```
 
@@ -49,7 +55,7 @@ Parse+inserts data by date into the database, generates old html and generates j
 $ ./run.sh --database corona_data --date 03-31
 ```
 
-### Generate JSON data < 03-22
+### Generate JSON by Date
 
 Generates JSON for the date provided
 
@@ -63,7 +69,7 @@ Generates JSON for all dates
 $ ./run.sh --database corona_data --parser json
 ```
 
-#### Old Parse to generate data < 03-22
+#### Old Parse to generate HTML data < 03-22
 
 ```
 $ ./run.sh --database corona_data --parser stateparse --date 03-22
@@ -71,6 +77,18 @@ $ ./run.sh --database corona_data --parser stateparse --date 03-22
 
 ## Population Data
 
-You can add missing population data to output.txt.
+Check `./missing-pop.txt` to see which regions are missing population data. You can add missing population data to `./output.txt`. You will need to run the following after a population update
+
+```
+$ ./run.sh --database corona_data --reset true
+$ ./run.sh --database corona_data --complete true
+```
 
 If you want to update/fix any city/county population data or dates they started social distancing, just update the tab-delimited files that look like "city-pop-dates.txt".
+
+## Notes
+
+- Running `generate-html.php` generates HTML for the old site, but it also calculates ICU beds and other important data so you need to run this after running `parse.php` in order by Day sequentially.
+- `missing-pop.txt` contains regions we are currently missing population data - feel free to manually add rows to `other-pop.txt` to help fill these out.
+- Much of the original source code here was provided by Josh Jones, Michael Blend, and Dave Blake - so thanks.
+- https://distancingdata.org frontend is managed in a separate private repository - let me know if you want the source code. I will move it over to this repo eventually.

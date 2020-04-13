@@ -2381,7 +2381,7 @@
 	},{
 		"region":"Channel Islands",
 		"type":"Country in ",
-		"pop":"",
+		"pop":"170000",
 		"cases":"1",
 		"newCases":"1",
 		"newCasesDay":"0",
@@ -2390,7 +2390,7 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"1",
-		"estBedShort":"0",
+		"estBedShort":"17",
 		"estDaysPeak":"0"
 	},{
 		"region":"Gibraltar",
