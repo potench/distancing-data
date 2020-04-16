@@ -154,8 +154,13 @@ foreach (AllCovidsByDay($day) as $C) {
 }
 $out .= "]";
 // $out = preg_replace("/\n/", '', $out);
-$filename = ($day) ? "./json/$day.json" : "./json/all.json";
-$fp = fopen($filename, 'w');
-fwrite($fp, $out);
-fclose($fp);
-echo "Successfully created $filename \n";
+if ($day) {
+	$filename = "./app/static/days/$day.json";
+	$fp = fopen($filename, 'w');
+	fwrite($fp, $out);
+	fclose($fp);
+	echo "Successfully created $filename \n";
+} else {
+	echo "Error: please provide a --day argument in the form of '04-14' for example \n";
+}
+
