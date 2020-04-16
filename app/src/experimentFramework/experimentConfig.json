@@ -1,0 +1,12 @@
+{
+    "experiments": [
+        {
+            "experimentId": "control",
+            "weight": 100
+        },
+        {
+            "experimentId": "some-experiment-id-goes-here",
+            "weight": 0
+        }
+    ]
+}

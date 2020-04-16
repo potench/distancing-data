@@ -1,0 +1,93 @@
+{
+  "name": "@s1/distancing-data",
+  "description": "COVID-19 data visualization site",
+  "version": "0.1.1",
+  "author": "Frontend <frontend@system1.com>",
+  "workspaces": {
+    "nohoist": [
+      "**"
+    ]
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.22",
+    "@emotion/styled": "10.0.17",
+    "axios": "^0.19.0",
+    "babel-plugin-inline-import": "^3.0.0",
+    "bootstrap": "^4.4.1",
+    "chart.js": "^2.9.3",
+    "colors": "1.4.0",
+    "d3": "^5.15.1",
+    "gatsby": "^2.13.73",
+    "gatsby-background-image": "0.8.9",
+    "gatsby-image": "^2.2.38",
+    "gatsby-plugin-emotion": "4.1.6",
+    "gatsby-plugin-manifest": "^2.2.6",
+    "gatsby-plugin-offline": "^2.2.7",
+    "gatsby-plugin-react-helmet": "^3.1.4",
+    "gatsby-plugin-react-svg": "2.1.2",
+    "gatsby-plugin-s3": "^0.3.2",
+    "gatsby-plugin-sass": "^2.2.1",
+    "gatsby-plugin-sharp": "^2.2.13",
+    "gatsby-plugin-typescript": "^2.3.1",
+    "gatsby-source-filesystem": "^2.1.11",
+    "gatsby-transformer-json": "^2.3.1",
+    "gatsby-transformer-sharp": "^2.2.7",
+    "lodash.debounce": "^4.0.8",
+    "node-sass": "^4.13.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-bootstrap": "^1.0.0",
+    "react-bootstrap-table-next": "^4.0.0",
+    "react-bootstrap-table2-toolkit": "^2.1.2",
+    "react-chartjs-2": "^2.9.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^5.2.1",
+    "react-html-parser": "2.0.2",
+    "typescript": "^3.8.3"
+  },
+  "devDependencies": {
+    "@types/node": "^13.9.8",
+    "@types/node-fetch": "^2.5.5",
+    "@types/react": "^16.9.31",
+    "ajv": "6.10.2",
+    "babel-jest": "24.9.0",
+    "babel-preset-gatsby": "0.2.17",
+    "eslint-config-react-app": "5.0.2",
+    "eslint-plugin-flowtype": "2.x",
+    "eslint-plugin-graphql": "3.1.1",
+    "eslint-plugin-react-hooks": "1.x",
+    "graphql": "14.5.8",
+    "identity-obj-proxy": "3.0.0",
+    "jest": "24.9.0",
+    "prettier": "^1.18.2",
+    "react-test-renderer": "16.10.1"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "alfred:pr": "echo \"No PR job for project.\" && exit 0",
+    "clean": "rm -rf src/images/s3Download src/config",
+    "deploy:prod": "ENV=production yarn deploy",
+    "deploy:stage": "ENV=stage yarn deploy",
+    "deploy:dev": "ENV=development yarn deploy",
+    "deploy": "yarn test && yarn validateExperimentConfig && gatsby build && gatsby-plugin-s3 deploy",
+    "dev": "yarn test && yarn validateExperimentConfig && yarn develop",
+    "develop": "gatsby develop",
+    "fetchCmsData": "./fetchCmsData.js",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
+    "postpublish": "yarn deploy:prod -y",
+    "serve": "gatsby serve",
+    "test": "jest",
+    "validateExperimentConfig": "./validateExperimentConfig.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Openmail/OpenMail"
+  },
+  "bugs": {
+    "url": "https://github.com/Openmail/OpenMail/issues"
+  },
+  "private": true
+}
