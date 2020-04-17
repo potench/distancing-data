@@ -170,6 +170,16 @@ class Covid extends TableObject {
 		}
 	}
 
+	function GetDailyNewCases() {
+		$query = "select new_cases from covids where day<='{$this->day}' and region='".mysqli_real_escape_string($GLOBALS['DBH'],trim($this->region))."' and country='".mysqli_real_escape_string($GLOBALS['DBH'],trim($this->country))."' and region_type='".$this->region_type."' order by day desc limit 14";
+		$result = mysqli_query($GLOBALS['DBH'],$query) or die("Queryp failed: $query");
+		$new_cases = array();
+		while ($line = mysqli_fetch_assoc($result)) {
+			array_push($new_cases, $line['new_cases'] ? $line['new_cases'] : 0);
+		}
+		return $new_cases;
+	}
+
 	function FillRatioPeak() {
 		if (!$this->ratio) {
       			$query = "select cases from covids where day<'{$this->day}' and region='".mysqli_real_escape_string($GLOBALS['DBH'],trim($this->region))."' and country='".mysqli_real_escape_string($GLOBALS['DBH'],trim($this->country))."' and region_type='".$this->region_type."' order by day desc limit 3";
@@ -217,8 +227,6 @@ class Covid extends TableObject {
 			# echo "new cases day ($this->region): $this->new_cases_day \n";
 		}
 	}
-
-
 }
 
 
