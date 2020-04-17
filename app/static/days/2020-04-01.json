@@ -6651,7 +6651,7 @@
 	},{
 		"region":"Olean, NY",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"14000",
 		"cases":"7",
 		"newCases":"1",
 		"newCasesDay":"1",
@@ -6660,12 +6660,12 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"84",
-		"estBedShort":"0",
+		"estBedShort":"-7",
 		"estDaysPeak":"15"
 	},{
 		"region":"Auburn, NY",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"26000",
 		"cases":"4",
 		"newCases":"0",
 		"newCasesDay":"0",
@@ -6674,7 +6674,7 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"130",
-		"estBedShort":"0",
+		"estBedShort":"-10",
 		"estDaysPeak":"20"
 	},{
 		"region":"State College, PA",
@@ -6805,7 +6805,7 @@
 	},{
 		"region":"Jamestown-Dunkirk-Fredonia, NY",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"130000",
 		"cases":"8",
 		"newCases":"1",
 		"newCasesDay":"1",
@@ -6814,7 +6814,7 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"9",
-		"estBedShort":"0",
+		"estBedShort":"12",
 		"estDaysPeak":"3"
 	},{
 		"region":"Roswell, NM",
@@ -7323,7 +7323,7 @@
 	},{
 		"region":"Plattsburgh, NY",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"19000",
 		"cases":"25",
 		"newCases":"4",
 		"newCasesDay":"2",
@@ -7332,7 +7332,7 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"350",
-		"estBedShort":"0",
+		"estBedShort":"-33",
 		"estDaysPeak":"17"
 	},{
 		"region":"Wilmington, OH",
@@ -7533,7 +7533,7 @@
 	},{
 		"region":"Hudson, NY",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"6100",
 		"cases":"41",
 		"newCases":"5",
 		"newCasesDay":"4",
@@ -7542,7 +7542,7 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"64",
-		"estBedShort":"0",
+		"estBedShort":"-6",
 		"estDaysPeak":"6"
 	},{
 		"region":"Bloomsburg-Berwick, PA",
@@ -7645,7 +7645,7 @@
 	},{
 		"region":"Cortland, NY",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"19000",
 		"cases":"10",
 		"newCases":"0",
 		"newCasesDay":"1",
@@ -7654,7 +7654,7 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"13",
-		"estBedShort":"0",
+		"estBedShort":"1",
 		"estDaysPeak":"5"
 	},{
 		"region":"Coshocton, OH",
@@ -8569,7 +8569,7 @@
 	},{
 		"region":"Sacramento-Roseville-Folsom, CA",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"2200000",
 		"cases":"345",
 		"newCases":"25",
 		"newCasesDay":"32",
@@ -8578,7 +8578,7 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"540",
-		"estBedShort":"0",
+		"estBedShort":"166",
 		"estDaysPeak":"6"
 	},{
 		"region":"Colorado Springs, CO",
@@ -8961,7 +8961,7 @@
 	},{
 		"region":"Malone, NY",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"14000",
 		"cases":"9",
 		"newCases":"3",
 		"newCasesDay":"1",
@@ -8970,7 +8970,7 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"23",
-		"estBedShort":"0",
+		"estBedShort":"-1",
 		"estDaysPeak":"7"
 	},{
 		"region":"Raleigh-Cary, NC",
@@ -9087,7 +9087,7 @@
 	},{
 		"region":"Gloversville, NY",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"15000",
 		"cases":"2",
 		"newCases":"1",
 		"newCasesDay":"0",
@@ -9096,7 +9096,7 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"66",
-		"estBedShort":"0",
+		"estBedShort":"-5",
 		"estDaysPeak":"20"
 	},{
 		"region":"Toledo, OH",
@@ -9213,7 +9213,7 @@
 	},{
 		"region":"Batavia, NY",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"14000",
 		"cases":"13",
 		"newCases":"2",
 		"newCasesDay":"1",
@@ -9222,7 +9222,7 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"33",
-		"estBedShort":"0",
+		"estBedShort":"-2",
 		"estDaysPeak":"7"
 	},{
 		"region":"Georgetown, SC",
@@ -9885,7 +9885,7 @@
 	},{
 		"region":"Martinsville, VA",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"13000",
 		"cases":"2",
 		"newCases":"1",
 		"newCasesDay":"0",
@@ -9894,7 +9894,7 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"96",
-		"estBedShort":"0",
+		"estBedShort":"-8",
 		"estDaysPeak":"30"
 	},{
 		"region":"Utica-Rome, NY",
@@ -10151,7 +10151,7 @@
 	},{
 		"region":"Eureka-Arcata, CA",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"44000",
 		"cases":"27",
 		"newCases":"6",
 		"newCasesDay":"2",
@@ -10160,7 +10160,7 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"68",
-		"estBedShort":"0",
+		"estBedShort":"-2",
 		"estDaysPeak":"7"
 	},{
 		"region":"Winnemucca, NV",
@@ -10753,7 +10753,7 @@
 	},{
 		"region":"Augusta-Waterville, ME",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"120000",
 		"cases":"12",
 		"newCases":"0",
 		"newCasesDay":"1",
@@ -10762,7 +10762,7 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"15",
-		"estBedShort":"0",
+		"estBedShort":"11",
 		"estDaysPeak":"5"
 	},{
 		"region":"Dover, DE",
@@ -12251,7 +12251,7 @@
 	},{
 		"region":"Ukiah, CA",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"16000",
 		"cases":"4",
 		"newCases":"0",
 		"newCasesDay":"0",
@@ -12260,7 +12260,7 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"5",
-		"estBedShort":"0",
+		"estBedShort":"1",
 		"estDaysPeak":"5"
 	},{
 		"region":"Mount Sterling, KY",
@@ -12601,7 +12601,7 @@
 	},{
 		"region":"Amsterdam, NY",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"18000",
 		"cases":"7",
 		"newCases":"1",
 		"newCasesDay":"1",
@@ -12610,7 +12610,7 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"8",
-		"estBedShort":"0",
+		"estBedShort":"1",
 		"estDaysPeak":"3"
 	},{
 		"region":"Blacksburg-Christiansburg, VA",
@@ -12895,7 +12895,7 @@
 	},{
 		"region":"Truckee-Grass Valley, CA",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"99000",
 		"cases":"26",
 		"newCases":"5",
 		"newCasesDay":"2",
@@ -12904,7 +12904,7 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"860",
-		"estBedShort":"0",
+		"estBedShort":"-76",
 		"estDaysPeak":"20"
 	},{
 		"region":"Wilmington, NC",
@@ -13161,7 +13161,7 @@
 	},{
 		"region":"Oneonta, NY",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"14000",
 		"cases":"19",
 		"newCases":"2",
 		"newCasesDay":"2",
@@ -13170,7 +13170,7 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"270",
-		"estBedShort":"0",
+		"estBedShort":"-26",
 		"estDaysPeak":"17"
 	},{
 		"region":"Salina, KS",
@@ -14113,7 +14113,7 @@
 	},{
 		"region":"Seneca Falls, NY",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"6700",
 		"cases":"2",
 		"newCases":"2",
 		"newCasesDay":"0",
@@ -14393,7 +14393,7 @@
 	},{
 		"region":"Ogdensburg-Massena, NY",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"11000",
 		"cases":"34",
 		"newCases":"11",
 		"newCasesDay":"3",
@@ -14402,7 +14402,7 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"1600",
-		"estBedShort":"0",
+		"estBedShort":"-159",
 		"estDaysPeak":"30"
 	},{
 		"region":"California-Lexington Park, MD",
@@ -14547,7 +14547,7 @@
 	},{
 		"region":"Corning, NY",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"11000",
 		"cases":"38",
 		"newCases":"19",
 		"newCasesDay":"2",
@@ -14556,7 +14556,7 @@
 		"schoolClosed":"",
 		"physDist":"",
 		"peak":"1800",
-		"estBedShort":"0",
+		"estBedShort":"-179",
 		"estDaysPeak":"30"
 	},{
 		"region":"Breckenridge, CO",
@@ -14883,7 +14883,7 @@
 	},{
 		"region":"Sonora, CA",
 		"type":"City in USA",
-		"pop":"",
+		"pop":"4900",
 		"cases":"2",
 		"newCases":"0",
 		"newCasesDay":"1",
