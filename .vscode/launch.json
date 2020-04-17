@@ -1,0 +1,40 @@
+{
+    /* Use IntelliSense to learn about possible attributes.
+     ** Hover to view descriptions of existing attributes.
+     ** For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387 */
+    "version": "0.2.0",
+    "configurations": [
+
+
+        {
+            "name": "Debug Ads Coordinator Tests",
+            "type": "node",
+            "request": "launch",
+            "runtimeArgs": [
+                "--inspect-brk",
+                "${workspaceRoot}/packages/ads-coordinator/node_modules/.bin/jest",
+                "--runInBand"
+            ],
+            "cwd": "${workspaceRoot}/packages/ads-coordinator/",
+            "protocol": "inspector",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229
+        },
+        {
+            "name": "Debug Info Tests",
+            "type": "node",
+            "request": "launch",
+            "runtimeArgs": [
+                "--inspect-brk",
+                "${workspaceRoot}/packages/info-expo/node_modules/.bin/jest",
+                "--runInBand"
+            ],
+            "cwd": "${workspaceRoot}/packages/info-expo/",
+            "protocol": "inspector",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "port": 9229
+        }
+    ]
+}
