@@ -89,7 +89,7 @@ const Chart: FC<ChartProps> = ({ title, dayData }) => {
         data={data} 
         options={options} 
         width={500}
-        height={document.body.clientWidth > 800 ? 280 : 120}
+        height={document.body.clientWidth > 1200 ? 120 : document.body.clientWidth > 800 ? 180 : 120}
       />
     </div>
   );

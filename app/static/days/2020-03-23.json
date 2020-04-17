@@ -8834,6 +8834,21 @@
 		"estBedShort":"109",
 		"estDaysPeak":"0"
 	},{
+		"region":"New Orleans-Metairie, LA",
+		"type":"City in USA",
+		"pop":"1300000",
+		"cases":"907",
+		"newCases":"907",
+		"newCasesAr": [907],
+		"newCasesDay":"0",
+		"casesTenDays":"0",
+		"ratio":"0",
+		"schoolClosed":"11",
+		"physDist":"3",
+		"peak":"910",
+		"estBedShort":"39",
+		"estDaysPeak":"0"
+	},{
 		"region":"Watertown-Fort Drum, NY",
 		"type":"City in USA",
 		"pop":"110000",

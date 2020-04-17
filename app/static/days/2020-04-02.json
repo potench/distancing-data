@@ -11534,6 +11534,21 @@
 		"estBedShort":"0",
 		"estDaysPeak":"0"
 	},{
+		"region":"New Orleans-Metairie, LA",
+		"type":"City in USA",
+		"pop":"1300000",
+		"cases":"6196",
+		"newCases":"1967",
+		"newCasesAr": [1967,778,818,278,77,372,292,307,241,159,907],
+		"newCasesDay":"332",
+		"casesTenDays":"3322",
+		"ratio":"33",
+		"schoolClosed":"21",
+		"physDist":"13",
+		"peak":"300000",
+		"estBedShort":"-29870",
+		"estDaysPeak":"30"
+	},{
 		"region":"Helena, MT",
 		"type":"City in USA",
 		"pop":"",

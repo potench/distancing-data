@@ -60,7 +60,7 @@ generate_html() {
     datepart=$1
     echo "  >   GENERATING HTML: php generate.php $datepart"
     htmlout=`php generate-html.php $datepart`
-    echo "$htmlout" > output.txt
+    #echo "$htmlout" > output.txt
     echo "$htmlout"
 }
 

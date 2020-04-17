@@ -1914,3 +1914,11 @@ Yuba City, CA	Yuba County	California
 Yuma, AZ	Yuma County	Arizona
 Zanesville, OH	Muskingum County	Ohio
 Zapata, TX	Zapata County	Texas
+New Orleans-Metairie, LA	Orleans County	Louisiana
+New Orleans-Metairie, LA	Jefferson County	Louisiana
+New Orleans-Metairie, LA	Plaquemines County	Louisiana
+New Orleans-Metairie, LA	St. Bernard County	Louisiana
+New Orleans-Metairie, LA	St. Tammany County	Louisiana
+New Orleans-Metairie, LA	St. Charles County	Louisiana
+New Orleans-Metairie, LA	Tangipahoa County	Louisiana
+New Orleans-Metairie, LA	St. John the Baptist County Louisiana
