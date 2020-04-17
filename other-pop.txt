@@ -72,3 +72,30 @@ City of	Americus, GA	15,309
 City of	Toccoa, GA	8,294
 City of	Thomasville, GA	18,537
 City of	Tifton, GA	16,715
+City of	Augusta-Waterville, ME	121,581
+City of	Olean, NY	13,597
+City of	Auburn, NY	26,454
+City of	Jamestown-Dunkirk-Fredonia, NY	131,000
+City of	Plattsburgh, NY	19,438
+City of	Hudson, NY	6,144
+City of	Cortland, NY	18,713
+City of	Malone, NY	14,139
+City of	Gloversville, NY	14,832
+City of	Batavia, NY	14,491
+City of	Amsterdam, NY	17,864
+City of	Oneonta, NY	13,918
+City of	Seneca Falls, NY	6,668
+City of	Ogdensburg-Massena, NY	10,551
+City of	Corning, NY	10,603
+City of	Martinsville, VA	12,554
+City of	Crescent City, CA	6,805
+City of	Sacramento-Roseville-Folsom, CA	2,215,770
+City of	Eureka-Arcata, CA	44422
+City of	Clearlake, CA	15,384
+City of	Ukiah, CA	16,177
+City of	Truckee-Grass Valley, CA	98,838
+City of	Red Bluff, CA	14,283
+City of	Sonora, CA	4,870
+City of	El Dorado, AR	17,932
+City of	La Grande, OR	13,271
+City of	Vernon, TX	10,384

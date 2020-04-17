@@ -137,7 +137,7 @@ export const globalStyles = css`
     .chart {
         padding: 1em;
         background: #f2fff7;
-        box-shadow: -5px -5px 10px #fff, 5px 5px 10px #f2fff3;
+        /* box-shadow: -5px -5px 10px #fff, 5px 5px 10px #f2fff3; */
     }
 
     .search-label {
@@ -154,5 +154,21 @@ export const globalStyles = css`
 
     .table thead th {
         outline: 0px solid transparent; /* fixes blue box appearing on sort */
+    }
+
+    .expanded {
+        background: #f2fff7;
+        border-left: 3px solid rgba(75,192,192,1);
+        border-top: 2px solid rgba(75,192,192,1);
+    }
+
+    .react-bootstrap-table .reset-expansion-style {
+        border-left: 3px solid rgba(75,192,192,1);
+        border-bottom: 1px solid rgba(75,192,192,1);
+        padding: 0px;
+    }
+
+    .react-bootstrap-table .row-expansion-style {
+        padding: 0px;
     }
 `;

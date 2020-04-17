@@ -24,7 +24,6 @@ const formatChartData = ({casesTenDays, confirmedTotalCases, date: dateStr, estD
     const estPeakCaseDensity = (casesTenDays * (stringToInt(peakCases) / stringToInt(confirmedTotalCases))) / stringToInt(population);
     
     for (let i = 0; i <= estDaysToReopen; i += 1) {
-        date.setDate(date.getDate() + 1);
         const {day, month} = getDateParts(date);
 
         // labels
@@ -41,16 +40,14 @@ const formatChartData = ({casesTenDays, confirmedTotalCases, date: dateStr, estD
             labels.push(`${month}-${day}`);
             data.push(null); // span gaps
         } 
+        date.setDate(date.getDate() + 1);
     }
 
     return {
         labels,
         datasets: [
             {
-                label: 'Estimated time to Reopen',
-                scaleLabel: {
-                    labelString: 'wut'
-                },
+                label: `Cases Per 10k People`,
                 cubicInterpolationMode: 'monotone',
                 fill: false,
                 lineTension: .4,
@@ -97,6 +94,7 @@ const Chart: FC<ChartProps> = ({title, dayData}) => {
                 data={data}
                 options={options}
                 width={500}
+                height={document.body.clientWidth > 1200 ? 120 : document.body.clientWidth > 800 ? 180 : 120}
             />
         </div>
     );

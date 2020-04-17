@@ -1,0 +1,23 @@
+{
+    "editor.rulers": [120],
+    "files.exclude": {
+        "**/.git": true,
+        "**/node_modules": true,
+        "**/build": true
+    },
+    "editor.formatOnSave": false,
+    "flow.useNPMPackagedFlow": true,
+    "javascript.validate.enable": false,
+    "jest.pathToJest": "yarn jest",
+    "jest.autoEnable": false,
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "[markdown]": {
+        "editor.formatOnSave": true
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "ruby.format": "rubocop",
+    "ruby.useLanguageServer": true,
+    "ruby.useBundler": false
+}

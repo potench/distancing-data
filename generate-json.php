@@ -132,7 +132,20 @@ foreach (AllCovidsByDay($day) as $C) {
     }
     if (!$firstRun) {
         $out .= ",";
-    }
+	}
+	
+	/////// calculate last 10 days 
+	// select 2 weeks of data cases 
+	$hist_day_cases_ar = $C->GetDailyNewCases();
+	$firstLoop = true;
+	$hist_day_cases_st = '';
+	foreach ($hist_day_cases_ar as $hist_day_cases) {
+		if (!$firstLoop) {
+			$hist_day_cases_st .= ",";
+		}
+		$hist_day_cases_st .= "$hist_day_cases";
+		$firstLoop = false;
+	}
 
 	$out .= trim("{
 		\"region\":\"$C->region\",
@@ -140,6 +153,7 @@ foreach (AllCovidsByDay($day) as $C) {
 		\"pop\":\"".preg_replace("/,/","",$popu)."\",
 		\"cases\":\"".preg_replace("/,/","",$last_total)."\",
 		\"newCases\":\"".preg_replace("/,/","",$new_cases)."\",
+		\"newCasesAr\": [".$hist_day_cases_st."],
 		\"newCasesDay\":\"".preg_replace("/,/","",$new_cases_day)."\",
 		\"casesTenDays\":\"".preg_replace("/,/","",$cases_10)."\",
 		\"ratio\":\"".intval($current_ratio)."\",

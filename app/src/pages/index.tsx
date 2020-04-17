@@ -75,7 +75,8 @@ const fetchData = async ({currentDateSelectStr}) => {
             physDist,
             peak,
             estBedShort,
-            estDaysPeak
+            estDaysPeak,
+            newCasesAr
         } = item;
         if (region && type && pop) {
             const estBeds = parseInt(pop) / 10000;
@@ -92,8 +93,9 @@ const fetchData = async ({currentDateSelectStr}) => {
 
             if (daysToReopen < 0) {
                 // if negative, then jump to the peak
-                const peakRatioCaseDensity = peak / parseInt(pop) / idealCaseDensity;
-                daysToReopen = (30 * Math.log(peakRatioCaseDensity)) / Math.log(5.0);
+                const peakCaseDensity = peak / parseInt(pop);
+                const peakRatioCaseDensity = peakCaseDensity / idealCaseDensity;
+                daysToReopen = peakCaseDensity > idealCaseDensity ? (30 * Math.log(peakRatioCaseDensity)) / Math.log(5.0) : 0;
             }
 
             const estDaysToReopen = Math.max(0, Math.round(parseInt(estDaysPeak || 0, 10) + daysToReopen));
@@ -117,7 +119,8 @@ const fetchData = async ({currentDateSelectStr}) => {
                 estBedShortage,
                 estBedShortageRatio,
                 peakDays: getPeakDays(ratio),
-                estDaysToReopen
+                estDaysToReopen,
+                newCasesAr,
             };
 
             itemRows.push(countryData);
