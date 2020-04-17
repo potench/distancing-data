@@ -96,3 +96,6 @@ City of	Ukiah, CA	16,177
 City of	Truckee-Grass Valley, CA	98,838
 City of	Red Bluff, CA	14,283
 City of	Sonora, CA	4,870
+City of	El Dorado, AR	17,932
+City of	La Grande, OR	13,271
+City of	Vernon, TX	10,384

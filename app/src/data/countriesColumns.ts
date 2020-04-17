@@ -176,6 +176,11 @@ const countriesColumns: Array<ColumnsData> = [
         sort: true,
         formatter: na,
         align: 'left'
+    },
+    {
+        dataField: 'newCasesAr',
+        text: 'Cases Total Last 10 Days',
+        hidden: true
     }
 ];
 

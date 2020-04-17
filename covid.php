@@ -171,7 +171,7 @@ class Covid extends TableObject {
 	}
 
 	function GetDailyNewCases() {
-		$query = "select new_cases from covids where day<='{$this->day}' and region='".mysqli_real_escape_string($GLOBALS['DBH'],trim($this->region))."' and country='".mysqli_real_escape_string($GLOBALS['DBH'],trim($this->country))."' and region_type='".$this->region_type."' order by day desc limit 14";
+		$query = "select new_cases from covids where day<='{$this->day}' and region='".mysqli_real_escape_string($GLOBALS['DBH'],trim($this->region))."' and country='".mysqli_real_escape_string($GLOBALS['DBH'],trim($this->country))."' and region_type='".$this->region_type."' order by day desc limit 21";
 		$result = mysqli_query($GLOBALS['DBH'],$query) or die("Queryp failed: $query");
 		$new_cases = array();
 		while ($line = mysqli_fetch_assoc($result)) {
@@ -191,14 +191,14 @@ class Covid extends TableObject {
 
 			$ratio = 0;
 			if ($cases[2]) {
-				$ratio = round((pow($this->cases/$cases[2],.33333)-1)*100);
+				$ratio = round((pow($this->cases / $cases[2], .33333) - 1) * 100);
 			} else if ($cases[1]) {
-				$ratio = round((pow($this->cases/$cases[1],.5)-1)*100);
+				$ratio = round((pow($this->cases / $cases[1], .5) - 1) * 100);
 			} else if ($cases[0]) {
-				$ratio = round((($this->cases/$cases[0])-1)*100);
+				$ratio = round((($this->cases / $cases[0]) - 1) * 100);
 			}
 			$this->ratio = $ratio;
-			$this->new_cases = $this->cases-$cases[0];
+			$this->new_cases = max(0, $this->cases - $cases[0]);
 			$this->FillReopenData();
 		} else {
 			#echo "had ratio for $this->region : $this->ratio : $this->new_cases \n";

@@ -5,6 +5,7 @@ import 'react-bootstrap-table-next/dist/react-bootstrap-table2.min.css';
 import countriesColumns from '../data/countriesColumns';
 import ToolkitProvider from 'react-bootstrap-table2-toolkit';
 import Chart from './Chart/Chart';
+import CaseChart from './Chart/CaseChart';
 import SearchButton from './SearchButton';
 
 interface CountriesTableProps {
@@ -27,10 +28,16 @@ export type CountriesItemRow = {
 
 const rowRenderer = (row: CountriesItemRow) => {
     const {estDaysToReopen} = row;
-    if (estDaysToReopen) {
-        return <Chart title={row.region} dayData={row} />;
-    }
-    return;
+    const estimatedChart = estDaysToReopen ? (
+            <Chart title={`${row.region}: Estimated Reopen Date`} dayData={row} />
+        ) : '';
+
+    return (
+        <>
+            { estimatedChart }
+            <CaseChart title={`${row.region}: New Cases Per Day`} dayData={row} />
+        </>
+    );
 };
 
 const getExpandRow = tableData => {
@@ -38,8 +45,9 @@ const getExpandRow = tableData => {
     return {
         renderer: rowRenderer,
         onlyOneExpanding: true,
-        expanded: startExpanded ? [startExpanded.key] : [],
-        nonExpandable: tableData.filter(({estDaysToReopen}) => parseInt(estDaysToReopen) === 0).map(({key}) => key)
+        parentClassName: 'expanded',
+        expanded: startExpanded ? [startExpanded.key] : []
+        // nonExpandable: tableData.filter(({estDaysToReopen}) => parseInt(estDaysToReopen) === 0).map(({key}) => key)
     };
 };
 

@@ -497,6 +497,3 @@
 496: City of New Philadelphia-Dover, OH  
 497: City of Evanston, WY  
 498: City of Vernal, UT  
-499: City of El Dorado, AR  
-500: City of La Grande, OR  
-501: City of Vernon, TX  
