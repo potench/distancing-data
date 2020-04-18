@@ -4634,21 +4634,6 @@
 		"estBedShort":"-362",
 		"estDaysPeak":"11"
 	},{
-		"region":"Northern Mariana Islands",
-		"type":"State in USA",
-		"pop":"",
-		"cases":"8",
-		"newCases":"0",
-		"newCasesAr": [0,0,0,0,2,0,4,2],
-		"newCasesDay":"1",
-		"casesTenDays":"8",
-		"ratio":"0",
-		"schoolClosed":"",
-		"physDist":"",
-		"peak":"8",
-		"estBedShort":"0",
-		"estDaysPeak":"0"
-	},{
 		"region":"Guam",
 		"type":"State in USA",
 		"pop":"",
@@ -4663,6 +4648,21 @@
 		"peak":"150",
 		"estBedShort":"0",
 		"estDaysPeak":"5"
+	},{
+		"region":"Northern Mariana Islands",
+		"type":"State in USA",
+		"pop":"",
+		"cases":"8",
+		"newCases":"0",
+		"newCasesAr": [0,0,0,0,2,0,4,2],
+		"newCasesDay":"1",
+		"casesTenDays":"8",
+		"ratio":"0",
+		"schoolClosed":"",
+		"physDist":"",
+		"peak":"8",
+		"estBedShort":"0",
+		"estDaysPeak":"0"
 	},{
 		"region":"Puerto Rico",
 		"type":"State in USA",
