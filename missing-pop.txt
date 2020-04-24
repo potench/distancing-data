@@ -21,43 +21,43 @@
 20: Macau Province  
 21: Manitoba Province  
 22: New Brunswick Province  
-23: New South Wales State  
-24: Newfoundland and Labrador Province  
-25: Ningxia Province  
-26: Northern Territory State  
-27: Northwest Territories Province  
-28: Nova Scotia Province  
-29: Ontario Province  
-30: Prince Edward Island Province  
-31: Qinghai Province  
-32: Quebec Province  
-33: Queensland State  
-34: Reunion Country  
-35: Saint Barthelemy Country  
-36: Saskatchewan Province  
-37: Shaanxi Province  
-38: Shandong Province  
-39: Shanghai Province  
-40: Shanxi Province  
-41: Sichuan Province  
-42: South Australia State  
-43: St Martin Country  
-44: Tasmania State  
-45: Tianjin Province  
-46: Tibet Province  
-47: Victoria State  
-48: Western Australia State  
-49: Xinjiang Province  
-50: Yukon Province  
-51: Yunnan Province  
-52: Zhejiang Province  
-53: Burma Country  
-54: Cabo Verde Country  
-55: Czechia Country  
-56: MS Zaandam Country  
-57: Sao Tome and Principe Country  
-58: Timor-Leste Country  
-59: West Bank and Gaza Country  
+23: Newfoundland and Labrador Province  
+24: Ningxia Province  
+25: Northwest Territories Province  
+26: Nova Scotia Province  
+27: Ontario Province  
+28: Prince Edward Island Province  
+29: Qinghai Province  
+30: Quebec Province  
+31: Reunion Country  
+32: Saint Barthelemy Country  
+33: Saskatchewan Province  
+34: Shaanxi Province  
+35: Shandong Province  
+36: Shanghai Province  
+37: Shanxi Province  
+38: Sichuan Province  
+39: St Martin Country  
+40: Tianjin Province  
+41: Tibet Province  
+42: Xinjiang Province  
+43: Yukon Province  
+44: Yunnan Province  
+45: Zhejiang Province  
+46: Burma Country  
+47: Cabo Verde Country  
+48: Czechia Country  
+49: MS Zaandam Country  
+50: Sao Tome and Principe Country  
+51: Timor-Leste Country  
+52: West Bank and Gaza Country  
+53: New South Wales State  
+54: Northern Territory State  
+55: Queensland State  
+56: South Australia State  
+57: Tasmania State  
+58: Victoria State  
+59: Western Australia State  
 60: Guam State  
 61: Northern Mariana Islands State  
 62: Virgin Islands State  
