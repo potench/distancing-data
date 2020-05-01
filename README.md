@@ -92,3 +92,31 @@ If you want to update/fix any city/county population data or dates they started 
 - `missing-pop.txt` contains regions we are currently missing population data - feel free to manually add rows to `other-pop.txt` to help fill these out.
 - Much of the original source code here was provided by Josh Jones, Michael Blend, and Dave Blake - so thanks.
 - https://distancingdata.org frontend is managed in a separate private repository - let me know if you want the source code. I will move it over to this repo eventually.
+
+## FAQ
+
+MySQL is giving me trouble, I'm getting errors like "Can’t connect to local MySQL server through socket ‘/tmp/mysql.sock", how do setup mysql from scratch?
+
+```
+# remove mysql first
+$ brew remove mysql
+$ rm -rf
+
+# reinstall
+$ brew install mysql
+$ mysql.server start
+
+# setup mysql
+$ echo $USER // remember this, let's use this as your mysql user, replace 'myuser' with it below
+$ mysql -u root
+ > SHOW DATABASES;
+ > CREATE DATABASE `corona_data`;
+ > CREATE USER 'myuser'@'localhost' IDENTIFIED WITH mysql_native_password BY '';
+ > GRANT ALL PRIVILEGES ON * . * TO 'myuser'@'localhost';
+ > FLUSH PRIVILEGES;
+ > \q
+
+# setup the table
+$ ./run.sh --reset true --database corona_data
+$ ./run.sh --complete true --database corona_data
+```
