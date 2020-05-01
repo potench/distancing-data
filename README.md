@@ -97,7 +97,7 @@ If you want to update/fix any city/county population data or dates they started 
 
 MySQL is giving me trouble, I'm getting errors like "Can’t connect to local MySQL server through socket ‘/tmp/mysql.sock", how do setup mysql from scratch?
 
-```
+```sh
 # remove mysql first
 $ brew remove mysql
 $ rm -rf
@@ -107,15 +107,20 @@ $ brew install mysql
 $ mysql.server start
 
 # setup mysql
-$ echo $USER // remember this, let's use this as your mysql user, replace 'myuser' with it below
+$ echo $USER # remember this, let's use this as your mysql user, replace 'myuser' with it below
 $ mysql -u root
+```
+
+```sql
  > SHOW DATABASES;
  > CREATE DATABASE `corona_data`;
  > CREATE USER 'myuser'@'localhost' IDENTIFIED WITH mysql_native_password BY '';
  > GRANT ALL PRIVILEGES ON * . * TO 'myuser'@'localhost';
  > FLUSH PRIVILEGES;
  > \q
+```
 
+```sh
 # setup the table
 $ ./run.sh --reset true --database corona_data
 $ ./run.sh --complete true --database corona_data
