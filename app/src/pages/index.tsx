@@ -150,10 +150,12 @@ const IndexPage = () => {
 
         const todayDateStr = `${year}-${month}-${day}`;
         setDateStr(todayDateStr);
+        const monthNames = ["January", "February", "March", "April", "May", "June",
+            "July", "August", "September", "October", "November", "December"
+        ];
 
-        const formattedDateDisplay = `${new Date(`${todayDateStr}`).toLocaleString('default', {
-            month: 'long'
-        })} ${day}, ${year}`;
+        console.log(month, day, year);
+        const formattedDateDisplay = `${monthNames[parseInt(month - 1)]} ${day}, ${year}`;
         setDateDisplay(formattedDateDisplay);
 
         // ga('set', 'dimension1', todayDateStr);
