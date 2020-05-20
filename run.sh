@@ -83,8 +83,16 @@ elif [ "$fetch" = "true" ]; then
         echo "  >   https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/$date-2020.csv Does not exist"
         echo "  >   Try again later"
         echo "-------------------------"
-    else         
+    else
         curl -o ./csv/new/$date-2020.csv https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/$date-2020.csv
+        status=`curl --write-out %{http_code} --silent --output /dev/null https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports_us/$date-2020.csv`
+        if [ "$status" = "404" ]; then 
+            echo "-------------------------"
+            echo "ERROR:: "
+            echo "  >   State Data: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports_us/$date-2020.csv Does not exist"
+        else
+            curl -o ./csv/state/$date-2020.csv https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports_us/$date-2020.csv
+        fi
         run_insert $date 'parse'
         generate_html $date
         generate_json $date
