@@ -101,10 +101,10 @@ elif [ "$complete" = "true" ]; then
     echo "Resetting covids table and running all cvs and json - this will take a minute"
     echo "delete from covids;" | mysql $database
 
-    run_complete 'old' 'stateparse'
+    # run_complete 'old' 'stateparse'
     run_complete 'new' 'parse'
 
-    run_complete 'old' 'json'
+    # run_complete 'old' 'json'
     run_complete 'new' 'json'
 elif [ "$json" = "true" ]; then 
     if [ "$date" ]; then

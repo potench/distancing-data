@@ -80,6 +80,10 @@ foreach (AllCovidsByDay($day) as $C) {
 	$peak_cases = number_format(RoundSigDigs($C->peak,2));
 	$last_total = number_format($last_total);
 	$days_left = DaysToPeak($current_ratio);
+	$positivity = number_format($C->positivity);
+	$new_tested = number_format($C->new_tested);
+	$infection_density = number_format($C->infection_density);
+	
 	
 	$popu = $C->pop ? strval($C->pop) : $pop[$st];
 	$popuint = preg_replace("/,/","",$popu);
@@ -137,13 +141,24 @@ foreach (AllCovidsByDay($day) as $C) {
 	/////// calculate last 10 days 
 	// select 2 weeks of data cases 
 	$hist_day_cases_ar = $C->GetDailyNewCases();
-	$firstLoop = true;
 	$hist_day_cases_st = '';
+	$firstLoop = true;
 	foreach ($hist_day_cases_ar as $hist_day_cases) {
 		if (!$firstLoop) {
 			$hist_day_cases_st .= ",";
 		}
 		$hist_day_cases_st .= "$hist_day_cases";
+		$firstLoop = false;
+	}
+	
+	$hist_infection_density_ar = $C->GetDailyInfectionDesnity();
+	$hist_day_infection_density_st = '';
+	$firstLoop = true;
+	foreach ($hist_infection_density_ar as $hist_infection_density) {
+		if (!$firstLoop) {
+			$hist_day_infection_density_st .= ",";
+		}
+		$hist_day_infection_density_st .= "$hist_infection_density";
 		$firstLoop = false;
 	}
 
@@ -161,7 +176,11 @@ foreach (AllCovidsByDay($day) as $C) {
 		\"physDist\":\"$lock\",
 		\"peak\":\"".preg_replace("/,/","",$peak_cases)."\",
 		\"estBedShort\":\"".preg_replace("/,/","",$est_bed_shortage)."\",
-		\"estDaysPeak\":\"".preg_replace("/,/","",$days_left)."\"
+		\"estDaysPeak\":\"".preg_replace("/,/","",$days_left)."\",
+		\"newTested\":\"".preg_replace("/,/","",$new_tested)."\",
+		\"positivity\":\"".preg_replace("/,/","",$positivity)."\",
+		\"infectionDensity\":\"".preg_replace("/,/","",$infection_density)."\",
+		\"infectionDensityAr\": [".$hist_day_infection_density_st."]
 	}");
 
     $firstRun = false;

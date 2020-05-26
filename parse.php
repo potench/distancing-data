@@ -39,7 +39,7 @@ if (file_exists($statefile)) {
 			$parts = str_getcsv($line, ",", '"');
 			$state = $parts[0];
 			$statetests[$state] = $parts[11]; # num tests
-			# print_r($parts);
+			// print_r($parts);
 		}
 	}
 }
@@ -79,9 +79,9 @@ foreach (preg_split("/\n/",$data) as $line) {
 			} else if ($country == 'Australia') {
 				$type = 'State';
 			}
-			// print "insert into covids values ('','".$year."-".$today."',\"{$state}\",$count,'','','$country','$type',$deaths,$recovers,'','','','','','','','','');\n";
+			print "insert into covids values ('','".$year."-".$today."',\"{$state}\",$count,'','','$country','$type',$deaths,$recovers,'','','','','','','','','','');\n";
 		} else {
-			// print "insert into covids values ('','".$year."-".$today."',\"{$country}\",$count,'','',\"{$country}\",'Country',$deaths,$recovers,'','','','','','','','','');\n";
+			print "insert into covids values ('','".$year."-".$today."',\"{$country}\",$count,'','',\"{$country}\",'Country',$deaths,$recovers,'','','','','','','','','','');\n";
 		}
 		continue;
 	}
@@ -98,9 +98,10 @@ foreach (preg_split("/\n/",$data) as $line) {
 		$citydeaths[$city] += $deaths;
 		$cityrecovers[$city] += $recovers;
 	} else {
-		$counties[$state] += $count;
-		$countydeaths[$state] += $deaths;
-		$countyrecovers[$state] += $recovers;
+		$region = "$state"; // "$country-$state-$county";
+		$counties[$region] += $count;
+		$countydeaths[$region] += $deaths;
+		$countyrecovers[$region] += $recovers;
 	}
 }
 foreach ($states as $state => $count) {
@@ -108,20 +109,20 @@ foreach ($states as $state => $count) {
 	$recovers = $staterecovers[$state]; // + $countyrecovers[$state];
 	$tested = $statetests[$state];
 	$tested = $tested ? $tested : 0;
-	# print "insert into covids values ('','".$year."-".$today."',\"{$state}\",$count,'','','USA','State',$deaths,$recovers,'','','','', $tested,'','','','');\n";
+	print "insert into covids values ('','".$year."-".$today."',\"{$state}\",$count,'','','USA','State',$deaths,$recovers,'','','','', $tested,'','','','','');\n";
 }
 foreach ($counties as $state => $count) {
 	$deaths = $countydeaths[$state];
 	$recovers = $countyrecovers[$state];
-	print "insert into covids values ('','".$year."-".$today."',\"{$state}\",$count,'','','USA','Counties',$deaths,$recovers,'','','','','','','','','');\n";
+	// print "insert into covids values ('','".$year."-".$today."',\"{$state}\",$count,'','','USA','Counties',$deaths,$recovers,'','','','','','','','','','');\n";
 }
 foreach ($cities as $state => $count) {
 	$deaths = $citydeaths[$state];
 	$recovers = $cityrecovers[$state];
-	// print "insert into covids values ('','".$year."-".$today."',\"{$state}\",$count,'','','USA','City',$deaths,$recovers,'','','','','','','','','');\n";
+	print "insert into covids values ('','".$year."-".$today."',\"{$state}\",$count,'','','USA','City',$deaths,$recovers,'','','','','','','','','','');\n";
 }
-// print "delete from covids where region='wuhan evacuee';\n";
-// print "delete from covids where region='Diamond Princess';\n";
-// print "delete from covids where region='Grand Princess';\n";
-// print "update covids set region='Taiwan' where region='Taiwan*';\n";
-// print "update covids set country='Taiwan' where country='Taiwan*';\n";
+print "delete from covids where region='wuhan evacuee';\n";
+print "delete from covids where region='Diamond Princess';\n";
+print "delete from covids where region='Grand Princess';\n";
+print "update covids set region='Taiwan' where region='Taiwan*';\n";
+print "update covids set country='Taiwan' where country='Taiwan*';\n";

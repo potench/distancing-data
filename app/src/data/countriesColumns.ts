@@ -69,119 +69,140 @@ const sortPercent = (a: string, b: string, order) => {
 };
 
 const countriesColumns: Array<ColumnsData> = [
-    {
-        dataField: 'region',
-        text: 'Region',
-        sort: true,
-        align: 'left'
-    },
-    {
-        dataField: 'date',
-        text: 'Date',
-        hidden: true,
-    },
-    {
-        dataField: 'type',
-        text: 'Type',
-        sort: true,
-        align: 'left'
-    },
-    {
-        dataField: 'population',
-        text: 'Population',
-        sort: true,
-        align: 'left',
-        sortFunc: sortWithCommas
-    },
-    {
-        dataField: 'confirmedTotalCases',
-        text: 'Confirmed Total Cases',
-        sort: true,
-        align: 'left',
-        sortFunc: sortWithCommas
-    },
-    {
-        dataField: 'currentDailyGrowth',
-        text: 'Current Daily Growth',
-        sort: true,
-        classes: currentDailyGrowthFormatter,
-        formatter: withPercent,
-        align: 'center',
-        sortFunc: sortPercent
-    },
-    {
-        dataField: 'dateSchoolsClosed',
-        text: 'Days Since Schools Closed',
-        sort: true,
-        align: 'left',
-        hidden: true,
-    },
-    {
-        dataField: 'dateDistancingEnforced',
-        text: 'Days Since Physical Distancing',
-        sort: true,
-        align: 'left',
-        hidden: true,
-    },
-    {
-        dataField: 'peakCases',
-        text: 'Est Peak Cases',
-        sort: true,
-        align: 'left',
-        sortFunc: sortWithCommas
-    },
-    {
-        dataField: 'newCases',
-        text: 'New Cases',
-        hidden: true
-    },
-    {
-        dataField: 'newCasesDay',
-        text: 'New Cases Per Day',
-        hidden: true
-    },
-    {
-        dataField: 'casesTenDays',
-        text: 'Cases Total Last 10 Days',
-        hidden: true
-    },
-    {
-        dataField: 'pop',
-        text: 'Population Number',
-        hidden: true
-    },
-    {
-        dataField: 'ratio',
-        text: 'Growth Rate',
-        hidden: true
-    },
-    {
-        dataField: 'estBedShortage',
-        text: 'Est Spare ICU Beds',
-        sort: true,
-        align: 'left',
-        classes: bedShortageFormatter,
-        formatter: withCommas,
-        sortFunc: sortWithCommas
-    },
-    {
-        dataField: 'peakDays',
-        text: 'Est Days to Peak Cases',
-        sort: true,
-        align: 'left'
-    },
-    {
-        dataField: 'estDaysToReopen',
-        text: 'Est Days to Reopen',
-        sort: true,
-        formatter: na,
-        align: 'left'
-    },
-    {
-        dataField: 'newCasesAr',
-        text: 'Cases Total Last 10 Days',
-        hidden: true
-    }
+  {
+    dataField: "region",
+    text: "Region",
+    sort: true,
+    align: "left"
+  },
+  {
+    dataField: "date",
+    text: "Date",
+    hidden: true
+  },
+  {
+    dataField: "type",
+    text: "Type",
+    sort: true,
+    align: "left"
+  },
+  {
+    dataField: "population",
+    text: "Population",
+    sort: true,
+    align: "left",
+    sortFunc: sortWithCommas
+  },
+  {
+    dataField: "confirmedTotalCases",
+    text: "Confirmed Total Cases",
+    sort: true,
+    align: "left",
+    sortFunc: sortWithCommas
+  },
+  {
+    dataField: "currentDailyGrowth",
+    text: "Current Daily Growth",
+    sort: true,
+    classes: currentDailyGrowthFormatter,
+    formatter: withPercent,
+    align: "center",
+    sortFunc: sortPercent
+  },
+  {
+    dataField: "dateSchoolsClosed",
+    text: "Days Since Schools Closed",
+    sort: true,
+    align: "left",
+    hidden: true
+  },
+  {
+    dataField: "dateDistancingEnforced",
+    text: "Days Since Physical Distancing",
+    sort: true,
+    align: "left",
+    hidden: true
+  },
+  {
+    dataField: "peakCases",
+    text: "Est Peak Cases",
+    sort: true,
+    align: "left",
+    sortFunc: sortWithCommas
+  },
+  {
+    dataField: "newCases",
+    text: "New Cases",
+    hidden: true
+  },
+  {
+    dataField: "newCasesDay",
+    text: "New Cases Per Day",
+    hidden: true
+  },
+  {
+    dataField: "casesTenDays",
+    text: "Cases Total Last 10 Days",
+    hidden: true
+  },
+  {
+    dataField: "pop",
+    text: "Population Number",
+    hidden: true
+  },
+  {
+    dataField: "ratio",
+    text: "Growth Rate",
+    hidden: true
+  },
+  {
+    dataField: "estBedShortage",
+    text: "Est Spare ICU Beds",
+    sort: true,
+    align: "left",
+    classes: bedShortageFormatter,
+    formatter: withCommas,
+    sortFunc: sortWithCommas
+  },
+  {
+    dataField: "peakDays",
+    text: "Est Days to Peak Cases",
+    sort: true,
+    align: "left"
+  },
+  {
+    dataField: "estDaysToReopen",
+    text: "Est Days to Reopen",
+    sort: true,
+    formatter: na,
+    align: "left"
+  },
+  {
+    dataField: "newCasesAr",
+    text: "Cases Total Last 21 Days",
+    hidden: true
+  },
+  {
+    dataField: "newTested",
+    text: "Total Tested Today",
+    align: "left",
+    hidden: true,
+  },
+  {
+    dataField: "positivity",
+    text: "Ratio of new cases to new tests",
+    hidden: true
+  },
+  {
+    dataField: "infectionDensity",
+    text: "Caculation of Infection Density Averages",
+    hidden: true
+  },
+  {
+    dataField: "infectionDensityAr",
+    text: "Infection Densities for last 21 Days",
+    hidden: true
+  },
 ];
 
 export default countriesColumns;

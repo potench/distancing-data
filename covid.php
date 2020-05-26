@@ -1,6 +1,6 @@
 <?php
 
-$GLOBALS['DBH'] = mysqli_connect('127.0.0.1', 'christian','','potench');
+$GLOBALS['DBH'] = mysqli_connect('127.0.0.1', 'christian','','density');
 if (! $GLOBALS['DBH']) {
     echo "Error: Unable to connect to MySQL." . PHP_EOL;
     echo "Debugging errno: " . mysqli_connect_errno() . PHP_EOL;
@@ -159,7 +159,7 @@ class TableObject {
 
 class Covid extends TableObject {
 	var $table = 'covids';
-	var $rows = array('id','day','region','cases','ratio','peak','country','region_type','deaths','recovers','new_cases','new_cases_day','cases_10','pop');
+	var $rows = array('id','day','region','cases','ratio','peak','country','region_type','deaths','recovers','new_cases','new_cases_day','cases_10','pop','tested','new_tested','positivity','positivity_10','infection_density');
 	var $primary_keys = array('id');
 
 	function SavePop($popu) {
@@ -180,13 +180,25 @@ class Covid extends TableObject {
 		return $new_cases;
 	}
 
+	function GetDailyInfectionDesnity() {
+		$query = "select infection_density from covids where day<='{$this->day}' and region='".mysqli_real_escape_string($GLOBALS['DBH'],trim($this->region))."' and country='".mysqli_real_escape_string($GLOBALS['DBH'],trim($this->country))."' and region_type='".$this->region_type."' order by day desc limit 21";
+		$result = mysqli_query($GLOBALS['DBH'],$query) or die("Queryp failed: $query");
+		$infection_density = array();
+		while ($line = mysqli_fetch_assoc($result)) {
+			array_push($infection_density, $line['infection_density'] ? $line['infection_density'] : 0);
+		}
+		return $infection_density;
+	}
+
 	function FillRatioPeak() {
 		if (!$this->ratio) {
-      			$query = "select cases from covids where day<'{$this->day}' and region='".mysqli_real_escape_string($GLOBALS['DBH'],trim($this->region))."' and country='".mysqli_real_escape_string($GLOBALS['DBH'],trim($this->country))."' and region_type='".$this->region_type."' order by day desc limit 3";
+      			$query = "select cases,tested from covids where day<'{$this->day}' and region='".mysqli_real_escape_string($GLOBALS['DBH'],trim($this->region))."' and country='".mysqli_real_escape_string($GLOBALS['DBH'],trim($this->country))."' and region_type='".$this->region_type."' order by day desc limit 3";
 			$result = mysqli_query($GLOBALS['DBH'],$query) or die("Queryp failed: $query");
 			$cases = array();
+			$tested = array();
 			while ($line = mysqli_fetch_assoc($result)) {
 				array_push($cases,$line['cases']);
+				array_push($tested,$line['tested']);
 			}
 
 			$ratio = 0;
@@ -199,6 +211,10 @@ class Covid extends TableObject {
 			}
 			$this->ratio = $ratio;
 			$this->new_cases = max(0, $this->cases - $cases[0]);
+			if ($this->tested > 0) {
+				$this->new_tested = max(0, $this->tested - $tested[0]);
+				$this->positivity = $this->new_tested ? round(($this->new_cases / $this->new_tested) * 100) : 0; // daily positivity
+			}
 			$this->FillReopenData();
 		} else {
 			#echo "had ratio for $this->region : $this->ratio : $this->new_cases \n";
@@ -210,21 +226,36 @@ class Covid extends TableObject {
 	}
 
 	function FillReopenData() {
-		$query = "select new_cases from covids where day<='{$this->day}' and region='".mysqli_real_escape_string($GLOBALS['DBH'],trim($this->region))."' and country='".mysqli_real_escape_string($GLOBALS['DBH'],trim($this->country))."' and region_type='".$this->region_type."' order by day desc limit 10";
+		$query = "select new_cases, positivity from covids where day<='{$this->day}' and region='".mysqli_real_escape_string($GLOBALS['DBH'],trim($this->region))."' and country='".mysqli_real_escape_string($GLOBALS['DBH'],trim($this->country))."' and region_type='".$this->region_type."' order by day desc limit 10";
 		$result = mysqli_query($GLOBALS['DBH'],$query) or die("Queryp failed: $query");
 		$new_cases = array();
+		$positivity = array();
 		while ($line = mysqli_fetch_assoc($result)) {
 			array_push($new_cases, intval($line['new_cases']));
+			array_push($positivity, intval($line['positivity']));
 		}
 
 		$this->new_cases_day = 0;
 		$this->cases_10 = 0;
+		$this->$positivity_10 = 0;
+
 		if (count($new_cases) > 0) {
-			$cases_10 = array_sum($new_cases);
+			$cases_10 = array_sum($new_cases) + $this->new_cases; // new_cases not saved yet so add them here
 			$new_cases_day = round($cases_10 / count($new_cases));
 			$this->new_cases_day = $new_cases_day;
 			$this->cases_10 = $cases_10;
 			# echo "new cases day ($this->region): $this->new_cases_day \n";
+		}
+
+		if (count($positivity) > 0 && $this->positivity > 0) {
+			$positivity_10 = array_sum($positivity) + $this->positivity; // positivity has not been saved yet, so add it here
+			$this->positivity_10 = round($positivity_10 / count($positivity));
+			if ($this->positivity_10 > 0) {
+				$this->infection_density = round($this->new_cases * sqrt($this->positivity / $this->positivity_10));
+			} else {
+				$this->infection_density = $this->new_cases; // default to new_cases 
+			}
+			
 		}
 	}
 }

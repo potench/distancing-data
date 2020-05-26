@@ -76,7 +76,11 @@ const fetchData = async ({currentDateSelectStr}) => {
             peak,
             estBedShort,
             estDaysPeak,
-            newCasesAr
+            newCasesAr,
+            newTested,
+            positivity,
+            infectionDensity,
+            infectionDensityAr
         } = item;
         if (region && type && pop) {
             const estBeds = parseInt(pop) / 10000;
@@ -121,6 +125,10 @@ const fetchData = async ({currentDateSelectStr}) => {
                 peakDays: getPeakDays(ratio),
                 estDaysToReopen,
                 newCasesAr,
+                newTested,
+                positivity,
+                infectionDensity,
+                infectionDensityAr
             };
 
             itemRows.push(countryData);
@@ -140,7 +148,7 @@ const IndexPage = () => {
     const [dateStr, setDateStr] = useState<String>('');
     const [dateDisplay, setDateDisplay] = useState<String>('');
     const [dateSelect, setDateSelect] = useState<Array<String>>([]);
-    const [currentDateSelectStr, setCurrentDateSelectStr] = useState<String>('');
+    const [currentDateSelectStr, setCurrentDateSelectStr] = useState<String>(''); // 04-17-2020
 
     const updateTableData = async () => {
         const {year, month, day, date, itemRows} = await fetchData({
