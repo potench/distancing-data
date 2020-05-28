@@ -215,7 +215,6 @@ class Covid extends TableObject {
 				$this->new_tested = max(0, $this->tested - $tested[0]);
 				$this->positivity = $this->new_tested ? round(($this->new_cases / $this->new_tested) * 100) : 0; // daily positivity
 			}
-			$this->FillReopenData();
 		} else {
 			#echo "had ratio for $this->region : $this->ratio : $this->new_cases \n";
 		}
@@ -226,6 +225,10 @@ class Covid extends TableObject {
 	}
 
 	function FillReopenData() {
+		// if ($this->cases_10) {
+		// 	return; // don't need to recalculate
+		// }
+
 		$query = "select new_cases, positivity from covids where day<='{$this->day}' and region='".mysqli_real_escape_string($GLOBALS['DBH'],trim($this->region))."' and country='".mysqli_real_escape_string($GLOBALS['DBH'],trim($this->country))."' and region_type='".$this->region_type."' order by day desc limit 10";
 		$result = mysqli_query($GLOBALS['DBH'],$query) or die("Queryp failed: $query");
 		$new_cases = array();
@@ -247,16 +250,20 @@ class Covid extends TableObject {
 			# echo "new cases day ($this->region): $this->new_cases_day \n";
 		}
 
-		if (count($positivity) > 0 && $this->positivity > 0) {
+		if (count($positivity) > 0 && $this->positivity > 0 && $this->pop > 0) {
 			$positivity_10 = array_sum($positivity) + $this->positivity; // positivity has not been saved yet, so add it here
-			$this->positivity_10 = round($positivity_10 / count($positivity));
-			if ($this->positivity_10 > 0) {
-				$this->infection_density = round($this->new_cases * sqrt($this->positivity / $this->positivity_10));
-			} else {
-				$this->infection_density = $this->new_cases; // default to new_cases 
-			}
-			
+			$positivity_10_avg = round($positivity_10 / count($positivity));
+			$this->positivity_10 = $positivity_10_avg;
+
+			# 11.2*(ccases[numdays]-ccases[numdays-10])*np.power(sum3/0.19,0.5)/population
+			$normalizing_test_positivity = 0.19;
+			$normalize_antibodies = 6.02;
+			# echo "$normalize_antibodies * $cases_10 * sqrt($positivity_10_avg / $normalizing_test_positivity) / $this->pop $this->region \n";
+			$this->infection_density = $normalize_antibodies * $cases_10 * sqrt($positivity_10_avg / $normalizing_test_positivity) / $this->pop;
+			echo "$this->region infection_density: $this->infection_density \n";
 		}
+
+		$this->Save();
 	}
 }
 

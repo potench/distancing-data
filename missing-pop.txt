@@ -1,635 +1,500 @@
-0: Abruzzo Province  
-1: Acre Province  
-2: Aguascalientes Province  
-3: Alagoas Province  
-4: Amapa Province  
-5: Amazonas Province  
-6: Andalusia Province  
-7: Antofagasta Province  
-8: Aragon Province  
-9: Araucania Province  
-10: Arica y Parinacota Province  
-11: Asturias Province  
-12: Atacama Province  
-13: Aysen Province  
-14: Baden-Wurttemberg Province  
-15: Bahia Province  
-16: Baja California Province  
-17: Baja California Sur Province  
-18: Baleares Province  
-19: Basilicata Province  
-20: Bayern Province  
-21: Beijing Province  
-22: Berlin Province  
-23: Biobio Province  
-24: Bonaire, Sint Eustatius and Saba Country  
-25: Brandenburg Province  
-26: Bremen Province  
-27: C. Valenciana Province  
-28: Calabria Province  
-29: Campania Province  
-30: Campeche Province  
-31: Canarias Province  
-32: Cantabria Province  
-33: Castilla - La Mancha Province  
-34: Castilla y Leon Province  
-35: Catalonia Province  
-36: Ceara Province  
-37: Ceuta Province  
-38: Chiapas Province  
-39: Chihuahua Province  
-40: Chongqing Province  
-41: Ciudad de Mexico Province  
-42: Coahuila Province  
-43: Colima Province  
-44: Coquimbo Province  
-45: Distrito Federal Province  
-46: Durango Province  
-47: Emilia-Romagna Province  
-48: Espirito Santo Province  
-49: Extremadura Province  
-50: Friuli Venezia Giulia Province  
-51: Fujian Province  
-52: Galicia Province  
-53: Gansu Province  
-54: Goias Province  
-55: Guanajuato Province  
-56: Guangdong Province  
-57: Guangxi Province  
-58: Guerrero Province  
-59: Guizhou Province  
-60: Hainan Province  
-61: Hamburg Province  
-62: Hebei Province  
-63: Heilongjiang Province  
-64: Henan Province  
-65: Hessen Province  
-66: Hidalgo Province  
-67: Hong Kong Province  
-68: Hubei Province  
-69: Hunan Province  
-70: Inner Mongolia Province  
-71: Jalisco Province  
-72: Jiangsu Province  
-73: Jiangxi Province  
-74: Jilin Province  
-75: La Rioja Province  
-76: Lazio Province  
-77: Liaoning Province  
-78: Liguria Province  
-79: Lombardia Province  
-80: Los Lagos Province  
-81: Los Rios Province  
-82: Macau Province  
-83: Madrid Province  
-84: Magallanes Province  
-85: Manitoba Province  
-86: Maranhao Province  
-87: Marche Province  
-88: Mato Grosso Province  
-89: Mato Grosso do Sul Province  
-90: Maule Province  
-91: Mecklenburg-Vorpommern Province  
-92: Melilla Province  
-93: Metropolitana Province  
-94: Mexico Province  
-95: Michoacan Province  
-96: Minas Gerais Province  
-97: Molise Province  
-98: Morelos Province  
-99: Murcia Province  
-100: Navarra Province  
-101: Nayarit Province  
-102: New Brunswick Province  
-103: New South Wales State  
-104: Newfoundland and Labrador Province  
-105: Niedersachsen Province  
-106: Ningxia Province  
-107: Nordrhein-Westfalen Province  
-108: Northern Territory State  
-109: Northwest Territories Province  
-110: Nova Scotia Province  
-111: Nuble Province  
-112: Nuevo Leon Province  
-113: OHiggins Province  
-114: Oaxaca Province  
-115: Ontario Province  
-116: P.A. Bolzano Province  
-117: P.A. Trento Province  
-118: Pais Vasco Province  
-119: Para Province  
-120: Paraiba Province  
-121: Parana Province  
-122: Pernambuco Province  
-123: Piaui Province  
-124: Piemonte Province  
-125: Prince Edward Island Province  
-126: Puebla Province  
-127: Puglia Province  
-128: Qinghai Province  
-129: Quebec Province  
-130: Queensland State  
-131: Queretaro Province  
-132: Quintana Roo Province  
-133: Reunion Country  
-134: Rheinland-Pfalz Province  
-135: Rio Grande do Norte Province  
-136: Rio Grande do Sul Province  
-137: Rio de Janeiro Province  
-138: Rondonia Province  
-139: Roraima Province  
-140: Saarland Province  
-141: Sachsen Province  
-142: Sachsen-Anhalt Province  
-143: Saint Barthelemy Country  
-144: San Luis Potosi Province  
-145: Santa Catarina Province  
-146: Sao Paulo Province  
-147: Sardegna Province  
-148: Saskatchewan Province  
-149: Schleswig-Holstein Province  
-150: Sergipe Province  
-151: Shaanxi Province  
-152: Shandong Province  
-153: Shanghai Province  
-154: Shanxi Province  
-155: Sichuan Province  
-156: Sicilia Province  
-157: Sinaloa Province  
-158: Sonora Province  
-159: South Australia State  
-160: St Martin Country  
-161: Tabasco Province  
-162: Tamaulipas Province  
-163: Tarapaca Province  
-164: Tasmania State  
-165: Thuringen Province  
-166: Tianjin Province  
-167: Tibet Province  
-168: Tlaxcala Province  
-169: Tocantins Province  
-170: Toscana Province  
-171: Umbria Province  
-172: Unknown Province  
-173: Valle d'Aosta Province  
-174: Valparaiso Province  
-175: Veneto Province  
-176: Veracruz Province  
-177: Victoria State  
-178: Western Australia State  
-179: Xinjiang Province  
-180: Yucatan Province  
-181: Yukon Province  
-182: Yunnan Province  
-183: Zacatecas Province  
-184: Zhejiang Province  
-185: Burma Country  
-186: Cabo Verde Country  
-187: Czechia Country  
-188: MS Zaandam Country  
-189: Sao Tome and Principe Country  
-190: Timor-Leste Country  
-191: West Bank and Gaza Country  
-192: Guam State  
-193: Northern Mariana Islands State  
-194: Virgin Islands State  
-195: City of Kirksville, MO  
-196: City of Quincy, IL-MO  
-197: City of Decatur, IN  
-198: City of Natchez, MS-LA  
-199: City of Hastings, NE  
-200: City of Othello, WA  
-201: City of Laramie, WY  
-202: City of Corinth, MS  
-203: City of Holland, MI  
-204: City of Alpena, MI  
-205: City of Frankfort, KY  
-206: City of Palestine, TX  
-207: City of Andrews, TX  
-208: City of Lufkin, TX  
-209: City of Rockport, TX  
-210: City of Ashland, OH  
-211: City of Ashtabula, OH  
-212: City of Atchison, KS  
-213: City of Athens, OH  
-214: City of Mexico, MO  
-215: City of Wapakoneta, OH  
-216: City of Paducah, KY-IL  
-217: City of Eufaula, AL-GA  
-218: City of Glasgow, KY  
-219: City of Great Bend, KS  
-220: City of Mount Sterling, KY  
-221: City of Mountain Home, AR  
-222: City of Huron, SD  
-223: City of Washington, NC  
-224: City of Elk City, OK  
-225: City of Shelbyville, TN  
-226: City of Beeville, TX  
-227: City of Laconia, NH  
-228: City of Middlesborough, KY  
-229: City of Bemidji, MN  
-230: City of Bennington, VT  
-231: City of Traverse City, MI  
-232: City of Blackfoot, ID  
-233: City of Hailey, ID  
-234: City of Cleveland, MS  
-235: City of Sandpoint, ID  
-236: City of Harrison, AR  
-237: City of Danville, KY  
-238: City of Sayre, PA  
-239: City of Coldwater, MI  
-240: City of Brookings, SD  
-241: City of New Ulm, MN  
-242: City of Aberdeen, SD  
-243: City of Brownwood, TX  
-244: City of Durant, OK  
-245: City of Storm Lake, IA  
-246: City of Kearney, NE  
-247: City of Statesboro, GA  
-248: City of Ottawa, IL  
-249: City of Poplar Bluff, MO  
-250: City of Port Lavaca, TX  
-251: City of Murray, KY  
-252: City of Mount Pleasant, TX  
-253: City of Gillette, WY  
-254: City of Carroll, IA  
-255: City of Greenwood, MS  
-256: City of Ardmore, OK  
-257: City of Morehead City, NC  
-258: City of Logansport, IN  
-259: City of Brainerd, MN  
-260: City of Burley, ID  
-261: City of Mason City, IA  
-262: City of Urbana, OH  
-263: City of Emporia, KS  
-264: City of Roswell, NM  
-265: City of Tahlequah, OK  
-266: City of Gaffney, SC  
-267: City of Jacksonville, TX  
-268: City of Keene, NH  
-269: City of Sault Ste. Marie, MI  
-270: City of Taylorville, IL  
-271: City of Fallon, NV  
-272: City of Grants, NM  
-273: City of Port Angeles, WA  
-274: City of Arkadelphia, AR  
-275: City of Fort Madison-Keokuk, IA-IL-MO  
-276: City of Meridian, MS  
-277: City of Astoria, OR  
-278: City of Spencer, IA  
-279: City of London, KY  
-280: City of West Point, MS  
-281: City of Vermillion, SD  
-282: City of DuBois, PA  
-283: City of Shelby, NC  
-284: City of Frankfort, IN  
-285: City of Clinton, IA  
-286: City of Wilmington, OH  
-287: City of Lock Haven, PA  
-288: City of Clarksdale, MS  
-289: City of Newport, TN  
-290: City of Watertown, SD  
-291: City of Enterprise, AL  
-292: City of Tullahoma-Manchester, TN  
-293: City of Charleston-Mattoon, IL  
-294: City of Magnolia, AR  
-295: City of Lake City, FL  
-296: City of Salem, OH  
-297: City of Gainesville, TX  
-298: City of Berlin, NH  
-299: City of Coos Bay, OR  
-300: City of Alexander City, AL  
-301: City of Coshocton, OH  
-302: City of Winfield, KS  
-303: City of Pittsburg, KS  
-304: City of Bucyrus-Galion, OH  
-305: City of Meadville, PA  
-306: City of Prineville, OR  
-307: City of Cullman, AL  
-308: City of Crossville, TN  
-309: City of Clovis, NM  
-310: City of Brookings, OR  
-311: City of Weatherford, OK  
-312: City of Ozark, AL  
-313: City of Selma, AL  
-314: City of Kill Devil Hills, NC  
-315: City of Greenville, OH  
-316: City of Washington, IN  
-317: City of Mitchell, SD  
-318: City of Lexington, NE  
-319: City of Lamesa, TX  
-320: City of Fort Payne, AL  
-321: City of Auburn, IN  
-322: City of Arcadia, FL  
-323: City of Hereford, TX  
-324: City of Greensburg, IN  
-325: City of Defiance, OH  
-326: City of Escanaba, MI  
-327: City of Burlington, IA-IL  
-328: City of Spirit Lake, IA  
-329: City of Iron Mountain, MI-WI  
-330: City of Fremont, NE  
-331: City of Beaver Dam, WI  
-332: City of Cambridge, MD  
-333: City of Alexandria, MN  
-334: City of Gardnerville Ranchos, NV  
-335: City of Roseburg, OR  
-336: City of Jasper, IN  
-337: City of Kennett, MO  
-338: City of Menomonie, WI  
-339: City of Alice, TX  
-340: City of Dyersburg, TN  
-341: City of Edwards, CO  
-342: City of Carlsbad-Artesia, NM  
-343: City of Effingham, IL  
-344: City of St. Marys, PA  
-345: City of Elko, NV  
-346: City of Hays, KS  
-347: City of Mountain Home, ID  
-348: City of Stephenville, TX  
-349: City of Sandusky, OH  
-350: City of Atmore, AL  
-351: City of Bonham, TX  
-352: City of Connersville, IN  
-353: City of Washington Court House, OH  
-354: City of Garden City, KS  
-355: City of Kalispell, MT  
-356: City of Dodge City, KS  
-357: City of Ottawa, KS  
-358: City of Albert Lea, MN  
-359: City of Cañon City, CO  
-360: City of Rexburg, ID  
-361: City of Riverton, WY  
-362: City of Pearsall, TX  
-363: City of Beatrice, NE  
-364: City of Bozeman, MT  
-365: City of Point Pleasant, WV-OH  
-366: City of Glenwood Springs, CO  
-367: City of Georgetown, SC  
-368: City of Payson, AZ  
-369: City of Fredericksburg, TX  
-370: City of Red Wing, MN  
-371: City of Lebanon, NH-VT  
-372: City of Safford, AZ  
-373: City of Marion, IN  
-374: City of Silver City, NM  
-375: City of Moses Lake, WA  
-376: City of Platteville, WI  
-377: City of Alma, MI  
-378: City of Mayfield, KY  
-379: City of Pampa, TX  
-380: City of Aberdeen, WA  
-381: City of Campbellsville, KY  
-382: City of Paragould, AR  
-383: City of Greeneville, TN  
-384: City of Greenwood, SC  
-385: City of Grenada, MS  
-386: City of Cambridge, OH  
-387: City of Plainview, TX  
-388: City of Roanoke Rapids, NC  
-389: City of Findlay, OH  
-390: City of Wauchula, FL  
-391: City of Clarksburg, WV  
-392: City of Hilo, HI  
-393: City of Brownsville, TN  
-394: City of Hope, AR  
-395: City of Athens, TX  
-396: City of Clewiston, FL  
-397: City of New Castle, IN  
-398: City of Paris, TN  
-399: City of Hillsdale, MI  
-400: City of Levelland, TX  
-401: City of Granbury, TX  
-402: City of Hood River, OR  
-403: City of Madisonville, KY  
-404: City of Sulphur Springs, TX  
-405: City of Malvern, AR  
-406: City of Houghton, MI  
-407: City of Big Spring, TX  
-408: City of West Plains, MO  
-409: City of Pierre, SD  
-410: City of Winnemucca, NV  
-411: City of Huntingdon, PA  
-412: City of Huntington, IN  
-413: City of Norwalk, OH  
-414: City of Borger, TX  
-415: City of Batesville, AR  
-416: City of Indiana, PA  
-417: City of Mount Pleasant, MI  
-418: City of Oak Harbor, WA  
-419: City of Grand Rapids, MN  
-420: City of Tupelo, MS  
-421: City of Scottsboro, AL  
-422: City of Seymour, IN  
-423: City of Cullowhee, NC  
-424: City of Jackson, OH  
-425: City of Altus, OK  
-426: City of Cookeville, TN  
-427: City of Laurel, MS  
-428: City of Mount Vernon, IL  
-429: City of Madison, IN  
-430: City of Fairfield, IA  
-431: City of Helena, MT  
-432: City of Watertown-Fort Atkinson, WI  
-433: City of North Vernon, IN  
-434: City of Warrensburg, MO  
-435: City of Juneau, AK  
-436: City of Willmar, MN  
-437: City of Kapaa, HI  
-438: City of Ponca City, OK  
-439: City of Kerrville, TX  
-440: City of Ketchikan, AK  
-441: City of Ellensburg, WA  
-442: City of Klamath Falls, OR  
-443: City of Kingsville, TX  
-444: City of Galesburg, IL  
-445: City of Vincennes, IN  
-446: City of Mount Vernon, OH  
-447: City of Warsaw, IN  
-448: City of Durango, CO  
-449: City of Parsons, KS  
-450: City of Scranton--Wilkes-Barre, PA  
-451: City of Lebanon, MO  
-452: City of Oxford, MS  
-453: City of Paris, TX  
-454: City of Susanville, CA  
-455: City of Moscow, ID  
-456: City of Bedford, IN  
-457: City of New Castle, PA  
-458: City of Spearfish, SD  
-459: City of Lawrenceburg, TN  
-460: City of Hobbs, NM  
-461: City of Dixon, IL  
-462: City of Sanford, NC  
-463: City of Adrian, MI  
-464: City of Kinston, NC  
-465: City of Centralia, WA  
-466: City of Brookhaven, MS  
-467: City of North Platte, NE  
-468: City of Ruidoso, NM  
-469: City of Newport, OR  
-470: City of Torrington, CT  
-471: City of Pontiac, IL  
-472: City of Sterling, CO  
-473: City of Lincoln, IL  
-474: City of Bellefontaine, OH  
-475: City of Mount Gay-Shamrock, WV  
-476: City of Los Alamos, NM  
-477: City of Columbus, MS  
-478: City of Deming, NM  
-479: City of Marshall, MN  
-480: City of Fernley, NV  
-481: City of Richmond-Berea, KY  
-482: City of Norfolk, NE  
-483: City of Oskaloosa, IA  
-484: City of Ontario, OR-ID  
-485: City of Manitowoc, WI  
-486: City of Marinette, WI-MI  
-487: City of Centralia, IL  
-488: City of Pella, IA  
-489: City of Hannibal, MO  
-490: City of Marion, OH  
-491: City of Fairmont, WV  
-492: City of Bennettsville, SC  
-493: City of Marquette, MI  
-494: City of Albertville, AL  
-495: City of Plymouth, IN  
-496: City of Marshalltown, IA  
-497: City of Lewisburg, TN  
-498: City of Fairmont, MN  
-499: City of Maysville, KY  
-500: City of Ludington, MI  
-501: City of Shelton, WA  
-502: City of Bay City, TX  
-503: City of Eagle Pass, TX  
-504: City of Macomb, IL  
-505: City of Marion, NC  
-506: City of Minot, ND  
-507: City of Bradford, PA  
-508: City of Gallup, NM  
-509: City of Hutchinson, MN  
-510: City of Athens, TN  
-511: City of McPherson, KS  
-512: City of Big Rapids, MI  
-513: City of Shawano, WI  
-514: City of Celina, OH  
-515: City of Bluefield, WV-VA  
-516: City of Concord, NH  
-517: City of Peru, IN  
-518: City of Lewistown, PA  
-519: City of Cadillac, MI  
-520: City of Blytheville, AR  
-521: City of Craig, CO  
-522: City of Key West, FL  
-523: City of Crawfordsville, IN  
-524: City of Coffeyville, KS  
-525: City of Montrose, CO  
-526: City of Pinehurst-Southern Pines, NC  
-527: City of Dumas, TX  
-528: City of Fort Morgan, CO  
-529: City of Jacksonville, IL  
-530: City of Hermiston-Pendleton, OR  
-531: City of Austin, MN  
-532: City of Central City, KY  
-533: City of Muscatine, IA  
-534: City of Zanesville, OH  
-535: City of Muskogee, OK  
-536: City of Nacogdoches, TX  
-537: City of Show Low, AZ  
-538: City of Corsicana, TX  
-539: City of Bardstown, KY  
-540: City of Newberry, SC  
-541: City of Kendallville, IN  
-542: City of Worthington, MN  
-543: City of Maryville, MO  
-544: City of Sweetwater, TX  
-545: City of Sunbury, PA  
-546: City of Pahrump, NV  
-547: City of Union City, TN  
-548: City of Seneca, SC  
-549: City of Rochelle, IL  
-550: City of Okeechobee, FL  
-551: City of Starkville, MS  
-552: City of Orangeburg, SC  
-553: City of Alamogordo, NM  
-554: City of Salina, KS  
-555: City of Miami, OK  
-556: City of Fergus Falls, MN  
-557: City of Camden, AR  
-558: City of Mineral Wells, TX  
-559: City of Elizabeth City, NC  
-560: City of Stillwater, OK  
-561: City of Picayune, MS  
-562: City of Sedalia, MO  
-563: City of Rolla, MO  
-564: City of Helena-West Helena, AR  
-565: City of Troy, AL  
-566: City of McComb, MS  
-567: City of McAlester, OK  
-568: City of Columbus, NE  
-569: City of Ada, OK  
-570: City of Russellville, AR  
-571: City of Stevens Point, WI  
-572: City of Shawnee, OK  
-573: City of Somerset, KY  
-574: City of Fort Leonard Wood, MO  
-575: City of Palatka, FL  
-576: City of Moberly, MO  
-577: City of Elkins, WV  
-578: City of Pecos, TX  
-579: City of Hutchinson, KS  
-580: City of Dayton, TN  
-581: City of Faribault-Northfield, MN  
-582: City of Rockingham, NC  
-583: City of Española, NM  
-584: City of Lumberton, NC  
-585: City of Portales, NM  
-586: City of Chillicothe, OH  
-587: City of Steamboat Springs, CO  
-588: City of Forest City, NC  
-589: City of Rutland, VT  
-590: City of Marshall, MO  
-591: City of Las Vegas, NM  
-592: City of Fremont, OH  
-593: City of Nogales, AZ  
-594: City of Baraboo, WI  
-595: City of Pottsville, PA  
-596: City of Portsmouth, OH  
-597: City of Laurinburg, NC  
-598: City of Scottsburg, IN  
-599: City of Sikeston, MO  
-600: City of Scottsbluff, NE  
-601: City of Snyder, TX  
-602: City of Tiffin, OH  
-603: City of Sevierville, TN  
-604: City of Liberal, KS  
-605: City of Sidney, OH  
-606: City of Sheridan, WY  
-607: City of Butte-Silver Bow, MT  
-608: City of Selinsgrove, PA  
-609: City of Somerset, PA  
-610: City of Forrest City, AR  
-611: City of Farmington, MO  
-612: City of Sturgis, MI  
-613: City of Albemarle, NC  
-614: City of Dickinson, ND  
-615: City of Rio Grande City-Roma, TX  
-616: City of Owatonna, MN  
-617: City of Duncan, OK  
-618: City of Freeport, IL  
-619: City of Angola, IN  
-620: City of Jamestown, ND  
-621: City of Breckenridge, CO  
-622: City of Heber, UT  
-623: City of Indianola, MS  
-624: City of Mount Airy, NC  
-625: City of Rock Springs, WY  
-626: City of Easton, MD  
-627: City of Talladega-Sylacauga, AL  
-628: City of Branson, MO  
-629: City of Taos, NM  
-630: City of Jackson, WY-ID  
-631: City of Guymon, OK  
-632: City of Brevard, NC  
-633: City of New Philadelphia-Dover, OH  
-634: City of Evanston, WY  
+0: Beijing Province  
+1: Bonaire, Sint Eustatius and Saba Country  
+2: Chongqing Province  
+3: Fujian Province  
+4: Gansu Province  
+5: Guangdong Province  
+6: Guangxi Province  
+7: Guizhou Province  
+8: Hainan Province  
+9: Hebei Province  
+10: Heilongjiang Province  
+11: Henan Province  
+12: Hong Kong Province  
+13: Hubei Province  
+14: Hunan Province  
+15: Inner Mongolia Province  
+16: Jiangsu Province  
+17: Jiangxi Province  
+18: Jilin Province  
+19: Liaoning Province  
+20: Macau Province  
+21: Manitoba Province  
+22: New Brunswick Province  
+23: New South Wales State  
+24: Newfoundland and Labrador Province  
+25: Ningxia Province  
+26: Northern Territory State  
+27: Northwest Territories Province  
+28: Nova Scotia Province  
+29: Ontario Province  
+30: Prince Edward Island Province  
+31: Qinghai Province  
+32: Quebec Province  
+33: Queensland State  
+34: Reunion Country  
+35: Saint Barthelemy Country  
+36: Saskatchewan Province  
+37: Shaanxi Province  
+38: Shandong Province  
+39: Shanghai Province  
+40: Shanxi Province  
+41: Sichuan Province  
+42: South Australia State  
+43: St Martin Country  
+44: Tasmania State  
+45: Tianjin Province  
+46: Tibet Province  
+47: Victoria State  
+48: Western Australia State  
+49: Xinjiang Province  
+50: Yukon Province  
+51: Yunnan Province  
+52: Zhejiang Province  
+53: Burma Country  
+54: Cabo Verde Country  
+55: Czechia Country  
+56: MS Zaandam Country  
+57: Sao Tome and Principe Country  
+58: Timor-Leste Country  
+59: West Bank and Gaza Country  
+60: Guam State  
+61: Northern Mariana Islands State  
+62: Virgin Islands State  
+63: City of Kirksville, MO  
+64: City of Quincy, IL-MO  
+65: City of Decatur, IN  
+66: City of Natchez, MS-LA  
+67: City of Hastings, NE  
+68: City of Othello, WA  
+69: City of Laramie, WY  
+70: City of Corinth, MS  
+71: City of Holland, MI  
+72: City of Alpena, MI  
+73: City of Frankfort, KY  
+74: City of Palestine, TX  
+75: City of Andrews, TX  
+76: City of Lufkin, TX  
+77: City of Rockport, TX  
+78: City of Ashland, OH  
+79: City of Ashtabula, OH  
+80: City of Atchison, KS  
+81: City of Athens, OH  
+82: City of Mexico, MO  
+83: City of Wapakoneta, OH  
+84: City of Paducah, KY-IL  
+85: City of Eufaula, AL-GA  
+86: City of Glasgow, KY  
+87: City of Great Bend, KS  
+88: City of Mount Sterling, KY  
+89: City of Mountain Home, AR  
+90: City of Huron, SD  
+91: City of Washington, NC  
+92: City of Elk City, OK  
+93: City of Shelbyville, TN  
+94: City of Beeville, TX  
+95: City of Laconia, NH  
+96: City of Bemidji, MN  
+97: City of Bennington, VT  
+98: City of Traverse City, MI  
+99: City of Blackfoot, ID  
+100: City of Hailey, ID  
+101: City of Cleveland, MS  
+102: City of Sandpoint, ID  
+103: City of Harrison, AR  
+104: City of Danville, KY  
+105: City of Sayre, PA  
+106: City of Coldwater, MI  
+107: City of Brookings, SD  
+108: City of New Ulm, MN  
+109: City of Aberdeen, SD  
+110: City of Brownwood, TX  
+111: City of Durant, OK  
+112: City of Storm Lake, IA  
+113: City of Kearney, NE  
+114: City of Statesboro, GA  
+115: City of Ottawa, IL  
+116: City of Poplar Bluff, MO  
+117: City of Port Lavaca, TX  
+118: City of Murray, KY  
+119: City of Mount Pleasant, TX  
+120: City of Gillette, WY  
+121: City of Carroll, IA  
+122: City of Greenwood, MS  
+123: City of Ardmore, OK  
+124: City of Morehead City, NC  
+125: City of Logansport, IN  
+126: City of Brainerd, MN  
+127: City of Burley, ID  
+128: City of Mason City, IA  
+129: City of Urbana, OH  
+130: City of Emporia, KS  
+131: City of Roswell, NM  
+132: City of Tahlequah, OK  
+133: City of Gaffney, SC  
+134: City of Jacksonville, TX  
+135: City of Keene, NH  
+136: City of Sault Ste. Marie, MI  
+137: City of Taylorville, IL  
+138: City of Fallon, NV  
+139: City of Grants, NM  
+140: City of Port Angeles, WA  
+141: City of Arkadelphia, AR  
+142: City of Fort Madison-Keokuk, IA-IL-MO  
+143: City of Meridian, MS  
+144: City of Astoria, OR  
+145: City of Spencer, IA  
+146: City of London, KY  
+147: City of West Point, MS  
+148: City of Vermillion, SD  
+149: City of DuBois, PA  
+150: City of Shelby, NC  
+151: City of Frankfort, IN  
+152: City of Clinton, IA  
+153: City of Wilmington, OH  
+154: City of Lock Haven, PA  
+155: City of Clarksdale, MS  
+156: City of Newport, TN  
+157: City of Watertown, SD  
+158: City of Enterprise, AL  
+159: City of Tullahoma-Manchester, TN  
+160: City of Charleston-Mattoon, IL  
+161: City of Magnolia, AR  
+162: City of Lake City, FL  
+163: City of Salem, OH  
+164: City of Gainesville, TX  
+165: City of Berlin, NH  
+166: City of Coos Bay, OR  
+167: City of Alexander City, AL  
+168: City of Coshocton, OH  
+169: City of Winfield, KS  
+170: City of Pittsburg, KS  
+171: City of Bucyrus-Galion, OH  
+172: City of Meadville, PA  
+173: City of Prineville, OR  
+174: City of Cullman, AL  
+175: City of Crossville, TN  
+176: City of Clovis, NM  
+177: City of Brookings, OR  
+178: City of Weatherford, OK  
+179: City of Ozark, AL  
+180: City of Selma, AL  
+181: City of Kill Devil Hills, NC  
+182: City of Greenville, OH  
+183: City of Washington, IN  
+184: City of Mitchell, SD  
+185: City of Lexington, NE  
+186: City of Lamesa, TX  
+187: City of Fort Payne, AL  
+188: City of Auburn, IN  
+189: City of Arcadia, FL  
+190: City of Hereford, TX  
+191: City of Greensburg, IN  
+192: City of Defiance, OH  
+193: City of Escanaba, MI  
+194: City of Burlington, IA-IL  
+195: City of Spirit Lake, IA  
+196: City of Iron Mountain, MI-WI  
+197: City of Fremont, NE  
+198: City of Beaver Dam, WI  
+199: City of Cambridge, MD  
+200: City of Alexandria, MN  
+201: City of Gardnerville Ranchos, NV  
+202: City of Roseburg, OR  
+203: City of Jasper, IN  
+204: City of Kennett, MO  
+205: City of Menomonie, WI  
+206: City of Alice, TX  
+207: City of Dyersburg, TN  
+208: City of Edwards, CO  
+209: City of Carlsbad-Artesia, NM  
+210: City of Effingham, IL  
+211: City of St. Marys, PA  
+212: City of Elko, NV  
+213: City of Hays, KS  
+214: City of Mountain Home, ID  
+215: City of Stephenville, TX  
+216: City of Sandusky, OH  
+217: City of Atmore, AL  
+218: City of Bonham, TX  
+219: City of Connersville, IN  
+220: City of Washington Court House, OH  
+221: City of Garden City, KS  
+222: City of Kalispell, MT  
+223: City of Dodge City, KS  
+224: City of Ottawa, KS  
+225: City of Albert Lea, MN  
+226: City of Cañon City, CO  
+227: City of Rexburg, ID  
+228: City of Riverton, WY  
+229: City of Pearsall, TX  
+230: City of Beatrice, NE  
+231: City of Bozeman, MT  
+232: City of Point Pleasant, WV-OH  
+233: City of Glenwood Springs, CO  
+234: City of Georgetown, SC  
+235: City of Payson, AZ  
+236: City of Fredericksburg, TX  
+237: City of Red Wing, MN  
+238: City of Lebanon, NH-VT  
+239: City of Safford, AZ  
+240: City of Marion, IN  
+241: City of Silver City, NM  
+242: City of Moses Lake, WA  
+243: City of Platteville, WI  
+244: City of Alma, MI  
+245: City of Mayfield, KY  
+246: City of Pampa, TX  
+247: City of Aberdeen, WA  
+248: City of Campbellsville, KY  
+249: City of Paragould, AR  
+250: City of Greeneville, TN  
+251: City of Greenwood, SC  
+252: City of Grenada, MS  
+253: City of Cambridge, OH  
+254: City of Plainview, TX  
+255: City of Roanoke Rapids, NC  
+256: City of Findlay, OH  
+257: City of Wauchula, FL  
+258: City of Clarksburg, WV  
+259: City of Hilo, HI  
+260: City of Brownsville, TN  
+261: City of Hope, AR  
+262: City of Athens, TX  
+263: City of Clewiston, FL  
+264: City of New Castle, IN  
+265: City of Paris, TN  
+266: City of Hillsdale, MI  
+267: City of Levelland, TX  
+268: City of Granbury, TX  
+269: City of Hood River, OR  
+270: City of Madisonville, KY  
+271: City of Sulphur Springs, TX  
+272: City of Malvern, AR  
+273: City of Houghton, MI  
+274: City of Big Spring, TX  
+275: City of West Plains, MO  
+276: City of Pierre, SD  
+277: City of Winnemucca, NV  
+278: City of Huntingdon, PA  
+279: City of Huntington, IN  
+280: City of Norwalk, OH  
+281: City of Borger, TX  
+282: City of Batesville, AR  
+283: City of Indiana, PA  
+284: City of Mount Pleasant, MI  
+285: City of Oak Harbor, WA  
+286: City of Grand Rapids, MN  
+287: City of Tupelo, MS  
+288: City of Scottsboro, AL  
+289: City of Seymour, IN  
+290: City of Cullowhee, NC  
+291: City of Jackson, OH  
+292: City of Altus, OK  
+293: City of Cookeville, TN  
+294: City of Laurel, MS  
+295: City of Mount Vernon, IL  
+296: City of Madison, IN  
+297: City of Fairfield, IA  
+298: City of Helena, MT  
+299: City of Watertown-Fort Atkinson, WI  
+300: City of North Vernon, IN  
+301: City of Warrensburg, MO  
+302: City of Juneau, AK  
+303: City of Willmar, MN  
+304: City of Kapaa, HI  
+305: City of Ponca City, OK  
+306: City of Kerrville, TX  
+307: City of Ketchikan, AK  
+308: City of Ellensburg, WA  
+309: City of Klamath Falls, OR  
+310: City of Kingsville, TX  
+311: City of Galesburg, IL  
+312: City of Vincennes, IN  
+313: City of Mount Vernon, OH  
+314: City of Warsaw, IN  
+315: City of Durango, CO  
+316: City of Parsons, KS  
+317: City of Scranton--Wilkes-Barre, PA  
+318: City of Oxford, MS  
+319: City of Paris, TX  
+320: City of Moscow, ID  
+321: City of Bedford, IN  
+322: City of New Castle, PA  
+323: City of Spearfish, SD  
+324: City of Lawrenceburg, TN  
+325: City of Hobbs, NM  
+326: City of Dixon, IL  
+327: City of Sanford, NC  
+328: City of Adrian, MI  
+329: City of Kinston, NC  
+330: City of Centralia, WA  
+331: City of Brookhaven, MS  
+332: City of North Platte, NE  
+333: City of Ruidoso, NM  
+334: City of Newport, OR  
+335: City of Torrington, CT  
+336: City of Pontiac, IL  
+337: City of Sterling, CO  
+338: City of Lincoln, IL  
+339: City of Bellefontaine, OH  
+340: City of Mount Gay-Shamrock, WV  
+341: City of Los Alamos, NM  
+342: City of Columbus, MS  
+343: City of Deming, NM  
+344: City of Marshall, MN  
+345: City of Fernley, NV  
+346: City of Richmond-Berea, KY  
+347: City of Norfolk, NE  
+348: City of Oskaloosa, IA  
+349: City of Ontario, OR-ID  
+350: City of Manitowoc, WI  
+351: City of Marinette, WI-MI  
+352: City of Centralia, IL  
+353: City of Pella, IA  
+354: City of Hannibal, MO  
+355: City of Marion, OH  
+356: City of Fairmont, WV  
+357: City of Bennettsville, SC  
+358: City of Marquette, MI  
+359: City of Albertville, AL  
+360: City of Plymouth, IN  
+361: City of Marshalltown, IA  
+362: City of Lewisburg, TN  
+363: City of Fairmont, MN  
+364: City of Maysville, KY  
+365: City of Ludington, MI  
+366: City of Shelton, WA  
+367: City of Bay City, TX  
+368: City of Eagle Pass, TX  
+369: City of Macomb, IL  
+370: City of Marion, NC  
+371: City of Minot, ND  
+372: City of Bradford, PA  
+373: City of Gallup, NM  
+374: City of Hutchinson, MN  
+375: City of Athens, TN  
+376: City of McPherson, KS  
+377: City of Big Rapids, MI  
+378: City of Shawano, WI  
+379: City of Celina, OH  
+380: City of Bluefield, WV-VA  
+381: City of Concord, NH  
+382: City of Peru, IN  
+383: City of Lewistown, PA  
+384: City of Cadillac, MI  
+385: City of Blytheville, AR  
+386: City of Craig, CO  
+387: City of Key West, FL  
+388: City of Crawfordsville, IN  
+389: City of Coffeyville, KS  
+390: City of Montrose, CO  
+391: City of Pinehurst-Southern Pines, NC  
+392: City of Dumas, TX  
+393: City of Fort Morgan, CO  
+394: City of Jacksonville, IL  
+395: City of Hermiston-Pendleton, OR  
+396: City of Austin, MN  
+397: City of Central City, KY  
+398: City of Muscatine, IA  
+399: City of Zanesville, OH  
+400: City of Muskogee, OK  
+401: City of Nacogdoches, TX  
+402: City of Show Low, AZ  
+403: City of Corsicana, TX  
+404: City of Bardstown, KY  
+405: City of Newberry, SC  
+406: City of Kendallville, IN  
+407: City of Worthington, MN  
+408: City of Maryville, MO  
+409: City of Sweetwater, TX  
+410: City of Sunbury, PA  
+411: City of Pahrump, NV  
+412: City of Union City, TN  
+413: City of Seneca, SC  
+414: City of Rochelle, IL  
+415: City of Okeechobee, FL  
+416: City of Starkville, MS  
+417: City of Orangeburg, SC  
+418: City of Alamogordo, NM  
+419: City of Salina, KS  
+420: City of Miami, OK  
+421: City of Fergus Falls, MN  
+422: City of Camden, AR  
+423: City of Mineral Wells, TX  
+424: City of Elizabeth City, NC  
+425: City of Stillwater, OK  
+426: City of Picayune, MS  
+427: City of Sedalia, MO  
+428: City of Rolla, MO  
+429: City of Helena-West Helena, AR  
+430: City of Troy, AL  
+431: City of McComb, MS  
+432: City of McAlester, OK  
+433: City of Columbus, NE  
+434: City of Ada, OK  
+435: City of Russellville, AR  
+436: City of Stevens Point, WI  
+437: City of Shawnee, OK  
+438: City of Somerset, KY  
+439: City of Fort Leonard Wood, MO  
+440: City of Palatka, FL  
+441: City of Moberly, MO  
+442: City of Elkins, WV  
+443: City of Pecos, TX  
+444: City of Hutchinson, KS  
+445: City of Dayton, TN  
+446: City of Faribault-Northfield, MN  
+447: City of Rockingham, NC  
+448: City of Española, NM  
+449: City of Lumberton, NC  
+450: City of Portales, NM  
+451: City of Chillicothe, OH  
+452: City of Steamboat Springs, CO  
+453: City of Forest City, NC  
+454: City of Rutland, VT  
+455: City of Marshall, MO  
+456: City of Las Vegas, NM  
+457: City of Fremont, OH  
+458: City of Nogales, AZ  
+459: City of Baraboo, WI  
+460: City of Pottsville, PA  
+461: City of Portsmouth, OH  
+462: City of Laurinburg, NC  
+463: City of Scottsburg, IN  
+464: City of Sikeston, MO  
+465: City of Scottsbluff, NE  
+466: City of Snyder, TX  
+467: City of Tiffin, OH  
+468: City of Sevierville, TN  
+469: City of Liberal, KS  
+470: City of Sidney, OH  
+471: City of Sheridan, WY  
+472: City of Butte-Silver Bow, MT  
+473: City of Selinsgrove, PA  
+474: City of Somerset, PA  
+475: City of Forrest City, AR  
+476: City of Farmington, MO  
+477: City of Sturgis, MI  
+478: City of Albemarle, NC  
+479: City of Dickinson, ND  
+480: City of Rio Grande City-Roma, TX  
+481: City of Owatonna, MN  
+482: City of Duncan, OK  
+483: City of Freeport, IL  
+484: City of Angola, IN  
+485: City of Jamestown, ND  
+486: City of Breckenridge, CO  
+487: City of Heber, UT  
+488: City of Indianola, MS  
+489: City of Mount Airy, NC  
+490: City of Rock Springs, WY  
+491: City of Easton, MD  
+492: City of Talladega-Sylacauga, AL  
+493: City of Branson, MO  
+494: City of Taos, NM  
+495: City of Jackson, WY-ID  
+496: City of Guymon, OK  
+497: City of Brevard, NC  
+498: City of New Philadelphia-Dover, OH  
+499: City of Evanston, WY  

@@ -179,6 +179,7 @@ foreach (AllCovidsByDay($day) as $C) {
 		$counter += 1;
 	}
 	$C->SavePop(intval($popuint));
+	$C->FillReopenData();
 	$peak_density = '';
 	$rcolor='';
 	$dcolor='';

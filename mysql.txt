@@ -18,7 +18,6 @@ CREATE TABLE `covids` (
   `positivity` tinyint(4) NULL DEFAULT 0,
   `positivity_10` tinyint(4) NULL DEFAULT 0,
   `infection_density` int(11) NULL DEFAULT 0,
-  `infection_density_10` int(11) NULL DEFAULT 0,
   PRIMARY KEY (`id`),
   KEY `day` (`day`),
   KEY `state` (`region`),
@@ -37,6 +36,5 @@ CREATE TABLE `covids` (
   KEY `new_tested` (`new_tested`),
   KEY `positivity` (`positivity`),
   KEY `positivity_10` (`positivity_10`),
-  KEY `infection_density` (`infection_density`),
-  KEY `infection_density_10` (`infection_density_10`)
+  KEY `infection_density` (`infection_density`)
 ) ENGINE=InnoDB AUTO_INCREMENT=43841 DEFAULT CHARSET=latin1;
