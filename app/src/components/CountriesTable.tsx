@@ -34,7 +34,6 @@ const rowRenderer = (row: CountriesItemRow) => {
 
     return (
         <>
-            { estimatedChart }
             <CaseChart title={`${row.region}: New Cases Per Day`} dayData={row} />
         </>
     );

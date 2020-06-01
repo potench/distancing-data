@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import { Line } from "react-chartjs-2";
+import { Bar, Line } from "react-chartjs-2";
 import { getDateParts, stringToInt } from "../../util/formatters";
 import { CountriesItemRow } from "../CountriesTable";
 
@@ -22,7 +22,7 @@ const formatChartData = ({
   const labels = [];
   const data = [];
   const infectionDensityData = [];
-
+  console.log("infectionDensityAr", infectionDensityAr);
   for (i = newCasesAr.length - 1; i >= 0; i -= 1) {
     const { day, month } = getDateParts(date);
 
@@ -31,11 +31,11 @@ const formatChartData = ({
       labels.push(`Today: ${month}-${day}`);
       data.push(newCasesAr[i]);
 
-      infectionDensityData.push(infectionDensityAr[i]);
+      infectionDensityData.push(infectionDensityAr[i] * 1000);
     } else {
       labels.push(`${month}-${day}`);
       data.push(newCasesAr[i]);
-      infectionDensityData.push(infectionDensityAr[i]);
+      infectionDensityData.push(infectionDensityAr[i] * 1000);
     }
 
     date.setDate(date.getDate() + 1);
@@ -45,11 +45,12 @@ const formatChartData = ({
   if (infectionDensity) {
     infectionDensityChart = {
       label: "Infection Density",
+      type: 'bar',
       cubicInterpolationMode: "monotone",
       fill: true,
       lineTension: 0.4,
-      backgroundColor: "rgba(75, 91, 192,0.4)",
-      borderColor: "rgba(75, 91, 192,1)",
+      backgroundColor: "rgba(75, 91, 192, 0.3)",
+      borderColor: "rgba(75, 91, 192, 0.8)",
       borderCapStyle: "butt",
       borderDash: [],
       borderDashOffset: 0.0,
@@ -64,6 +65,7 @@ const formatChartData = ({
       pointRadius: 1,
       pointHitRadius: 10,
       spanGaps: true,
+      yAxisID: 'y-axis-2',
       data: infectionDensityData,
     };
   }
@@ -71,6 +73,7 @@ const formatChartData = ({
   const datasets = [];
   datasets.push({
     label: "New Cases Per Day",
+    type: 'line',
     cubicInterpolationMode: "monotone",
     fill: true,
     lineTension: 0.4,
@@ -111,12 +114,28 @@ const Chart: FC<ChartProps> = ({ title, dayData }) => {
         {
           scaleLabel: {
             display: true,
-            labelString: "New Cases Per Day",
-          },
+            labelString: "New Cases Per Day"
+          }
         },
-      ],
+        {
+          type: 'linear',
+          display: true,
+          position: 'right',
+          id: 'y-axis-2',
+          gridLines: {
+            display: false
+          },
+          labels: {
+            show: true
+          },
+          scaleLabel: {
+            display: true,
+            labelString: "Infection Density Per 1000"
+          }
+        }
+      ]
     },
-    responsive: true,
+    responsive: true
     // maintainAspectRatio: false
   };
 

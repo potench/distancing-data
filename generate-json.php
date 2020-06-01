@@ -151,7 +151,7 @@ foreach (AllCovidsByDay($day) as $C) {
 		$firstLoop = false;
 	}
 	
-	$hist_infection_density_ar = $C->GetDailyInfectionDesnity();
+	$hist_infection_density_ar = $C->GetDailyInfectionDensity();
 	$hist_day_infection_density_st = '';
 	$firstLoop = true;
 	foreach ($hist_infection_density_ar as $hist_infection_density) {

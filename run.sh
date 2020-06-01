@@ -2,6 +2,7 @@
 
 complete=${complete} # runs all csvs
 date=${date}
+dates=${dates}
 database=${database}
 fetch=${fetch}
 json=${json}
@@ -114,6 +115,15 @@ elif [ "$json" = "true" ]; then
         run_complete 'old' 'json'
         run_complete 'new' 'json'
     fi
+elif [ "$dates" != "" ]; then 
+    dates=('04-16' '04-17' '04-18' '04-19' '04-20' '04-21' '04-22' '04-23' '04-24' '04-25' '04-26' '04-27' '04-28' '04-29' '04-30' '05-01')
+    echo "insert these dates ${dates[*]}"
+    for day in "${dates[@]}"
+    do
+        run_insert $day 'parse'
+        generate_html $day
+        generate_json $day
+    done
 elif [ "$date" != "" ]; then
     if [[ "$parser" =  "stateparse" ]]; then
         run_insert $date 'stateparse'

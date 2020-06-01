@@ -15,9 +15,9 @@ CREATE TABLE `covids` (
   `pop` int(11) NULL DEFAULT 0,
   `tested` int(11) NULL DEFAULT 0,
   `new_tested` int(11) NULL DEFAULT 0,
-  `positivity` tinyint(4) NULL DEFAULT 0,
-  `positivity_10` tinyint(4) NULL DEFAULT 0,
-  `infection_density` int(11) NULL DEFAULT 0,
+  `tested_10` int(11) NULL DEFAULT 0,
+  `positivity` float(4,4) NULL DEFAULT 0,
+  `infection_density` float(8,4) NULL DEFAULT 0,
   PRIMARY KEY (`id`),
   KEY `day` (`day`),
   KEY `state` (`region`),
@@ -34,7 +34,7 @@ CREATE TABLE `covids` (
   KEY `pop` (`pop`),
   KEY `tested` (`tested`),
   KEY `new_tested` (`new_tested`),
+  KEY `tested_10` (`tested_10`),
   KEY `positivity` (`positivity`),
-  KEY `positivity_10` (`positivity_10`),
   KEY `infection_density` (`infection_density`)
 ) ENGINE=InnoDB AUTO_INCREMENT=43841 DEFAULT CHARSET=latin1;
