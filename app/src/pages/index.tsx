@@ -25,7 +25,7 @@ const getData = async (tries = 0, byDateStr?: string): DayDataType => {
         throw new Error(`Cant't find day-data`);
     }
 
-    let date = byDateStr ? new Date(byDateStr) : new Date();
+    let date = byDateStr ? new Date(byDateStr) : new Date('2020-11-18');
     date.setDate(date.getDate() - tries);
 
     const {day, month, year} = getDateParts(date);
